@@ -1,0 +1,2 @@
+test.adb:6:12: info: invariant check proved on default value (CVC5: 1 VC)
+test.adb:10:16: info: implicit aspect Always_Terminates on "F" has been proved, subprogram will terminate

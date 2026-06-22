@@ -1,0 +1,19 @@
+bitwise.adb:6:53: info: range check proved (CVC5: 2 VC)
+bitwise.adb:7:22: info: assertion proved (CVC5: 1 VC)
+bitwise.adb:14:22: info: assertion proved (CVC5: 1 VC)
+bitwise.adb:20:22: info: assertion proved (CVC5: 1 VC)
+bitwise.adb:20:30: info: division check proved (CVC5: 1 VC)
+bitwise.adb:22:22: info: assertion proved (CVC5: 1 VC)
+bitwise.adb:22:30: info: division check proved (CVC5: 1 VC)
+bitwise.adb:32:22: info: assertion proved (CVC5: 1 VC)
+bitwise.adb:33:22: info: assertion proved (CVC5: 1 VC)
+bitwise.adb:38:34: info: range check proved (CVC5: 2 VC)
+bitwise.adb:39:50: info: range check proved (CVC5: 2 VC)
+bitwise.adb:40:22: info: assertion proved (CVC5: 1 VC)
+bitwise.adb:51:22: info: assertion proved (CVC5: 1 VC)
+bitwise.ads:7:37: info: initialization of "Res" proved
+bitwise.ads:10:46: info: initialization of "Res" proved
+bitwise.ads:13:45: info: initialization of "Res" proved
+bitwise.ads:19:45: info: initialization of "FstHalf" proved
+bitwise.ads:19:54: info: initialization of "SndHalf" proved
+bitwise.ads:22:62: info: initialization of "Res" proved

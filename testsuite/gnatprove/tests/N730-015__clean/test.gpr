@@ -1,0 +1,4 @@
+with "xmlada.gpr";
+
+project Test is
+end Test;

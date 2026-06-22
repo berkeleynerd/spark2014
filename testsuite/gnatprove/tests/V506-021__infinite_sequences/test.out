@@ -1,0 +1,8 @@
+infinite_sequence.adb:18:19: info: assertion proved (CVC5: 1 VC)
+infinite_sequence.adb:18:19: info: precondition proved (CVC5: 1 VC)
+infinite_sequence.adb:20:08: info: precondition proved (CVC5: 1 VC)
+infinite_sequence.adb:20:08: info: precondition proved (Trivial: 1 VC)
+infinite_sequence.adb:22:22: info: assertion proved (CVC5: 1 VC)
+infinite_sequence.adb:22:22: info: precondition proved (CVC5: 1 VC)
+infinite_sequence.adb:22:36: info: range check proved (CVC5: 2 VC)
+infinite_sequence.adb:22:48: info: predicate check proved (Trivial: 2 VC)

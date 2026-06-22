@@ -1,0 +1,5 @@
+id_manager.adb:6:11: info: precondition proved (CVC5: 1 VC), in instantiation at my_id_manager.ads:3
+id_manager.adb:6:11: info: precondition proved (Trivial: 1 VC), in instantiation at my_id_manager.ads:3
+id_manager.adb:9:11: info: precondition proved (CVC5: 1 VC), in instantiation at my_id_manager.ads:3
+id_manager.adb:9:11: info: precondition proved (Trivial: 1 VC), in instantiation at my_id_manager.ads:3
+id_manager.ads:11:14: warning: subprogram "Display" has no effect, in instantiation at my_id_manager.ads:3

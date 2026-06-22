@@ -1,0 +1,2 @@
+rule5.ads:3:04: warning: initialization of "X" has no effect
+rule5.ads:8:04: warning: initialization of "Y" has no effect

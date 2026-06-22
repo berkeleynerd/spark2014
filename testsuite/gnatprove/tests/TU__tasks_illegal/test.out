@@ -1,0 +1,54 @@
+t.adb:26:07: error: sequential elaboration supported only in restricted profile
+t.adb:27:07: error: sequential elaboration supported only in restricted profile
+t.adb:28:07: error: sequential elaboration supported only in restricted profile
+gnatprove: error during generation of Global contracts
+t.adb:26:07: error: from profile "Ravenscar" at test2.adc:2
+t.adb:26:07: error: violation of restriction "No_Task_Hierarchy"
+t.adb:27:07: error: from profile "Ravenscar" at test2.adc:2
+t.adb:27:07: error: violation of restriction "No_Task_Hierarchy"
+t.adb:28:07: error: from profile "Ravenscar" at test2.adc:2
+t.adb:28:07: error: violation of restriction "No_Task_Hierarchy"
+gnatprove: error during generation of Global contracts
+t.adb:26:12: error: tasking in SPARK requires Ravenscar profile (SPARK RM 9(2))
+t.adb:26:12: error: violation of pragma SPARK_Mode at test3.adc:1
+t.adb:27:12: error: tasking in SPARK requires Ravenscar profile (SPARK RM 9(2))
+t.adb:27:12: error: violation of pragma SPARK_Mode at test3.adc:1
+t.adb:28:12: error: tasking in SPARK requires Ravenscar profile (SPARK RM 9(2))
+t.adb:28:12: error: violation of pragma SPARK_Mode at test3.adc:1
+t.adb:30:07: error: tasking in SPARK requires Ravenscar profile (SPARK RM 9(2))
+t.adb:30:07: error: violation of pragma SPARK_Mode at test3.adc:1
+t.adb:39:07: error: tasking in SPARK requires Ravenscar profile (SPARK RM 9(2))
+t.adb:39:07: error: violation of pragma SPARK_Mode at test3.adc:1
+t.adb:48:07: error: tasking in SPARK requires Ravenscar profile (SPARK RM 9(2))
+t.adb:48:07: error: violation of pragma SPARK_Mode at test3.adc:1
+gnatprove: error during flow analysis and proof
+po_t.ads:14:14: error: aspect "Part_Of" must apply to package instantiation, object, single protected type or single task type
+gnatprove: error during generation of Global contracts
+po_t2.ads:14:14: error: aspect "Part_Of" must apply to package instantiation, object, single protected type or single task type
+gnatprove: error during generation of Global contracts
+po_t3.adb:1:14: error: body of package "PO_T3" has unused hidden states
+po_t3.adb:1:14: error: variable "P_Int" defined at line 42
+po_t3.adb:2:35: error: "HIDDEN" is constituent of single protected type "P_Int"
+po_t3.adb:2:35: error: reference to variable "Hidden" cannot appear in this context
+gnatprove: error during generation of Global contracts
+po_t4.ads:19:07: error: synchronized component "PO" of non-synchronized type "Mix" is not allowed in SPARK
+po_t4.ads:19:07: error: violation of pragma SPARK_Mode at test.adc:1
+gnatprove: error during flow analysis and proof
+po_t5.adb:2:35: error: constituent of synchronized state "State" must be synchronized
+gnatprove: error during generation of Global contracts
+main.adb:8:29: error: "The_Protected_Int" is constituent of single protected type "P_Int"
+main.adb:8:29: error: reference to variable "The_Protected_Int" cannot appear in this context
+main.adb:11:04: error: "The_Protected_Int" is constituent of single protected type "P_Int"
+main.adb:11:04: error: reference to variable "The_Protected_Int" cannot appear in this context
+gnatprove: error during generation of Global contracts
+po_t7.adb:11:34: info: overflow check proved (CVC5: 2 VC)
+po_t7.adb:18:52: info: overflow check proved (CVC5: 2 VC)
+po_t7.ads:4:13: info: implicit aspect Always_Terminates on "Get_Not_CAE" has been proved, subprogram will terminate
+po_t7.ads:10:16: info: implicit aspect Always_Terminates on "Get" has been proved, subprogram will terminate
+po_t7.ads:11:21: high: variable "Not_CAE" cannot be referenced in precondition of protected operation "Get" (SPARK RM 9(10))
+po_t7.ads:14:21: high: variable "Not_CAE" cannot be referenced in precondition of protected operation "Increase" (SPARK RM 9(10))
+use_po_t8.adb:3:11: high: more tasks than allowed might queue on protected entry "po_t8.p_int.increase" (restriction No_Entry_Queue active) (SPARK RM 9(11))
+use_po_t8.adb:3:11: high: task "po_t8.t" is queueing
+use_po_t8.adb:3:11: high: task "use_po_t8" is queueing
+use_po_t8.adb:3:11: info: ceiling priority protocol is respected (CVC5: 1 VC)
+use_po_t8.adb:22:21: info: unrolling loop

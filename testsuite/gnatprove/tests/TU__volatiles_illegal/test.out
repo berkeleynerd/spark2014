@@ -1,0 +1,25 @@
+volatiles_illegal_1.adb:8:26: error: constituent "Vol2" introduces external property "Async_Writers" in refinement of state "State2"
+volatiles_illegal_1.adb:8:26: error: property is missing in abstract state declaration at volatiles_illegal_1.ads:11
+volatiles_illegal_2.ads:27:27: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+volatiles_illegal_2.ads:31:72: error: expression of external state property must be static
+volatiles_illegal_2.ads:34:27: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+volatiles_illegal_2.ads:38:27: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+volatiles_illegal_2.ads:43:11: error: external property "Async_Writers" must apply to a volatile type or object
+volatiles_illegal_2.ads:47:37: error: unsupported aspect "Volatile" on parameter
+volatiles_illegal_2.ads:47:47: error: unsupported aspect "Async_Readers" on parameter
+cannot generate code for file volatiles_illegal_3.ads (package spec)
+volatiles_illegal_5.ads:8:04: error: constant declaration requires initialization expression
+volatiles_illegal_5.ads:8:04: error: standalone volatile constant must be imported (RM C.6(13))
+volatiles_illegal_6.adb:5:26: error: constituent "Vol" introduces external property "Effective_Writes" in refinement of state "State"
+volatiles_illegal_6.adb:5:26: error: property is missing in abstract state declaration at volatiles_illegal_6.ads:5
+volatiles_illegal_7.adb:5:26: error: non-external state "State" cannot contain external constituents in refinement
+volatiles_illegal_8.adb:3:26: error: constituent "Different_Vol" introduces external property "Async_Readers" in refinement of state "State"
+volatiles_illegal_8.adb:3:26: error: property is missing in abstract state declaration at volatiles_illegal_8.ads:3
+vc3.ads:18:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc3.ads:25:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc3.ads:32:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc3.ads:39:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc3.ads:53:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc3.ads:67:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc3.ads:88:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc3.ads:95:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))

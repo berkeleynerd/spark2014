@@ -1,0 +1,61 @@
+database.adb:43:16: info: implicit aspect Always_Terminates on "Some_Available" has been proved, subprogram will terminate
+database.adb:46:16: info: implicit aspect Always_Terminates on "Is_Available" has been proved, subprogram will terminate
+database.adb:49:42: info: initialization of "Account" proved
+database.adb:52:17: info: postcondition proved (Trivial: 1 VC; altergo: 3 VC)
+database.adb:60:17: info: postcondition proved (Trivial: 1 VC; altergo: 3 VC)
+database.adb:65:16: info: implicit aspect Always_Terminates on "Num_Available" has been proved, subprogram will terminate
+database.adb:118:17: info: add a contract to analyze it separately from calling contexts
+database.adb:118:17: info: local subprogram "Initialize_Links" only analyzed in the context of calls
+database.adb:122:21: info: range check proved (altergo: 2 VC)
+database.adb:123:17: info: index check proved (altergo: 2 VC)
+database.adb:124:36: info: index check proved (altergo: 2 VC)
+database.adb:132:35: info: index check proved (altergo: 2 VC)
+database.adb:135:35: info: index check proved (altergo: 2 VC)
+database.adb:141:44: info: index check proved (altergo: 2 VC)
+database.adb:152:36: info: loop invariant initialization proved (altergo: 1 VC)
+database.adb:152:36: info: loop invariant preservation proved (altergo: 1 VC)
+database.adb:154:31: info: overflow check proved (altergo: 2 VC)
+database.adb:161:10: info: initialization of "Tmp_Prev" proved
+database.adb:161:10: info: initialization of "Tmp_Prev" proved, in call inlined at database.adb:182
+database.adb:162:10: info: initialization of "Tmp_Next" proved
+database.adb:162:10: info: initialization of "Tmp_Next" proved, in call inlined at database.adb:182
+database.adb:173:30: info: range check proved (altergo: 2 VC), in call inlined at database.adb:182
+database.adb:182:07: info: analyzing call to "Initialize_Links" in context
+database.adb:182:07: info: cannot unroll loop (too many loop iterations)
+database.adb:182:07: info: in inlined body at line 164
+database.adb:251:19: info: precondition proved (altergo: 1 VC)
+database.adb:272:10: info: precondition proved (altergo: 1 VC)
+database.adb:283:22: info: precondition proved (altergo: 1 VC)
+database.adb:296:17: info: precondition proved (altergo: 1 VC)
+database.adb:302:42: info: precondition proved (altergo: 2 VC)
+database.adb:314:27: info: precondition proved (altergo: 1 VC)
+database.adb:320:42: info: precondition proved (altergo: 2 VC)
+database.ads:32:13: info: implicit aspect Always_Terminates on "Existing" has been proved, subprogram will terminate
+database.ads:34:13: info: implicit aspect Always_Terminates on "Belongs_To" has been proved, subprogram will terminate
+database.ads:39:13: info: implicit aspect Always_Terminates on "Num_Accounts" has been proved, subprogram will terminate
+database.ads:41:13: info: implicit aspect Always_Terminates on "Max_Account_Reached" has been proved, subprogram will terminate
+database.ads:43:13: info: implicit aspect Always_Terminates on "Currency" has been proved, subprogram will terminate
+database.ads:47:13: info: implicit aspect Always_Terminates on "Balance" has been proved, subprogram will terminate
+database.ads:62:07: info: initialization of "Account" proved
+database.ads:65:14: info: postcondition proved (altergo: 3 VC)
+database.ads:67:41: info: precondition proved (altergo: 1 VC)
+database.ads:88:41: info: precondition proved (altergo: 1 VC)
+database.ads:107:14: info: precondition proved (altergo: 1 VC)
+database.ads:108:14: info: postcondition proved (altergo: 1 VC)
+database.ads:108:14: info: precondition proved (altergo: 1 VC)
+database.ads:108:34: info: precondition proved (altergo: 1 VC)
+database.ads:108:56: info: precondition proved (altergo: 2 VC)
+database.ads:125:25: info: precondition proved (altergo: 1 VC)
+database.ads:126:14: info: postcondition proved (altergo: 1 VC)
+database.ads:126:14: info: precondition proved (altergo: 1 VC)
+database.ads:126:34: info: precondition proved (altergo: 1 VC)
+database.ads:126:56: info: precondition proved (altergo: 2 VC)
+money.adb:6:33: info: range check proved (altergo: 2 VC)
+money.adb:9:33: info: range check proved (altergo: 2 VC)
+money.ads:25:13: info: implicit aspect Always_Terminates on "Is_Empty" has been proved, subprogram will terminate
+money.ads:30:13: info: implicit aspect Always_Terminates on overriding operator "+" has been proved, subprogram will terminate
+money.ads:33:14: info: postcondition proved (altergo: 1 VC)
+money.ads:33:53: info: range check proved (altergo: 2 VC)
+money.ads:35:13: info: implicit aspect Always_Terminates on overriding operator "-" has been proved, subprogram will terminate
+money.ads:38:14: info: postcondition proved (altergo: 1 VC)
+money.ads:38:53: info: range check proved (altergo: 2 VC)

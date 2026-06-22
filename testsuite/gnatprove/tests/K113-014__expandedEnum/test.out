@@ -1,0 +1,1 @@
+configdata.ads:4:13: info: implicit aspect Always_Terminates on "SetDefaults" has been proved, subprogram will terminate

@@ -1,0 +1,6 @@
+test.adb:8:04: info: initialization of "L" proved
+test.adb:11:04: info: precondition proved (CVC5: 1 VC)
+test.adb:12:04: info: precondition proved (CVC5: 1 VC)
+test.adb:13:04: info: precondition proved (CVC5: 1 VC)
+test.adb:15:19: info: assertion proved (CVC5: 1 VC)
+test.adb:15:19: info: precondition proved (CVC5: 1 VC)

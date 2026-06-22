@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+
+# This script calls update-session-test on all session tests.
+
+import argparse
+import os
+
+descr = """This script will update the session information of all tests, and
+then rerun the tests. It will run the tests twice, so it takes some time."""
+
+bad_files = []
+
+
+def parse_options():
+    args = None
+    parser = argparse.ArgumentParser(description=descr)
+    parser.add_argument(
+        "--rewrite", dest="rewrite", action="store_true", help="Use rewrite option "
+    )
+    args = parser.parse_args()
+    return args
+
+
+def process(fn, rewrite):
+    test_name = (
+        fn.replace("tests/", "")
+        .replace("internal/", "")
+        .replace("sparklib/", "")
+        .replace("/test.py", "")
+    )
+    with open(fn, "rU") as fd:
+        tmp = fd.read()
+    if "replay=True" not in tmp:
+        return
+    if "def replay" not in tmp:
+        bad_files.append(
+            "%s: warning uses --replay but has no replay " "instructions" % test_name
+        )
+        return
+
+    cmd = "./update-session-test"
+    if rewrite:
+        cmd += " --rewrite"
+    os.system(cmd + " %s" % test_name)
+
+
+def main():
+    args = parse_options()
+    for testsuite in ("tests", "internal", "sparklib"):
+        for path, _dirs, files in os.walk(testsuite):
+            if "test.py" in files:
+                process(os.path.join(path, "test.py"), args.rewrite)
+
+    if len(bad_files):
+        print("")
+        print("=== you might want to fix these ===")
+        for f in bad_files:
+            print(f)
+
+
+if __name__ == "__main__":
+    main()

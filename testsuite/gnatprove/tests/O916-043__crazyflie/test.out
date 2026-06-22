@@ -1,0 +1,44 @@
+log_pack.ads:140:07: error: component of anonymous access type is not allowed in SPARK
+log_pack.ads:140:07: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:140:22: error: "Log_Variable" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:140:22: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:146:04: error: "Log_Variable" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:146:04: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:152:04: error: access to "Log_Variable" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:152:04: error: component of anonymous access type is not allowed in SPARK
+log_pack.ads:152:04: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:152:04: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:163:04: error: "Log_Group" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:163:04: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:195:07: error: access to "Log_Variable" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:195:07: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:203:14: error: tasking in SPARK requires sequential elaboration (SPARK RM 9(2))
+log_pack.ads:203:14: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:206:17: error: tasking in SPARK requires sequential elaboration (SPARK RM 9(2))
+log_pack.ads:206:17: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:211:04: error: "Timing_Event_Handler" is not allowed in SPARK (due to access to protected subprogram)
+log_pack.ads:211:04: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:217:04: error: "Log_TOC" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:217:04: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:236:13: error: function "Log_Create_Block" with output global "Log_Blocks" is not allowed in SPARK [E0005]
+log_pack.ads:236:13: error: launch "gnatprove --explain=E0005" for more information
+log_pack.ads:236:13: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:241:13: error: function "Log_Delete_Block" with output global "Log_Blocks" is not allowed in SPARK [E0005]
+log_pack.ads:241:13: error: launch "gnatprove --explain=E0005" for more information
+log_pack.ads:241:13: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:245:13: error: function "Log_Append_To_Block" with output global "Log_Blocks" is not allowed in SPARK [E0005]
+log_pack.ads:245:13: error: launch "gnatprove --explain=E0005" for more information
+log_pack.ads:245:13: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:250:13: error: function "Log_Start_Block" with output global "Log_Blocks" is not allowed in SPARK [E0005]
+log_pack.ads:250:13: error: launch "gnatprove --explain=E0005" for more information
+log_pack.ads:250:13: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:255:13: error: function "Log_Stop_Block" with output global "Log_Blocks" is not allowed in SPARK [E0005]
+log_pack.ads:255:13: error: launch "gnatprove --explain=E0005" for more information
+log_pack.ads:255:13: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:261:04: error: "Log_Variable" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:261:04: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:281:07: error: "Log_Variable" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:281:07: error: violation of pragma SPARK_Mode at gnat.adc:2
+log_pack.ads:282:07: error: "Log_Group" is not allowed in SPARK (due to component of anonymous access type)
+log_pack.ads:282:07: error: violation of pragma SPARK_Mode at gnat.adc:2
+gnatprove: error during flow analysis and proof

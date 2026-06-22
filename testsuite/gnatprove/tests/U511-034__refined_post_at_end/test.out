@@ -1,0 +1,14 @@
+at_end_borrow.adb:6:13: info: implicit aspect Always_Terminates on "AE" has been proved, subprogram will terminate
+at_end_borrow.adb:6:73: info: dynamic accessibility check proved (Trivial)
+at_end_borrow.adb:10:13: info: implicit aspect Always_Terminates on "AE" has been proved, subprogram will terminate
+at_end_borrow.adb:10:81: info: dynamic accessibility check proved (Trivial)
+at_end_borrow.adb:15:16: info: implicit aspect Always_Terminates on "Get_I" has been proved, subprogram will terminate
+at_end_borrow.adb:16:17: info: postcondition proved (CVC5: 2 VC)
+at_end_borrow.adb:16:50: info: pointer dereference check proved (CVC5: 1 VC)
+at_end_borrow.adb:16:73: info: pointer dereference check proved (CVC5: 1 VC)
+at_end_borrow.adb:20:25: info: refined post proved (CVC5: 2 VC)
+at_end_borrow.adb:21:16: info: pointer dereference check proved (CVC5: 1 VC)
+at_end_borrow.adb:21:63: info: pointer dereference check proved (CVC5: 1 VC)
+at_end_borrow.adb:24:20: info: dynamic accessibility check proved (Trivial)
+at_end_borrow.adb:34:22: info: assertion proved (CVC5: 1 VC)
+at_end_borrow.adb:45:19: info: assertion proved (CVC5: 1 VC)

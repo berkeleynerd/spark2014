@@ -1,0 +1,19 @@
+example.adb:24:14: medium: postcondition might fail
+example.adb:24:16: medium: overflow check might fail, cannot prove lower bound for B * A [reason for check: result of multiplication must fit in a 16-bits machine integer] [possible fix: use pragma Overflow_Mode or switch -gnato13 or unit SPARK.Big_Integers]
+example.adb:27:14: medium: range check might fail, cannot prove lower bound for A + B [reason for check: result of addition must fit in the target type of the assignment]
+example.adb:28:14: medium: divide by zero might fail
+example.adb:29:14: medium: range check might fail, cannot prove lower bound for A - B [reason for check: result of subtraction must fit in the target type of the assignment]
+example.adb:30:14: medium: overflow check might fail, cannot prove lower bound for B * A [reason for check: result of multiplication must fit in a 16-bits machine integer]
+example.adb:30:14: medium: range check might fail, cannot prove lower bound for B * A [reason for check: result of multiplication must fit in the target type of the assignment]
+example.adb:36:13: info: implicit aspect Always_Terminates on "Is_Id" has been proved, subprogram will terminate
+example.adb:39:19: medium: postcondition might fail
+example.adb:39:38: medium: array index check might fail [reason for check: value must be a valid index into the array] [possible fix: subprogram at line 36 should mention C in a precondition]
+example.adb:42:17: medium: array index check might fail [reason for check: value must be a valid index into the array] [possible fix: subprogram at line 36 should mention C in a precondition]
+example.adb:59:24: warning: unused initial value of "A"
+example.adb:59:27: warning: unused initial value of "B"
+example.adb:62:17: medium: postcondition might fail, cannot prove B.I = 1
+example.adb:62:30: medium: discriminant check might fail
+example.adb:64:18: medium: discriminant check might fail
+example.adb:64:25: medium: discriminant check might fail
+example.adb:67:09: medium: discriminant check might fail
+example.adb:68:09: medium: discriminant check might fail

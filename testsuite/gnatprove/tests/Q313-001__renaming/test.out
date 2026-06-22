@@ -1,0 +1,18 @@
+aida.adb:4:14: info: add a contract to analyze it separately from calling contexts
+aida.adb:4:14: info: local subprogram "Get" only analyzed in the context of calls
+aida.adb:4:19: warning: unused variable "Source"
+aida.adb:5:19: warning: "Pointer" is not modified, could be IN
+aida.adb:5:19: warning: unused variable "Pointer"
+aida.adb:6:19: high: "Value" is not initialized in "Get" [reason for check: OUT parameter should be initialized on return] [possible fix: initialize "Value" on all paths or make "Value" an IN OUT parameter]
+aida.adb:6:19: warning: unused variable "Value"
+aida.adb:13:07: info: range check proved (CVC5: 2 VC)
+aida.adb:13:32: info: range check proved (CVC5: 2 VC)
+aida.adb:14:07: warning: initialization of "From" has no effect
+aida.adb:15:07: warning: unused variable "Code"
+aida.adb:17:32: medium: implicit aspect Always_Terminates on "To_Lowercase" could be incorrect, loop might be nonterminating [possible fix: add loop variant in the loop body]
+aida.adb:17:32: warning: loop condition is stable
+aida.adb:17:32: warning: statement has no effect
+aida.adb:18:10: info: analyzing call to "Get" in context
+aida.adb:18:22: info: range check proved (CVC5: 2 VC)
+aida.adb:20:14: high: "Result" is not initialized
+aida.ads:4:27: warning: unused initial value of "Value"

@@ -1,0 +1,5 @@
+bar.adb:13:09: error: constant object as "in out" parameter is not allowed in SPARK
+bar.adb:13:09: error: violation of aspect SPARK_Mode at line 1
+foo.adb:5:07: error: assignment into a constant object is not allowed in SPARK
+foo.adb:5:07: error: violation of aspect SPARK_Mode at line 1
+gnatprove: error during flow analysis and proof

@@ -1,0 +1,22 @@
+p.adb:4:07: info: initialization of "Cu" proved
+p.adb:5:07: info: initialization of "I" proved
+p.adb:7:07: info: precondition proved (CVC5: 1 VC)
+p.adb:8:22: info: assertion proved (CVC5: 1 VC)
+p.adb:9:07: info: precondition proved (CVC5: 1 VC)
+p.adb:13:27: info: precondition proved (CVC5: 1 VC)
+p.adb:14:07: info: initialization of "I" proved
+p.adb:16:07: info: precondition proved (CVC5: 1 VC)
+p.adb:17:07: info: precondition proved (CVC5: 1 VC)
+p.adb:18:22: info: assertion proved (CVC5: 1 VC)
+p.adb:24:10: info: precondition proved (CVC5: 1 VC)
+p.adb:26:10: info: precondition proved (CVC5: 2 VC)
+p.ads:7:13: info: implicit aspect Always_Terminates on "My_Eq" has been proved, subprogram will terminate
+p.ads:10:13: info: implicit aspect Always_Terminates on "Hash" has been proved, subprogram will terminate
+p.ads:18:14: info: postcondition proved (CVC5: 1 VC)
+p.ads:18:14: info: precondition proved (CVC5: 1 VC)
+p.ads:22:14: info: postcondition proved (CVC5: 3 VC)
+p.ads:24:12: info: precondition proved (CVC5: 1 VC)
+p.ads:24:29: info: precondition proved (CVC5: 1 VC)
+p.ads:28:14: info: postcondition proved (CVC5: 3 VC; Trivial: 1 VC)
+p.ads:31:16: info: precondition proved (CVC5: 1 VC)
+p.ads:31:33: info: precondition proved (CVC5: 1 VC)

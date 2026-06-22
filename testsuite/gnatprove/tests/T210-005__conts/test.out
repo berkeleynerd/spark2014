@@ -1,0 +1,36 @@
+test_conts.adb:8:23: info: initialization of "X" proved
+test_conts.adb:15:13: info: implicit aspect Always_Terminates on "Int_Hash" has been proved, subprogram will terminate
+test_conts.adb:22:04: warning: analyzing unreferenced procedure "Do_Test" [unreferenced-procedure]
+test_conts.adb:27:10: info: initialization of "L" proved
+test_conts.adb:27:20: info: range check proved (CVC5: 2 VC)
+test_conts.adb:28:10: info: initialization of "C" proved
+test_conts.adb:30:10: info: precondition proved (CVC5: 1 VC)
+test_conts.adb:32:10: info: precondition proved (CVC5: 1 VC)
+test_conts.adb:34:20: info: overflow check proved (CVC5: 2 VC)
+test_conts.adb:39:10: info: initialization of "L" proved
+test_conts.adb:39:19: info: range check proved (CVC5: 2 VC)
+test_conts.adb:40:10: info: initialization of "C" proved
+test_conts.adb:42:10: info: precondition proved (CVC5: 2 VC)
+test_conts.adb:44:10: info: precondition proved (CVC5: 1 VC)
+test_conts.adb:46:20: info: overflow check proved (CVC5: 2 VC)
+test_conts.adb:51:10: info: initialization of "L" proved
+test_conts.adb:51:19: info: range check proved (CVC5: 2 VC)
+test_conts.adb:51:24: info: range check proved (CVC5: 2 VC)
+test_conts.adb:52:10: info: initialization of "C" proved
+test_conts.adb:54:10: info: precondition proved (CVC5: 1 VC; Z3: 1 VC)
+test_conts.adb:56:10: info: precondition proved (CVC5: 1 VC)
+test_conts.adb:58:20: info: overflow check proved (CVC5: 2 VC)
+test_conts.adb:63:10: info: initialization of "L" proved
+test_conts.adb:63:19: info: range check proved (CVC5: 2 VC)
+test_conts.adb:64:10: info: initialization of "C" proved
+test_conts.adb:66:10: info: precondition proved (CVC5: 1 VC; Z3: 1 VC)
+test_conts.adb:68:10: info: precondition proved (CVC5: 1 VC)
+test_conts.adb:70:20: info: overflow check proved (CVC5: 2 VC)
+test_conts.adb:75:10: info: initialization of "L" proved
+test_conts.adb:75:19: info: range check proved (CVC5: 2 VC)
+test_conts.adb:75:24: info: range check proved (CVC5: 2 VC)
+test_conts.adb:76:10: info: initialization of "C" proved
+test_conts.adb:78:10: info: precondition proved (CVC5: 1 VC; Z3: 1 VC)
+test_conts.adb:80:10: info: precondition proved (Z3: 1 VC)
+test_conts.adb:82:20: info: overflow check proved (Z3: 2 VC)
+test_conts.adb:85:22: info: assertion proved (Z3: 1 VC)

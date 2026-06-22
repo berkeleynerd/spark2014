@@ -1,0 +1,136 @@
+actuator.adb:7:04: info: address in address clause is compatible with object alignment (CVC5: 1 VC)
+actuator.adb:7:04: warning: address specification on "Output_Ext" is imprecisely supported: assuming no concurrent accesses to non-atomic object, correct volatile properties, no writes to a potential alias, and valid reads [imprecise-address-specification] [E0012]
+actuator.adb:7:04: warning: launch "gnatprove --explain=E0012" for more information
+actuator.adb:7:04: warning: make sure that all overlapping objects have Async_Writers set to True
+advancebutton-raw.adb:7:04: info: address in address clause is compatible with object alignment (CVC5: 1 VC)
+advancebutton-raw.adb:7:04: warning: address specification on "Input_Ext" is imprecisely supported: assuming no concurrent accesses to non-atomic object, correct volatile properties, and valid reads [imprecise-address-specification] [E0012]
+advancebutton-raw.adb:7:04: warning: launch "gnatprove --explain=E0012" for more information
+advancebutton-raw.ads:5:20: info: initialization of "Pressed" proved
+advancebutton.adb:26:07: info: initialization of "PressedBefore" proved
+advancebutton.adb:27:07: info: initialization of "PressedNow" proved
+advancebutton.adb:28:07: info: initialization of "TimePressed" proved
+advancebutton.adb:48:07: info: initialization of "StillPressed" proved
+advancebutton.adb:49:07: info: initialization of "TimeNow" proved
+advancebutton.adb:57:34: info: range check proved (CVC5: 2 VC)
+advancebutton.adb:69:07: info: initialization of "Pressed" proved
+advancebutton.ads:23:13: info: implicit aspect Always_Terminates on "CurrentMode" has been proved, subprogram will terminate
+advancebutton.ads:29:27: info: initialization of "Result" proved
+advancebutton.ads:33:26: info: initialization of "Result" proved
+advancebutton.ads:37:26: info: initialization of "Result" proved
+clock.adb:6:04: medium: address in address clause might not be an integral multiple of alignment of object [possible fix: overlaying object should have an Alignment representation clause]
+clock.adb:6:04: warning: address specification on "Tick_Ext" is imprecisely supported: assuming no concurrent accesses to non-atomic object, correct volatile properties, and valid reads [imprecise-address-specification] [E0012]
+clock.adb:6:04: warning: launch "gnatprove --explain=E0012" for more information
+clock.ads:6:19: info: initialization of "Time" proved
+display.adb:6:04: medium: address in address clause might not be an integral multiple of alignment of object [possible fix: overlaying object should have an Alignment representation clause]
+display.adb:6:04: warning: address specification on "Output_Ext" is imprecisely supported: assuming no concurrent accesses to non-atomic object, correct volatile properties, no writes to a potential alias, and valid reads [imprecise-address-specification] [E0012]
+display.adb:6:04: warning: launch "gnatprove --explain=E0012" for more information
+display.adb:6:04: warning: make sure that all overlapping objects have Async_Writers set to True
+heatingsystem_dfa.adb:22:04: info: initialization of "OnOffTime" proved
+heatingsystem_dfa.adb:23:04: info: initialization of "ClockOffset" proved
+heatingsystem_dfa.adb:24:04: info: initialization of "HeatingIsOn" proved
+heatingsystem_dfa.adb:26:14: info: add a contract to analyze it separately from calling contexts
+heatingsystem_dfa.adb:26:14: info: local subprogram "UpdateDisplay" only analyzed in the context of calls
+heatingsystem_dfa.adb:30:07: info: initialization of "TheDisplay" proved
+heatingsystem_dfa.adb:30:07: info: initialization of "TheDisplay" proved, in call inlined at heatingsystem_dfa.adb:114
+heatingsystem_dfa.adb:30:07: info: initialization of "TheDisplay" proved, in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:31:07: info: initialization of "Hour" proved
+heatingsystem_dfa.adb:31:07: info: initialization of "Hour" proved, in call inlined at heatingsystem_dfa.adb:114
+heatingsystem_dfa.adb:31:07: info: initialization of "Hour" proved, in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:32:07: info: initialization of "Minute" proved
+heatingsystem_dfa.adb:32:07: info: initialization of "Minute" proved, in call inlined at heatingsystem_dfa.adb:114
+heatingsystem_dfa.adb:32:07: info: initialization of "Minute" proved, in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:35:20: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:36:23: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:36:42: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:38:44: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:39:44: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:40:46: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:41:46: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:114, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:47:14: info: add a contract to analyze it separately from calling contexts
+heatingsystem_dfa.adb:47:14: info: local subprogram "CheckAdvanceButton" only analyzed in the context of calls
+heatingsystem_dfa.adb:49:07: info: initialization of "SlowAdvance" proved
+heatingsystem_dfa.adb:49:07: info: initialization of "SlowAdvance" proved, in call inlined at heatingsystem_dfa.adb:105
+heatingsystem_dfa.adb:49:07: info: initialization of "SlowAdvance" proved, in call inlined at heatingsystem_dfa.adb:105, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:49:07: info: initialization of "SlowAdvance" proved, in call inlined at heatingsystem_dfa.adb:110
+heatingsystem_dfa.adb:49:07: info: initialization of "SlowAdvance" proved, in call inlined at heatingsystem_dfa.adb:110, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:50:07: info: initialization of "FastAdvance" proved
+heatingsystem_dfa.adb:50:07: info: initialization of "FastAdvance" proved, in call inlined at heatingsystem_dfa.adb:105
+heatingsystem_dfa.adb:50:07: info: initialization of "FastAdvance" proved, in call inlined at heatingsystem_dfa.adb:105, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:50:07: info: initialization of "FastAdvance" proved, in call inlined at heatingsystem_dfa.adb:110
+heatingsystem_dfa.adb:50:07: info: initialization of "FastAdvance" proved, in call inlined at heatingsystem_dfa.adb:110, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:51:07: info: initialization of "ChangeToSlowMode" proved
+heatingsystem_dfa.adb:51:07: info: initialization of "ChangeToSlowMode" proved, in call inlined at heatingsystem_dfa.adb:105
+heatingsystem_dfa.adb:51:07: info: initialization of "ChangeToSlowMode" proved, in call inlined at heatingsystem_dfa.adb:105, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:51:07: info: initialization of "ChangeToSlowMode" proved, in call inlined at heatingsystem_dfa.adb:110
+heatingsystem_dfa.adb:51:07: info: initialization of "ChangeToSlowMode" proved, in call inlined at heatingsystem_dfa.adb:110, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:52:07: info: initialization of "ChangeToFastMode" proved
+heatingsystem_dfa.adb:52:07: info: initialization of "ChangeToFastMode" proved, in call inlined at heatingsystem_dfa.adb:105
+heatingsystem_dfa.adb:52:07: info: initialization of "ChangeToFastMode" proved, in call inlined at heatingsystem_dfa.adb:105, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:52:07: info: initialization of "ChangeToFastMode" proved, in call inlined at heatingsystem_dfa.adb:110
+heatingsystem_dfa.adb:52:07: info: initialization of "ChangeToFastMode" proved, in call inlined at heatingsystem_dfa.adb:110, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:57:26: warning: "advancebutton.advpressed" is set by "JustPressed" but not used after the call
+heatingsystem_dfa.adb:57:26: warning: "advancebutton.advpressed" is set by "JustPressed" but not used after the call, in call inlined at heatingsystem_dfa.adb:105
+heatingsystem_dfa.adb:57:26: warning: "advancebutton.advpressed" is set by "JustPressed" but not used after the call, in call inlined at heatingsystem_dfa.adb:105, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:57:26: warning: "advancebutton.advpressed" is set by "JustPressed" but not used after the call, in call inlined at heatingsystem_dfa.adb:110
+heatingsystem_dfa.adb:57:26: warning: "advancebutton.advpressed" is set by "JustPressed" but not used after the call, in call inlined at heatingsystem_dfa.adb:110, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:59:49: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:105, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:59:49: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:110, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:68:26: warning: "advancebutton.advpressed" is set by "PressedFor" but not used after the call
+heatingsystem_dfa.adb:68:26: warning: "advancebutton.advpressed" is set by "PressedFor" but not used after the call, in call inlined at heatingsystem_dfa.adb:105
+heatingsystem_dfa.adb:68:26: warning: "advancebutton.advpressed" is set by "PressedFor" but not used after the call, in call inlined at heatingsystem_dfa.adb:105, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:68:26: warning: "advancebutton.advpressed" is set by "PressedFor" but not used after the call, in call inlined at heatingsystem_dfa.adb:110
+heatingsystem_dfa.adb:68:26: warning: "advancebutton.advpressed" is set by "PressedFor" but not used after the call, in call inlined at heatingsystem_dfa.adb:110, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:70:54: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:105, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:70:54: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:110, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:83:14: info: add a contract to analyze it separately from calling contexts
+heatingsystem_dfa.adb:83:14: info: local subprogram "AddOffset" only analyzed in the context of calls
+heatingsystem_dfa.adb:86:30: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:101, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:86:30: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:106, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:86:30: info: division check proved (CVC5: 1 VC), in call inlined at heatingsystem_dfa.adb:169
+heatingsystem_dfa.adb:91:14: info: add a contract to analyze it separately from calling contexts
+heatingsystem_dfa.adb:91:14: info: local subprogram "CheckProgramSwitch" only analyzed in the context of calls
+heatingsystem_dfa.adb:93:07: info: initialization of "SwitchPosition" proved
+heatingsystem_dfa.adb:93:07: info: initialization of "SwitchPosition" proved, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:94:07: info: initialization of "Timer" proved
+heatingsystem_dfa.adb:94:07: info: initialization of "Timer" proved, in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:101:13: info: analyzing call to "AddOffset" in context
+heatingsystem_dfa.adb:105:13: info: analyzing call to "CheckAdvanceButton" in context
+heatingsystem_dfa.adb:106:13: info: analyzing call to "AddOffset" in context
+heatingsystem_dfa.adb:109:32: info: index check proved (CVC5: 2 VC), in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:110:13: info: analyzing call to "CheckAdvanceButton" in context
+heatingsystem_dfa.adb:111:23: info: index check proved (CVC5: 2 VC), in call inlined at heatingsystem_dfa.adb:200
+heatingsystem_dfa.adb:114:07: info: analyzing call to "UpdateDisplay" in context
+heatingsystem_dfa.adb:119:07: info: initialization of "MayOperate" proved
+heatingsystem_dfa.adb:120:07: info: initialization of "AboveTemp" proved
+heatingsystem_dfa.adb:121:07: info: initialization of "CurrentTime" proved
+heatingsystem_dfa.adb:122:07: info: initialization of "ModeSetting" proved
+heatingsystem_dfa.adb:124:07: info: no contextual analysis of "CheckModeSwitch" (nested subprogram)
+heatingsystem_dfa.adb:124:17: info: add a contract to analyze it separately from calling contexts
+heatingsystem_dfa.adb:124:17: info: local subprogram "TurnOn" only analyzed in the context of calls
+heatingsystem_dfa.adb:133:17: info: add a contract to analyze it separately from calling contexts
+heatingsystem_dfa.adb:133:17: info: local subprogram "TurnOff" only analyzed in the context of calls
+heatingsystem_dfa.adb:143:16: info: implicit aspect Always_Terminates on "IsBetween" has been proved, subprogram will terminate
+heatingsystem_dfa.adb:150:17: info: add a contract to analyze it separately from calling contexts
+heatingsystem_dfa.adb:150:17: info: local subprogram "OperateIfNeeded" only analyzed in the context of calls
+heatingsystem_dfa.adb:156:16: info: analyzing call to "TurnOff" in context
+heatingsystem_dfa.adb:158:16: info: analyzing call to "TurnOn" in context
+heatingsystem_dfa.adb:162:13: info: analyzing call to "TurnOff" in context
+heatingsystem_dfa.adb:169:07: info: analyzing call to "AddOffset" in context
+heatingsystem_dfa.adb:185:07: info: analyzing call to "OperateIfNeeded" in context
+heatingsystem_dfa.adb:200:07: info: analyzing call to "CheckProgramSwitch" in context
+indicator.adb:7:04: info: address in address clause is compatible with object alignment (CVC5: 1 VC)
+indicator.adb:7:04: warning: address specification on "Output_Ext" is imprecisely supported: assuming no concurrent accesses to non-atomic object, correct volatile properties, no writes to a potential alias, and valid reads [imprecise-address-specification] [E0012]
+indicator.adb:7:04: warning: launch "gnatprove --explain=E0012" for more information
+indicator.adb:7:04: warning: make sure that all overlapping objects have Async_Writers set to True
+modeswitch.adb:5:04: info: address in address clause is compatible with object alignment (CVC5: 1 VC)
+modeswitch.adb:5:04: warning: address specification on "Input_Ext" is imprecisely supported: assuming no concurrent accesses to non-atomic object, correct volatile properties, and valid reads [imprecise-address-specification] [E0012]
+modeswitch.adb:5:04: warning: launch "gnatprove --explain=E0012" for more information
+modeswitch.ads:5:20: info: initialization of "Value" proved
+programswitch.adb:5:04: info: address in address clause is compatible with object alignment (CVC5: 1 VC)
+programswitch.adb:5:04: warning: address specification on "Input_Ext" is imprecisely supported: assuming no concurrent accesses to non-atomic object, correct volatile properties, and valid reads [imprecise-address-specification] [E0012]
+programswitch.adb:5:04: warning: launch "gnatprove --explain=E0012" for more information
+programswitch.ads:5:20: info: initialization of "Value" proved
+thermostat.adb:17:04: info: address in address clause is compatible with object alignment (CVC5: 1 VC)
+thermostat.adb:17:04: warning: address specification on "Input_Ext" is imprecisely supported: assuming no concurrent accesses to non-atomic object, correct volatile properties, and valid reads [imprecise-address-specification] [E0012]
+thermostat.adb:17:04: warning: launch "gnatprove --explain=E0012" for more information
+thermostat.ads:15:25: info: initialization of "Result" proved

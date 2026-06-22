@@ -1,0 +1,54 @@
+assume_call.adb:4:15: high: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at assume_call.ads:3]
+assume_call.adb:7:14: warning: subprogram "Wrong_Pre" has no effect
+assume_call.adb:14:04: warning: analyzing unreferenced procedure "Caller" [unreferenced-procedure]
+assume_call.adb:14:14: warning: subprogram "Caller" has no effect
+assume_call.adb:17:07: info: precondition proved (CVC5: 1 VC)
+assume_call.ads:3:13: info: implicit aspect Always_Terminates on "f1" has been proved, subprogram will terminate
+assume_call.ads:4:19: info: postcondition proved (CVC5: 1 VC)
+assume_call.ads:4:33: info: overflow check proved (CVC5: 2 VC)
+max steps used for successful proof: 1
+
+
+
+
+
+
+
+ Assume_Call at assume_call.ads:1 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+ Assume_Call.Caller at assume_call.adb:14 flow analyzed (0 errors, 0 checks, 1 warnings and 0 pragma Assume statements) and proved (1 checks)
+ Assume_Call.Wrong_Pre at assume_call.adb:7 flow analyzed (0 errors, 0 checks, 1 warnings and 0 pragma Assume statements) and proved (0 checks)
+ Assume_Call.f1 at assume_call.ads:3 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and not proved, 2 checks out of 3 proved
+ absence of run-time errors of Assume_Call.f1
+ effects on parameters and Global variables of Assume_Call.Wrong_Pre
+ effects on parameters and Global variables of Assume_Call.f1
+ the postcondition of Assume_Call.f1
+-
+-
+-
+========================
+========================
+=========================
+=========================
+============================
+============================
+Analyzed 1 unit
+Assertions . . . . .
+Concurrency . . . . .
+Data Dependencies . . . . .
+Detailed analysis report
+Flow Dependencies . . . . .
+Functional Contracts 2 . 2 . .
+Initialization . . . . .
+LSP Verification . . . . .
+Most difficult proved checks
+No check found with max time greater than 1 second
+Non-Aliasing . . . . .
+Run-time Checks 2 . 1 . 1
+SPARK Analysis results Total Flow Provers Justified Unproved
+Summary of SPARK analysis
+Termination 1 1 . . .
+Total 5 1 (20%) 3 (60%) . 1 (20%)
+absence of run-time errors of Assume_Call fully established
+absence of run-time errors of Assume_Call.Caller depends on
+absence of run-time errors of Assume_Call.Wrong_Pre fully established
+in unit assume_call, 4 subprograms and packages out of 4 analyzed

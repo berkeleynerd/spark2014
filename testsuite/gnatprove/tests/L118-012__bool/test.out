@@ -1,0 +1,2 @@
+c41321a.adb:2:08: info: data dependencies proved
+c41321a.adb:7:11: low: initialization of "DERIVED_FALSE" must be mentioned in the Initializes contract of "P" (SPARK RM 7.1.5(9))

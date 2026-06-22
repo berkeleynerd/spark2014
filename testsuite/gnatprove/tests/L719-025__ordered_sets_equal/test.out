@@ -1,0 +1,18 @@
+p.adb:4:07: info: initialization of "Cu" proved
+p.adb:5:07: info: initialization of "I" proved
+p.adb:7:07: info: precondition proved (CVC5: 1 VC)
+p.adb:8:22: info: assertion proved (CVC5: 1 VC)
+p.adb:9:07: info: precondition proved (CVC5: 1 VC)
+p.adb:13:27: info: precondition proved (CVC5: 1 VC)
+p.adb:14:07: info: initialization of "I" proved
+p.adb:17:07: info: precondition proved (CVC5: 1 VC)
+p.adb:18:07: info: precondition proved (CVC5: 1 VC)
+p.adb:19:22: info: assertion proved (CVC5: 1 VC)
+p.adb:20:22: info: assertion proved (CVC5: 1 VC)
+p.adb:26:10: info: precondition proved (CVC5: 1 VC)
+p.adb:28:10: info: precondition proved (CVC5: 2 VC)
+p.ads:8:13: info: implicit aspect Always_Terminates on "My_Lt" has been proved, subprogram will terminate
+p.ads:17:14: info: postcondition proved (CVC5: 1 VC)
+p.ads:17:14: info: precondition proved (CVC5: 1 VC)
+p.ads:21:14: info: postcondition proved (CVC5: 3 VC)
+p.ads:26:14: info: postcondition proved (CVC5: 3 VC; Trivial: 1 VC)

@@ -1,0 +1,159 @@
+bad_call.adb:5:20: error: call to a function with side effects in declarative part is not allowed in SPARK [E0018]
+bad_call.adb:5:20: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:5:20: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:6:20: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:6:20: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:6:20: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:6:30: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:6:30: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:6:30: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:7:24: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:7:24: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:7:24: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:7:46: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:7:46: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:7:46: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:7:71: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:7:71: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:7:71: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:12:19: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:12:19: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:12:19: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:13:10: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:13:10: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:13:10: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:14:14: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:14:14: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:14:14: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:14:30: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:14:30: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:14:30: error: violation of aspect SPARK_Mode at line 3
+bad_call.adb:14:43: error: call to a function with side effects outside of assignment or object declaration is not allowed in SPARK [E0018]
+bad_call.adb:14:43: error: launch "gnatprove --explain=E0018" for more information
+bad_call.adb:14:43: error: violation of aspect SPARK_Mode at line 3
+bad_traversal.ads:3:13: error: traversal function with side effects is not allowed in SPARK
+bad_traversal.ads:3:13: error: violation of aspect SPARK_Mode at line 1
+dispatch.ads:6:17: warning: "X" is not modified, could be IN
+dispatch.ads:6:32: info: initialization of "B" proved
+dispatch.ads:6:68: info: postcondition proved (CVC5: 1 VC)
+dispatch.ads:6:68: info: postcondition proved (CVC5: 1 VC), in inherited contract at dispatch.ads:13
+dispatch.ads:7:13: info: implicit aspect Always_Terminates on "FF" has been proved, subprogram will terminate
+dispatch.ads:7:59: info: postcondition proved (CVC5: 1 VC)
+dispatch.ads:7:59: info: postcondition proved (CVC5: 1 VC), in inherited contract at dispatch.ads:14
+dispatch.ads:8:16: warning: "X" is not modified, could be IN
+dispatch.ads:10:25: info: postcondition proved (CVC5: 1 VC)
+dispatch.ads:10:25: info: postcondition proved (CVC5: 1 VC), in inherited contract at dispatch.ads:15
+dispatch.ads:13:17: warning: "X" is not modified, could be IN
+dispatch.ads:13:32: info: initialization of "B" proved
+dispatch.ads:14:13: info: implicit aspect Always_Terminates on "FF" has been proved, subprogram will terminate
+dispatch.ads:15:16: warning: "X" is not modified, could be IN
+ok_call.adb:12:19: medium: assertion might fail (e.g. when Y0 = 0)
+ok_call.adb:16:19: medium: assertion might fail (e.g. when Y0 = 0)
+ok_call.adb:20:19: medium: assertion might fail (e.g. when G = 0)
+ok_call.adb:24:19: medium: assertion might fail (e.g. when G = 0)
+ok_call.adb:26:10: medium: unexpected exception might be raised
+ok_call.adb:29:10: medium: aspect Always_Terminates on "OK_Call" could be incorrect, call to "F7" might be nonterminating
+ok_call.adb:31:10: info: conditional call termination proved (CVC5: 1 VC)
+ok_call.adb:32:10: medium: call might not terminate [reason for check: procedure "OK_Call" has an Always_Terminates aspect]
+ok_call.adb:36:19: medium: assertion might fail (e.g. when G = 0)
+ok_call.adb:40:19: medium: assertion might fail (e.g. when G = 0)
+ok_call_with_post.adb:15:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:16:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:20:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:21:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:25:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:26:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:30:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:31:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:33:10: info: only expected exception raised (CVC5: 1 VC)
+ok_call_with_post.adb:34:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:37:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:39:07: info: no contextual analysis of "Rand" (body not seen yet)
+ok_call_with_post.adb:40:13: medium: aspect Always_Terminates on "OK_Call_With_Post" could be incorrect, call to "F7" might be nonterminating
+ok_call_with_post.adb:41:07: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:45:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:47:10: info: conditional call termination proved (CVC5: 1 VC)
+ok_call_with_post.adb:48:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:50:07: info: no contextual analysis of "Rand" (body not seen yet)
+ok_call_with_post.adb:51:13: medium: call might not terminate [reason for check: procedure "OK_Call_With_Post" has an Always_Terminates aspect]
+ok_call_with_post.adb:52:07: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:57:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:58:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:62:19: info: assertion proved (CVC5: 1 VC)
+ok_call_with_post.adb:63:19: info: assertion proved (CVC5: 1 VC)
+p.adb:63:10: info: conditional call termination proved (CVC5: 1 VC)
+p.adb:82:17: info: initialization of "X" proved
+p.adb:100:11: info: data dependencies proved
+p.adb:100:32: info: initialization of "G" proved
+p.adb:109:11: info: data dependencies proved
+p.adb:118:43: info: exceptional case proved (Trivial: 1 VC)
+p.adb:144:13: info: aspect Always_Terminates on "B8" has been proved, subprogram will terminate
+p.adb:158:10: info: conditional call termination proved (CVC5: 1 VC)
+p.adb:163:13: info: initialization of "G" proved
+p.adb:165:11: info: flow dependencies proved
+p.adb:174:11: info: flow dependencies proved
+p.ads:5:17: info: initialization of "X" proved
+p.ads:13:11: info: data dependencies proved
+p.ads:13:32: info: initialization of "G" proved
+p.ads:17:11: info: data dependencies proved
+p.ads:21:43: info: exceptional case proved (Trivial: 1 VC)
+p.ads:31:13: info: aspect Always_Terminates on "F8" has been proved, subprogram will terminate
+p.ads:39:13: info: initialization of "G" proved
+p.ads:41:11: info: flow dependencies proved
+p.ads:45:11: info: flow dependencies proved
+p_with_post.adb:63:10: info: conditional call termination proved (CVC5: 1 VC)
+p_with_post.adb:82:17: info: initialization of "X" proved
+p_with_post.adb:84:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.adb:93:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.adb:102:11: info: data dependencies proved
+p_with_post.adb:102:32: info: initialization of "G" proved
+p_with_post.adb:103:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.adb:112:11: info: data dependencies proved
+p_with_post.adb:113:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.adb:122:43: info: exceptional case proved (Trivial: 1 VC)
+p_with_post.adb:123:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.adb:135:19: info: postcondition proved (CVC5: 1 VC)
+p_with_post.adb:144:19: info: postcondition proved (CVC5: 1 VC)
+p_with_post.adb:151:13: info: aspect Always_Terminates on "B8" has been proved, subprogram will terminate
+p_with_post.adb:154:19: info: postcondition proved (CVC5: 1 VC)
+p_with_post.adb:163:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.adb:167:10: info: conditional call termination proved (CVC5: 1 VC)
+p_with_post.adb:172:13: info: initialization of "G" proved
+p_with_post.adb:174:11: info: flow dependencies proved
+p_with_post.adb:175:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.adb:184:11: info: flow dependencies proved
+p_with_post.adb:185:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.ads:5:17: info: initialization of "X" proved
+p_with_post.ads:7:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.ads:11:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.ads:15:11: info: data dependencies proved
+p_with_post.ads:15:32: info: initialization of "G" proved
+p_with_post.ads:16:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.ads:20:11: info: data dependencies proved
+p_with_post.ads:21:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.ads:25:43: info: exceptional case proved (CVC5: 1 VC)
+p_with_post.ads:26:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.ads:31:19: info: postcondition proved (CVC5: 1 VC)
+p_with_post.ads:36:19: info: postcondition proved (CVC5: 1 VC)
+p_with_post.ads:38:13: info: aspect Always_Terminates on "F8" has been proved, subprogram will terminate
+p_with_post.ads:41:19: info: postcondition proved (CVC5: 1 VC)
+p_with_post.ads:46:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.ads:48:13: info: initialization of "G" proved
+p_with_post.ads:50:11: info: flow dependencies proved
+p_with_post.ads:51:19: info: postcondition proved (CVC5: 2 VC)
+p_with_post.ads:55:11: info: flow dependencies proved
+p_with_post.ads:56:19: info: postcondition proved (CVC5: 2 VC)
+use_dispatch.adb:8:04: info: initialization of "B" proved
+use_dispatch.adb:11:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:13:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:15:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:17:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:19:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:21:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:23:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:25:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:26:08: info: tag check proved (CVC5: 1 VC)
+use_dispatch.adb:28:19: info: assertion proved (CVC5: 1 VC)
+use_dispatch.adb:29:08: info: tag check proved (CVC5: 1 VC)
+use_dispatch.adb:31:19: info: assertion proved (CVC5: 1 VC)
+gnatprove: error during flow analysis and proof

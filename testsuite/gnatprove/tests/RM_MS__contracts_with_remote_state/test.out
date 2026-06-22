@@ -1,0 +1,17 @@
+calculate.adb:6:07: error: "Get_Processed_Data" is not allowed in SPARK (due to call to a volatile function in interfering context)
+calculate.adb:6:07: error: violation of aspect SPARK_Mode at line 2
+calculate.ads:13:22: error: call to a volatile function in interfering context is not allowed in SPARK
+calculate.ads:13:22: error: violation of aspect SPARK_Mode at line 5
+processing.ads:13:22: error: call to a volatile function in interfering context is not allowed in SPARK
+processing.ads:13:22: error: call to a volatile function in interfering context is not allowed in SPARK
+processing.ads:13:22: error: violation of aspect SPARK_Mode at line 4
+processing.ads:13:22: error: violation of aspect SPARK_Mode at line 4
+raw_data.adb:30:40: info: initialization of "Last_Read" constituent of "State" proved
+raw_data.ads:4:08: info: flow dependencies proved
+raw_data.ads:6:13: info: implicit aspect Always_Terminates on "Data_Is_Valid" has been proved, subprogram will terminate
+raw_data.ads:8:11: info: data dependencies proved
+raw_data.ads:10:13: info: implicit aspect Always_Terminates on "Get_Value" has been proved, subprogram will terminate
+raw_data.ads:12:11: info: data dependencies proved
+raw_data.ads:15:11: info: data dependencies proved
+raw_data.ads:16:11: info: flow dependencies proved
+gnatprove: error during flow analysis and proof

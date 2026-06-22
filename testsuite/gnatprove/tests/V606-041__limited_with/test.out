@@ -1,0 +1,34 @@
+ext2.adb:5:04: error: consider restructuring code to avoid "limited with"
+ext2.adb:5:04: error: instantiation error at unchdeal.ads
+ext2.adb:5:04: error: limited view of type "T1" coming from limited with is not yet supported
+ext2.adb:9:14: error: "T1_Acc" is not allowed in SPARK
+ext2.adb:9:14: error: violation of aspect SPARK_Mode at line 3
+ext2.adb:13:24: error: "T1_Acc" is not allowed in SPARK
+ext2.adb:13:24: error: violation of aspect SPARK_Mode at line 3
+ext2.adb:15:07: error: "T1_Acc" is not allowed in SPARK
+ext2.adb:15:07: error: violation of aspect SPARK_Mode at line 3
+ext2.adb:15:15: error: "T1_Acc" is not allowed in SPARK
+ext2.adb:15:15: error: violation of aspect SPARK_Mode at line 3
+ext2.adb:16:07: error: "T1_Acc" is not allowed in SPARK
+ext2.adb:16:07: error: violation of aspect SPARK_Mode at line 3
+ext2.adb:16:15: error: "Tmp" is not allowed in SPARK
+ext2.adb:16:15: error: violation of aspect SPARK_Mode at line 3
+ext2.adb:21:14: error: "T1_Acc" is not allowed in SPARK
+ext2.adb:21:14: error: violation of aspect SPARK_Mode at line 3
+ext2.adb:24:07: error: "Free" is not allowed in SPARK (due to limited view coming from limited with)
+ext2.adb:24:07: error: violation of aspect SPARK_Mode at line 3
+ext2.ads:19:09: error: consider restructuring code to avoid "limited with"
+ext2.ads:19:09: error: limited view of type "T1" coming from limited with is not yet supported
+ext2.ads:21:57: error: "T1_Acc" is not allowed in SPARK
+ext2.ads:21:57: error: violation of aspect SPARK_Mode at line 2
+ext2.ads:23:32: warning: Program_Error will be raised at run time [enabled by default]
+ext2.ads:23:32: warning: cannot call "Create" before body seen [enabled by default]
+ext3.ads:19:09: error: consider restructuring code to avoid "limited with"
+ext3.ads:19:09: error: limited view of type "T1" coming from limited with is not yet supported
+ext3.ads:21:57: error: "T1_Acc" is not allowed in SPARK
+ext3.ads:21:57: error: violation of aspect SPARK_Mode at line 2
+ext3.ads:23:32: warning: Program_Error will be raised at run time [enabled by default]
+ext3.ads:23:32: warning: assuming "Create" has no effect on global items
+ext3.ads:23:32: warning: cannot call "Create" before body seen [enabled by default]
+ext3.ads:23:32: warning: no Global contract available for "Create" [assumed-global-null]
+gnatprove: error during flow analysis and proof

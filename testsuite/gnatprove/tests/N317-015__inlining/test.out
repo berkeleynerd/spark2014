@@ -1,0 +1,185 @@
+array_arith.adb:6:16: info: add a contract to analyze it separately from calling contexts
+array_arith.adb:6:16: info: implicit aspect Always_Terminates on "Ident" has been proved, subprogram will terminate
+array_arith.adb:6:16: info: local subprogram "Ident" only analyzed in the context of calls
+array_arith.adb:12:15: info: analyzing call to "Ident" in context
+array_arith.adb:13:15: info: analyzing call to "Ident" in context
+array_arith.adb:14:15: info: analyzing call to "Ident" in context
+array_arith.adb:15:15: info: analyzing call to "Ident" in context
+array_arith.adb:16:15: info: analyzing call to "Ident" in context
+array_arith.adb:17:15: info: analyzing call to "Ident" in context
+array_arith.adb:18:15: info: analyzing call to "Ident" in context
+array_arith.adb:19:15: info: analyzing call to "Ident" in context
+array_arith.adb:20:15: info: analyzing call to "Ident" in context
+array_arith.adb:21:16: info: analyzing call to "Ident" in context
+array_arith.adb:26:16: info: add a contract to analyze it separately from calling contexts
+array_arith.adb:26:16: info: implicit aspect Always_Terminates on "Ident" has been proved, subprogram will terminate
+array_arith.adb:26:16: info: local subprogram "Ident" only analyzed in the context of calls
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:32
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:33
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:34
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:35
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:36
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:37
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:38
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:39
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:40
+array_arith.adb:29:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:41
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:32
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:33
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:34
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:35
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:36
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:37
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:38
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:39
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:40
+array_arith.adb:29:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:41
+array_arith.adb:32:15: info: analyzing call to "Ident" in context
+array_arith.adb:33:15: info: analyzing call to "Ident" in context
+array_arith.adb:34:15: info: analyzing call to "Ident" in context
+array_arith.adb:35:15: info: analyzing call to "Ident" in context
+array_arith.adb:36:15: info: analyzing call to "Ident" in context
+array_arith.adb:37:15: info: analyzing call to "Ident" in context
+array_arith.adb:38:15: info: analyzing call to "Ident" in context
+array_arith.adb:39:15: info: analyzing call to "Ident" in context
+array_arith.adb:40:15: info: analyzing call to "Ident" in context
+array_arith.adb:41:16: info: analyzing call to "Ident" in context
+array_arith.adb:46:16: info: implicit aspect Always_Terminates on "Ident" has been proved, subprogram will terminate
+array_arith.adb:47:17: info: add a contract to analyze it separately from calling contexts
+array_arith.adb:47:17: info: local subprogram "Local" only analyzed in the context of calls
+array_arith.adb:50:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:51:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:52:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:53:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:54:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:55:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:56:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:57:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:58:18: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:59:19: info: no contextual analysis of "Ident" (body not seen yet)
+array_arith.adb:63:19: high: overflow check might fail, cannot prove upper bound for Y + One (e.g. when One = Integer'Last and Y = 1) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: subprogram at line 46 should mention Y and One in a precondition]
+array_arith.adb:63:19: high: range check might fail, cannot prove lower bound for Y + One (e.g. when One = -1 and Y = 0) [reason for check: returned value must fit in the result type of the function] [possible fix: subprogram at line 46 should mention Y and One in a precondition]
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:50, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:51, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:52, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:53, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:54, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:55, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:56, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:57, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:58, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: overflow check proved (CVC5: 2 VC), in call inlined at array_arith.adb:59, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:50, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:51, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:52, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:53, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:54, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:55, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:56, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:57, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:58, in call inlined at array_arith.adb:66
+array_arith.adb:63:19: info: range check proved (CVC5: 2 VC), in call inlined at array_arith.adb:59, in call inlined at array_arith.adb:66
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Ident" in context
+array_arith.adb:66:07: info: analyzing call to "Local" in context
+array_arith.adb:66:07: info: in inlined body at line 50
+array_arith.adb:66:07: info: in inlined body at line 51
+array_arith.adb:66:07: info: in inlined body at line 52
+array_arith.adb:66:07: info: in inlined body at line 53
+array_arith.adb:66:07: info: in inlined body at line 54
+array_arith.adb:66:07: info: in inlined body at line 55
+array_arith.adb:66:07: info: in inlined body at line 56
+array_arith.adb:66:07: info: in inlined body at line 57
+array_arith.adb:66:07: info: in inlined body at line 58
+array_arith.adb:66:07: info: in inlined body at line 59
+array_arith.adb:70:17: info: add a contract to analyze it separately from calling contexts
+array_arith.adb:70:17: info: local subprogram "Put_A_Zero" only analyzed in the context of calls
+array_arith.adb:70:29: info: initialization of "Y" proved
+array_arith.adb:76:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:77:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:78:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:79:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:80:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:81:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:82:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:83:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:84:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.adb:85:07: info: analyzing call to "Put_A_Zero" in context
+array_arith.ads:8:20: medium: "X" might not be initialized in "Init" [reason for check: OUT parameter should be fully initialized on return] [possible fix: initialize "X" on all paths, make "X" an IN OUT parameter or annotate it with aspect Relaxed_Initialization]
+array_arith.ads:9:14: info: postcondition proved (CVC5: 1 VC)
+array_arith.ads:9:35: medium: "X" might not be initialized
+array_arith.ads:11:21: medium: "X" might not be initialized in "Init2" [reason for check: OUT parameter should be fully initialized on return] [possible fix: initialize "X" on all paths, make "X" an IN OUT parameter or annotate it with aspect Relaxed_Initialization]
+array_arith.ads:12:14: info: postcondition proved (CVC5: 1 VC)
+array_arith.ads:12:35: medium: "X" might not be initialized
+array_arith.ads:14:21: medium: "X" might not be initialized in "Init3" [reason for check: OUT parameter should be fully initialized on return] [possible fix: initialize "X" on all paths, make "X" an IN OUT parameter or annotate it with aspect Relaxed_Initialization]
+array_arith.ads:15:14: info: postcondition proved (CVC5: 1 VC)
+array_arith.ads:15:35: medium: "X" might not be initialized
+array_arith.ads:17:20: medium: "X" might not be initialized in "Zero" [reason for check: OUT parameter should be fully initialized on return] [possible fix: initialize "X" on all paths, make "X" an IN OUT parameter or annotate it with aspect Relaxed_Initialization]
+array_arith.ads:18:14: info: postcondition proved (CVC5: 1 VC)
+array_arith.ads:18:35: medium: "X" might not be initialized
+ident.adb:8:13: info: add a contract to analyze it separately from calling contexts
+ident.adb:8:13: info: implicit aspect Always_Terminates on "Id_Body" has been proved, subprogram will terminate
+ident.adb:8:13: info: local subprogram "Id_Body" only analyzed in the context of calls
+ident.adb:9:14: info: add a contract to analyze it separately from calling contexts
+ident.adb:9:14: info: local subprogram "Incr_Body" only analyzed in the context of calls
+ident.adb:9:42: info: initialization of "Y" proved
+ident.adb:43:07: info: initialization of "Y" proved
+ident.adb:44:07: info: initialization of "Res" proved
+ident.adb:50:22: medium: assertion might fail (e.g. when Res = 0 and X = 10)
+ident.adb:52:22: medium: assertion might fail (e.g. when Res = 0 and X = 10)
+ident.adb:53:14: info: analyzing call to "Id_Body" in context
+ident.adb:54:22: info: assertion proved (CVC5: 1 VC)
+ident.adb:57:22: medium: assertion might fail (e.g. when Y = 0) [possible fix: call at line 56 should mention Y (for argument Y) in a postcondition]
+ident.adb:59:22: medium: assertion might fail [possible fix: call at line 58 should mention Y (for argument Y) in a postcondition]
+ident.adb:60:07: info: analyzing call to "Incr_Body" in context
+ident.adb:61:22: info: assertion proved (CVC5: 1 VC)
+ident.ads:4:13: info: implicit aspect Always_Terminates on "Id_Public" has been proved, subprogram will terminate
+ident.ads:5:44: info: initialization of "Y" proved
+ident.ads:6:14: warning: subprogram "Test" has no effect
+ident.ads:8:13: info: implicit aspect Always_Terminates on "Id_Private" has been proved, subprogram will terminate
+ident.ads:9:45: info: initialization of "Y" proved
+incr_expr_fun.adb:4:62: high: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at incr_expr_fun.ads:11]
+incr_expr_fun.adb:6:63: high: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at incr_expr_fun.ads:22]
+incr_expr_fun.adb:8:13: info: implicit aspect Always_Terminates on "Incr_Body" has been proved, subprogram will terminate
+incr_expr_fun.adb:8:58: medium: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at line 8]
+incr_expr_fun.adb:10:13: info: implicit aspect Always_Terminates on "Incr_Body_Body" has been proved, subprogram will terminate
+incr_expr_fun.adb:11:63: high: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at line 10]
+incr_expr_fun.adb:16:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:16:39: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.adb:17:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:17:43: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.adb:18:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:18:44: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.adb:19:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:19:44: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.adb:20:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:20:40: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.adb:21:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:21:45: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.adb:22:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:22:45: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.adb:23:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:23:40: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.adb:24:22: info: assertion proved (CVC5: 1 VC)
+incr_expr_fun.adb:24:45: info: overflow check proved (CVC5: 2 VC)
+incr_expr_fun.ads:4:13: info: implicit aspect Always_Terminates on "Incr_Pub" has been proved, subprogram will terminate
+incr_expr_fun.ads:4:57: medium: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at line 4]
+incr_expr_fun.ads:6:13: info: implicit aspect Always_Terminates on "Incr_Pub_Pub" has been proved, subprogram will terminate
+incr_expr_fun.ads:7:61: high: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at line 6]
+incr_expr_fun.ads:9:13: info: implicit aspect Always_Terminates on "Incr_Pub_Priv" has been proved, subprogram will terminate
+incr_expr_fun.ads:11:13: info: implicit aspect Always_Terminates on "Incr_Pub_Body" has been proved, subprogram will terminate
+incr_expr_fun.ads:13:14: warning: subprogram "Test" has no effect
+incr_expr_fun.ads:15:62: high: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at line 9]
+incr_expr_fun.ads:17:13: info: implicit aspect Always_Terminates on "Incr_Priv" has been proved, subprogram will terminate
+incr_expr_fun.ads:17:58: medium: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at line 17]
+incr_expr_fun.ads:19:13: info: implicit aspect Always_Terminates on "Incr_Priv_Priv" has been proved, subprogram will terminate
+incr_expr_fun.ads:20:63: high: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: add precondition (X <= Integer'Last - 1) to subprogram at line 19]
+incr_expr_fun.ads:22:13: info: implicit aspect Always_Terminates on "Incr_Priv_Body" has been proved, subprogram will terminate

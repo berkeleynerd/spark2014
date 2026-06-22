@@ -1,0 +1,31 @@
+============================
+Most difficult proved checks
+============================
+
+No check found with max time greater than 1 second
+
+========================
+Detailed analysis report
+========================
+
+Analyzed 6 units
+in unit main, 1 subprograms and packages out of 1 analyzed
+flow analysis and proof skipped for this unit (only SPARK_Mode checking was requested)
+ Main at main.adb:7 not analyzed
+in unit u1, 1 subprograms and packages out of 1 analyzed
+flow analysis and proof skipped for this unit (only SPARK_Mode checking was requested)
+ U1 at u1.ads:1 not analyzed
+in unit u2, 1 subprograms and packages out of 1 analyzed
+flow analysis and proof skipped for this unit (only SPARK_Mode checking was requested)
+ U2 at u2.ads:3 not analyzed
+in unit u3, 1 subprograms and packages out of 1 analyzed
+flow analysis and proof skipped for this unit (only SPARK_Mode checking was requested)
+ U3 at u3.ads:1 not analyzed
+in unit u4, 1 subprograms and packages out of 1 analyzed
+flow analysis and proof skipped for this unit (only SPARK_Mode checking was requested)
+ U4 at u4.ads:1 not analyzed
+in unit u5, 3 subprograms and packages out of 3 analyzed
+flow analysis and proof skipped for this unit (only SPARK_Mode checking was requested)
+ u5 at u5.ads:1 not analyzed
+ u5.s5_1 at u5.ads:3 not analyzed
+ u5.s5_2 at u5.ads:5 not analyzed

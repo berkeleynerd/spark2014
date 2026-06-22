@@ -1,0 +1,4 @@
+large: True
+prove_all:
+  sparklib: True
+  opt: ["-u", "lexer.adb"]

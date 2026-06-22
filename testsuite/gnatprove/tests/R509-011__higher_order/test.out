@@ -1,0 +1,64 @@
+test_higher_order.adb:6:22: info: assertion proved (CVC5: 1 VC)
+test_higher_order.adb:6:27: info: precondition proved (CVC5: 1 VC; Trivial: 1 VC)
+test_higher_order.adb:11:22: info: assertion proved (CVC5: 1 VC)
+test_higher_order.adb:16:22: info: assertion proved (Trivial: 1 VC; altergo: 1 VC)
+test_higher_order.adb:16:54: info: index check proved (CVC5: 2 VC)
+test_higher_order.adb:17:54: info: index check proved (CVC5: 2 VC)
+test_higher_order.adb:19:22: info: assertion proved (altergo: 1 VC)
+test_higher_order.adb:19:28: info: precondition proved (Trivial: 1 VC; altergo: 1 VC)
+test_higher_order.adb:19:45: info: index check proved (CVC5: 2 VC)
+test_higher_order.adb:20:45: info: index check proved (CVC5: 2 VC)
+test_higher_order.adb:25:22: info: assertion proved (altergo: 1 VC)
+test_higher_order.adb:25:45: info: index check proved (CVC5: 2 VC)
+test_higher_order.adb:26:45: info: index check proved (CVC5: 2 VC)
+test_higher_order.adb:27:45: info: index check proved (CVC5: 2 VC)
+test_higher_order.ads:9:13: info: implicit aspect Always_Terminates on "Small_Enough" has been proved, subprogram will terminate
+test_higher_order.ads:12:13: info: implicit aspect Always_Terminates on "Add_One" has been proved, subprogram will terminate
+test_higher_order.ads:12:56: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:15:13: info: implicit aspect Always_Terminates on "Add_All" has been proved, subprogram will terminate
+test_higher_order.ads:24:13: info: implicit aspect Always_Terminates on "A_Small_Enough" has been proved, subprogram will terminate
+test_higher_order.ads:40:13: info: implicit aspect Always_Terminates on "In_Range" has been proved, subprogram will terminate
+test_higher_order.ads:42:27: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:42:33: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:42:38: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:42:48: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:42:69: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:42:75: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:42:80: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:42:90: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:45:13: info: implicit aspect Always_Terminates on "Result_In_Range" has been proved, subprogram will terminate
+test_higher_order.ads:45:30: warning: unused variable "A"
+test_higher_order.ads:45:51: warning: unused variable "X"
+test_higher_order.ads:58:13: info: implicit aspect Always_Terminates on "In_Range" has been proved, subprogram will terminate
+test_higher_order.ads:60:26: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:60:32: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:60:47: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:60:52: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:60:55: info: range check proved (CVC5: 2 VC)
+test_higher_order.ads:60:67: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:60:80: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:60:84: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:61:31: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:61:37: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:61:52: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:61:57: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:61:60: info: range check proved (CVC5: 2 VC)
+test_higher_order.ads:61:72: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:61:85: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:61:89: info: overflow check proved (CVC5: 2 VC)
+test_higher_order.ads:63:14: info: postcondition proved (CVC5: 2 VC; Trivial: 1 VC)
+test_higher_order.ads:65:13: info: implicit aspect Always_Terminates on "Result_In_Range" has been proved, subprogram will terminate
+test_higher_order.ads:65:30: warning: unused variable "A"
+test_higher_order.ads:65:42: warning: unused variable "X"
+test_higher_order.ads:77:13: info: implicit aspect Always_Terminates on "Id" has been proved, subprogram will terminate
+test_higher_order.ads:79:13: info: implicit aspect Always_Terminates on "In_Range" has been proved, subprogram will terminate
+test_higher_order.ads:81:10: info: predicate check proved (Trivial: 1 VC)
+test_higher_order.ads:83:04: info: expression function body of subprograms with a numeric variant might not be available on recursive calls
+test_higher_order.ads:83:04: info: in instantiation at spark-higher_order-fold.ads:383
+test_higher_order.ads:94:14: warning: subprogram "Test1" has no effect
+test_higher_order.ads:96:13: info: implicit aspect Always_Terminates on "Is_Pos" has been proved, subprogram will terminate
+test_higher_order.ads:104:14: warning: subprogram "Test2" has no effect
+test_higher_order.ads:106:04: info: expression function body of subprograms with a numeric variant might not be available on recursive calls
+test_higher_order.ads:106:04: info: in instantiation at spark-higher_order-fold.ads:706
+test_higher_order.ads:118:14: warning: subprogram "Test3" has no effect
+test_higher_order.ads:127:14: warning: subprogram "Test4" has no effect

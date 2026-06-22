@@ -1,0 +1,114 @@
+module Perm__index
+ use "_gnatprove_standard".Main
+ use "_gnatprove_standard".Integer as Integer
+ use "int".Int
+
+ type index
+
+ val constant first :int
+ ensures { result = 1 }
+
+ val constant last :int
+ ensures { result = 100 }
+
+ predicate in_range (x : int)  = 1 <= x <= 100
+
+ (* Copy of the model of modules for static discrete types *)
+ clone export "ada__model".Static_Discrete with
+ axiom .,
+ type t = index,
+ function first = first,
+ function last = last,
+ predicate in_range = in_range
+
+ predicate dynamic_invariant (expr : int) bool bool bool bool =
+  dynamic_property first last expr
+
+ predicate default_initial_assumption int bool = true
+end
+
+module Perm__index__rep
+ use Perm__index
+ use "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Int with
+   axiom .,
+   type t = index,
+   predicate in_range = in_range
+
+ meta "model_projection" function to_rep
+
+ meta "inline:no" function to_rep
+end
+
+module Perm__nat_array
+ use "_gnatprove_standard".Main
+ use Standard__natural as Standard__natural
+ use Standard__integer as Standard__integer
+ use Standard__integer__rep as Standard__integer__rep
+ use Perm__index as Perm__index
+ use "_gnatprove_standard".Integer as Integer
+ use "int".Int
+ use  Array__Int__Standard__natural as Array__Int__Standard__natural
+
+ type component_type =
+  Standard__natural.natural
+
+ function index_1_id
+   (x : int)  :int =
+  x
+
+ (* Copy of the model of modules for unconstrained array types *)
+ clone export "ada__model".Unconstr_Array with
+ axiom .,
+ type map = Array__Int__Standard__natural.map,
+ function array_bool_eq = Array__Int__Standard__natural.bool_eq,
+ type index_base_type = Standard__integer.integer,
+ type index_rep_type = int,
+ function to_rep = Standard__integer__rep.to_rep,
+ function rep_to_int = index_1_id,
+ predicate in_range_base = Standard__integer.in_range,
+ predicate index_dynamic_property = Perm__index.dynamic_property,
+ predicate index_rep_le = Int.(<=)
+
+ type nat_array  = __t
+
+ predicate dynamic_invariant (expr : nat_array) bool (skip_bounds : bool) bool bool  =
+  (if skip_bounds then true else
+    dynamic_property Perm__index.first Perm__index.last (first expr) (last expr))
+end
+
+module Perm__is_perm
+  use "_gnatprove_standard".Main
+  use int.Int
+  use Standard__natural
+  use Perm__nat_array
+  use Array__Int__Standard__natural
+
+  (* Number of occurrences of v in a *)
+  function occ (v: natural) (a: nat_array) : int
+
+  axiom occ_empty:
+    forall v: natural, a: nat_array.
+    last a < first a -> occ v a = 0
+
+  axiom occ_set:
+    forall e v: natural, a : nat_array, i: int.
+      let b = of_array (set (to_array a) i v) (first a) (last a) in
+        first a <= i <= last a ->
+          (get (to_array a) i <> e ->
+            (v <> e -> occ e b = occ e a) /\
+            (v = e  -> occ e b = (occ e a) + 1)) /\
+          (get (to_array a) i = e ->
+            (v <> e -> occ e b = (occ e a) - 1) /\
+            (v = e  -> occ e b = occ e a))
+
+ function is_perm__logic [@inline] (a b : nat_array) : bool =
+    forall v: natural. occ v a = occ v b
+ val is_perm__logic (a b : nat_array) : bool
+  ensures { result = (forall v: natural. occ v a = occ v b) }
+
+ val is_perm (a : nat_array) (b : nat_array) : bool
+  ensures { result = is_perm__logic a b }
+
+end

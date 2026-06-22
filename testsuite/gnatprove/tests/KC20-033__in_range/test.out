@@ -1,0 +1,10 @@
+p.adb:8:13: info: implicit aspect Always_Terminates on "Ident" has been proved, subprogram will terminate
+p.adb:16:13: info: implicit aspect Always_Terminates on "Ident" has been proved, subprogram will terminate
+p.adb:24:13: info: implicit aspect Always_Terminates on "Ident" has been proved, subprogram will terminate
+p.adb:32:13: info: implicit aspect Always_Terminates on "Ident" has been proved, subprogram will terminate
+p.adb:40:13: info: implicit aspect Always_Terminates on "Ident" has been proved, subprogram will terminate
+p.adb:48:19: info: precondition proved (CVC5: 2 VC)
+p.adb:49:19: info: precondition proved (CVC5: 2 VC)
+p.adb:50:19: info: precondition proved (CVC5: 2 VC)
+p.adb:51:19: info: precondition proved (CVC5: 2 VC)
+p.adb:52:19: info: precondition proved (CVC5: 2 VC)

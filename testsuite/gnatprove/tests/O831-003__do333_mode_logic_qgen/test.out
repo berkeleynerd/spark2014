@@ -1,0 +1,914 @@
+ap_engaged_implies_modes_on.adb:26:07: info: initialization of "Unit_Delay_out1" proved
+ap_engaged_implies_modes_on.adb:27:07: info: initialization of "Is_AP_Engaged_out1" proved
+ap_engaged_implies_modes_on.adb:28:07: info: initialization of "Modes_On_out1" proved
+ap_engaged_implies_modes_on.adb:29:07: info: initialization of "NOT1_out1" proved
+ap_engaged_implies_modes_on.adb:30:07: info: initialization of "NOT5_out1" proved
+ap_engaged_implies_modes_on.adb:31:07: info: initialization of "OR_out1" proved
+ap_engaged_implies_modes_on.adb:64:22: high: assertion might fail [user message: Violation of assertion at block Mode_Logic_Props/Requirements/AP_Engaged_Implies_Modes_On/My_Assertion] (e.g. when OR_out1 = False)
+at_least_one_lateral_mode_active.adb:23:07: info: initialization of "HDG_Active_out1" proved
+at_least_one_lateral_mode_active.adb:24:07: info: initialization of "LAPPR_Active_out1" proved
+at_least_one_lateral_mode_active.adb:25:07: info: initialization of "LGA_Active_out1" proved
+at_least_one_lateral_mode_active.adb:26:07: info: initialization of "NAV_Active_out1" proved
+at_least_one_lateral_mode_active.adb:27:07: info: initialization of "ROLL_Active_out1" proved
+at_least_one_lateral_mode_active.adb:28:07: info: initialization of "OR_out1" proved
+at_least_one_lateral_mode_active.adb:59:22: high: assertion might fail [user message: Violation of assertion at block Mode_Logic_Props/Requirements/At_Least_One_Lateral_Mode_Active/My_Assertion] (e.g. when OR_out1 = False)
+at_least_one_lateral_mode_active.ads:15:14: warning: subprogram "comp" has no effect
+at_most_one_lateral_mode_active.adb:23:07: info: initialization of "HDG_Active_out1" proved
+at_most_one_lateral_mode_active.adb:24:07: info: initialization of "LAPPR_Active_out1" proved
+at_most_one_lateral_mode_active.adb:25:07: info: initialization of "LGA_Active_out1" proved
+at_most_one_lateral_mode_active.adb:26:07: info: initialization of "NAV_Active_out1" proved
+at_most_one_lateral_mode_active.adb:27:07: info: initialization of "ROLL_Active_out1" proved
+at_most_one_lateral_mode_active.adb:28:07: info: initialization of "NOR_LGA_out1" proved
+at_most_one_lateral_mode_active.adb:29:07: info: initialization of "NOT1_out1" proved
+at_most_one_lateral_mode_active.adb:30:07: info: initialization of "NOT5_out1" proved
+at_most_one_lateral_mode_active.adb:31:07: info: initialization of "NOR_LAPPR_out1" proved
+at_most_one_lateral_mode_active.adb:32:07: info: initialization of "NOT1_out1_1" proved
+at_most_one_lateral_mode_active.adb:33:07: info: initialization of "NOT5_out1_1" proved
+at_most_one_lateral_mode_active.adb:34:07: info: initialization of "NOR_NAV_out1" proved
+at_most_one_lateral_mode_active.adb:35:07: info: initialization of "NOT1_out1_2" proved
+at_most_one_lateral_mode_active.adb:36:07: info: initialization of "NOT5_out1_2" proved
+at_most_one_lateral_mode_active.adb:37:07: info: initialization of "NOR_HDG_out1" proved
+at_most_one_lateral_mode_active.adb:38:07: info: initialization of "NOT1_out1_3" proved
+at_most_one_lateral_mode_active.adb:39:07: info: initialization of "NOT5_out1_3" proved
+at_most_one_lateral_mode_active.adb:40:07: info: initialization of "NOR_ROLL_out1" proved
+at_most_one_lateral_mode_active.adb:41:07: info: initialization of "NOT1_out1_4" proved
+at_most_one_lateral_mode_active.adb:42:07: info: initialization of "NOT5_out1_4" proved
+at_most_one_lateral_mode_active.adb:43:07: info: initialization of "AND_out1" proved
+at_most_one_lateral_mode_active.adb:154:22: high: assertion might fail [user message: Violation of assertion at block Mode_Logic_Props/Requirements/At_Most_One_Lateral_Mode_Active/My_Assertion] (e.g. when AND_out1 = False)
+at_most_one_lateral_mode_active.ads:15:14: warning: subprogram "comp" has no effect
+changed.adb:31:07: info: initialization of "Unit_Delay_out1" proved
+changed.adb:32:07: info: initialization of "NEQ_out1" proved
+changed.ads:21:08: info: initialization of "Out1" proved
+event_processing.adb:126:07: info: initialization of "ALTSEL_Capture_Cond_Met_out1" proved
+event_processing.adb:127:07: info: initialization of "ALTSEL_Target_Changed_out1" proved
+event_processing.adb:128:07: info: initialization of "ALTSEL_Track_Cond_Met_out1" proved
+event_processing.adb:129:07: info: initialization of "ALT_Switch_out1" proved
+event_processing.adb:130:07: info: initialization of "APPR_Switch_out1" proved
+event_processing.adb:131:07: info: initialization of "AP_Engaged_out1" proved
+event_processing.adb:132:07: info: initialization of "FD_Switch_out1" proved
+event_processing.adb:133:07: info: initialization of "FLC_Switch_out1" proved
+event_processing.adb:134:07: info: initialization of "GA_Switch_out1" proved
+event_processing.adb:135:07: info: initialization of "HDG_Switch_out1" proved
+event_processing.adb:136:07: info: initialization of "Is_Pilot_Flying_Side_out1" proved
+event_processing.adb:137:07: info: initialization of "Changed_Out1" proved
+event_processing.adb:138:07: info: initialization of "LAPPR_Capture_Cond_Met_out1" proved
+event_processing.adb:139:07: info: initialization of "NAV_Capture_Cond_Met_out1" proved
+event_processing.adb:140:07: info: initialization of "NAV_Switch_out1" proved
+event_processing.adb:141:07: info: initialization of "Rising_Edge_Out1" proved
+event_processing.adb:142:07: info: initialization of "Rising_Edge_1_Out1" proved
+event_processing.adb:143:07: info: initialization of "Rising_Edge_2_Out1" proved
+event_processing.adb:144:07: info: initialization of "Rising_Edge_3_Out1" proved
+event_processing.adb:145:07: info: initialization of "Rising_Edge_4_Out1" proved
+event_processing.adb:146:07: info: initialization of "Rising_Edge_5_Out1" proved
+event_processing.adb:147:07: info: initialization of "Rising_Edge_6_Out1" proved
+event_processing.adb:148:07: info: initialization of "Rising_Edge_7_Out1" proved
+event_processing.adb:149:07: info: initialization of "Rising_Edge_8_Out1" proved
+event_processing.adb:150:07: info: initialization of "SYNC_Switch_out1" proved
+event_processing.adb:151:07: info: initialization of "Rising_Edge_9_Out1" proved
+event_processing.adb:152:07: info: initialization of "VAPPR_Capture_Cond_Met_out1" proved
+event_processing.adb:153:07: info: initialization of "VS_Pitch_Wheel_Rotated_out1" proved
+event_processing.adb:154:07: info: initialization of "Rising_Edge_11_Out1" proved
+event_processing.adb:155:07: info: initialization of "VS_Switch_out1" proved
+event_processing.adb:156:07: info: initialization of "Rising_Edge_10_Out1" proved
+event_processing.adb:157:07: info: initialization of "False_out1" proved
+event_processing.adb:158:07: info: initialization of "Seen_13_Seen" proved
+event_processing.adb:159:07: info: initialization of "Seen_13_Inhibit_Out" proved
+event_processing.adb:160:07: info: initialization of "Seen_8_Seen" proved
+event_processing.adb:161:07: info: initialization of "Seen_8_Inhibit_Out" proved
+event_processing.adb:162:07: info: initialization of "Seen_4_Seen" proved
+event_processing.adb:163:07: info: initialization of "Seen_4_Inhibit_Out" proved
+event_processing.adb:164:07: info: initialization of "Seen_1_Seen" proved
+event_processing.adb:165:07: info: initialization of "Seen_1_Inhibit_Out" proved
+event_processing.adb:166:07: info: initialization of "Seen_3_Seen" proved
+event_processing.adb:167:07: info: initialization of "Seen_3_Inhibit_Out" proved
+event_processing.adb:168:07: info: initialization of "Seen_7_Seen" proved
+event_processing.adb:169:07: info: initialization of "Seen_7_Inhibit_Out" proved
+event_processing.adb:170:07: info: initialization of "Seen_16_Seen" proved
+event_processing.adb:171:07: info: initialization of "Seen_16_Inhibit_Out" proved
+event_processing.adb:172:07: info: initialization of "Seen_15_Seen" proved
+event_processing.adb:173:07: info: initialization of "Seen_15_Inhibit_Out" proved
+event_processing.adb:174:07: info: initialization of "Seen_9_Seen" proved
+event_processing.adb:175:07: info: initialization of "Seen_9_Inhibit_Out" proved
+event_processing.adb:176:07: info: initialization of "Seen_12_Seen" proved
+event_processing.adb:177:07: info: initialization of "Seen_12_Inhibit_Out" proved
+event_processing.adb:178:07: info: initialization of "False1_out1" proved
+event_processing.adb:179:07: info: initialization of "Seen_5_Seen" proved
+event_processing.adb:180:07: info: initialization of "Seen_5_Inhibit_Out" proved
+event_processing.adb:181:07: info: initialization of "OR3_out1" proved
+event_processing.adb:182:07: info: initialization of "Seen_6_Seen" proved
+event_processing.adb:183:07: info: initialization of "Seen_6_Inhibit_Out" proved
+event_processing.adb:184:07: info: initialization of "Seen_10_Seen" proved
+event_processing.adb:185:07: info: initialization of "Seen_10_Inhibit_Out" proved
+event_processing.adb:186:07: info: initialization of "Seen_11_Seen" proved
+event_processing.adb:189:07: info: initialization of "Seen_14_Seen" proved
+event_processing.adb:190:07: info: initialization of "Seen_14_Inhibit_Out" proved
+event_processing.adb:191:07: info: initialization of "Seen_2_Seen" proved
+event_processing.adb:192:07: info: initialization of "Seen_2_Inhibit_Out" proved
+event_processing.adb:193:07: info: initialization of "Seen_Seen" proved
+event_processing.adb:440:80: warning: aspect Unreferenced specified for "Seen_11_Inhibit_Out" [enabled by default]
+event_processing.adb:464:79: warning: aspect Unreferenced specified for "Seen_Inhibit_Out" [enabled by default]
+event_processing.ads:38:08: info: initialization of "When_Pilot_Fllying_Transfer_Seen" proved
+event_processing.ads:39:08: info: initialization of "When_AP_Engaged_Seen" proved
+event_processing.ads:40:08: info: initialization of "When_SYNC_Switch_Pressed_Seen" proved
+event_processing.ads:41:08: info: initialization of "When_FD_Switch_Pressed_Seen" proved
+event_processing.ads:42:08: info: initialization of "When_HDG_Switch_Pressed_Seen" proved
+event_processing.ads:43:08: info: initialization of "When_NAV_Switch_Pressed_Seen" proved
+event_processing.ads:44:08: info: initialization of "When_APPR_Switch_Pressed_Seen" proved
+event_processing.ads:45:08: info: initialization of "When_GA_Switch_Pressed_Seen" proved
+event_processing.ads:46:08: info: initialization of "When_VS_Switch_Pressed_Seen" proved
+event_processing.ads:47:08: info: initialization of "When_FLC_Switch_Pressed_Seen" proved
+event_processing.ads:48:08: info: initialization of "When_ALT_Switch_Pressed_Seen" proved
+event_processing.ads:49:08: info: initialization of "When_VS_Pitch_Wheel_Rotated_Seen" proved
+event_processing.ads:50:08: info: initialization of "When_ALTSEL_Target_Changed_Seen" proved
+event_processing.ads:51:08: info: initialization of "If_NAV_Capture_Cond_Met_Seen" proved
+event_processing.ads:52:08: info: initialization of "If_LAPPR_Capture_Cond_Met_Seen" proved
+event_processing.ads:53:08: info: initialization of "If_ALTSEL_Capture_Cond_Met_Seen" proved
+event_processing.ads:54:08: info: initialization of "If_ALTSEL_Track_Cond_Met_Seen" proved
+event_processing.ads:55:08: info: initialization of "If_VAPPR_Capture_Cond_Met_Seen" proved
+flight_modes.adb:149:13: info: implicit aspect Always_Terminates on "FD_Turn_FD_On" has been proved, subprogram will terminate
+flight_modes.adb:151:13: info: implicit aspect Always_Terminates on "FD_Turn_FD_Off" has been proved, subprogram will terminate
+flight_modes.adb:153:13: info: implicit aspect Always_Terminates on "FD_Lateral_Mode_Manually_Selected" has been proved, subprogram will terminate
+flight_modes.adb:155:13: info: implicit aspect Always_Terminates on "FD_Vertical_Mode_Manually_Selected" has been proved, subprogram will terminate
+flight_modes.adb:157:13: info: implicit aspect Always_Terminates on "ANNUNCIATIONS_Turn_Annunciations_On" has been proved, subprogram will terminate
+flight_modes.adb:159:13: info: implicit aspect Always_Terminates on "ANNUNCIATIONS_Turn_Annunciations_Off" has been proved, subprogram will terminate
+flight_modes.adb:161:13: info: implicit aspect Always_Terminates on "INDEPENDENT_In_Independent_Mode" has been proved, subprogram will terminate
+flight_modes.adb:163:13: info: implicit aspect Always_Terminates on "ACTIVE_In_Active_Mode" has been proved, subprogram will terminate
+flight_modes.adb:165:13: info: implicit aspect Always_Terminates on "LATERAL_HDG_Select" has been proved, subprogram will terminate
+flight_modes.adb:167:13: info: implicit aspect Always_Terminates on "LATERAL_HDG_Clear" has been proved, subprogram will terminate
+flight_modes.adb:169:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:169:13: info: implicit aspect Always_Terminates on "LATERAL_HDG_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:169:13: info: local subprogram "LATERAL_HDG_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:171:13: info: implicit aspect Always_Terminates on "LATERAL_NAV_Select" has been proved, subprogram will terminate
+flight_modes.adb:173:13: info: implicit aspect Always_Terminates on "LATERAL_NAV_Capture" has been proved, subprogram will terminate
+flight_modes.adb:175:13: info: implicit aspect Always_Terminates on "LATERAL_NAV_Clear" has been proved, subprogram will terminate
+flight_modes.adb:177:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:177:13: info: implicit aspect Always_Terminates on "LATERAL_NAV_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:177:13: info: local subprogram "LATERAL_NAV_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:179:13: info: implicit aspect Always_Terminates on "LATERAL_LAPPR_Select" has been proved, subprogram will terminate
+flight_modes.adb:181:13: info: implicit aspect Always_Terminates on "LATERAL_LAPPR_Capture" has been proved, subprogram will terminate
+flight_modes.adb:183:13: info: implicit aspect Always_Terminates on "LATERAL_LAPPR_Clear" has been proved, subprogram will terminate
+flight_modes.adb:185:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:185:13: info: implicit aspect Always_Terminates on "LATERAL_LAPPR_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:185:13: info: local subprogram "LATERAL_LAPPR_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:187:13: info: implicit aspect Always_Terminates on "LATERAL_LGA_Select" has been proved, subprogram will terminate
+flight_modes.adb:189:13: info: implicit aspect Always_Terminates on "LATERAL_LGA_Clear" has been proved, subprogram will terminate
+flight_modes.adb:191:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:191:13: info: implicit aspect Always_Terminates on "LATERAL_LGA_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:191:13: info: local subprogram "LATERAL_LGA_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:195:13: info: implicit aspect Always_Terminates on "LATERAL_Lateral_Mode_Active" has been proved, subprogram will terminate
+flight_modes.adb:197:13: info: implicit aspect Always_Terminates on "LATERAL_New_Lateral_Mode_Activated" has been proved, subprogram will terminate
+flight_modes.adb:199:13: info: implicit aspect Always_Terminates on "VERTICAL_VS_Select" has been proved, subprogram will terminate
+flight_modes.adb:201:13: info: implicit aspect Always_Terminates on "VERTICAL_VS_Clear" has been proved, subprogram will terminate
+flight_modes.adb:203:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:203:13: info: implicit aspect Always_Terminates on "VERTICAL_VS_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:203:13: info: local subprogram "VERTICAL_VS_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:205:13: info: implicit aspect Always_Terminates on "VERTICAL_FLC_Select" has been proved, subprogram will terminate
+flight_modes.adb:207:13: info: implicit aspect Always_Terminates on "VERTICAL_FLC_Clear" has been proved, subprogram will terminate
+flight_modes.adb:209:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:209:13: info: implicit aspect Always_Terminates on "VERTICAL_FLC_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:209:13: info: local subprogram "VERTICAL_FLC_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:211:13: info: implicit aspect Always_Terminates on "VERTICAL_ALT_Select" has been proved, subprogram will terminate
+flight_modes.adb:213:13: info: implicit aspect Always_Terminates on "VERTICAL_ALT_Clear" has been proved, subprogram will terminate
+flight_modes.adb:215:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:215:13: info: implicit aspect Always_Terminates on "VERTICAL_ALT_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:215:13: info: local subprogram "VERTICAL_ALT_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:217:13: info: implicit aspect Always_Terminates on "VERTICAL_VAPPR_Select" has been proved, subprogram will terminate
+flight_modes.adb:219:13: info: implicit aspect Always_Terminates on "VERTICAL_VAPPR_Capture" has been proved, subprogram will terminate
+flight_modes.adb:221:13: info: implicit aspect Always_Terminates on "VERTICAL_VAPPR_Clear" has been proved, subprogram will terminate
+flight_modes.adb:223:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:223:13: info: implicit aspect Always_Terminates on "VERTICAL_VAPPR_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:223:13: info: local subprogram "VERTICAL_VAPPR_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:225:13: info: implicit aspect Always_Terminates on "VERTICAL_VGA_Select" has been proved, subprogram will terminate
+flight_modes.adb:227:13: info: implicit aspect Always_Terminates on "VERTICAL_VGA_Clear" has been proved, subprogram will terminate
+flight_modes.adb:229:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:229:13: info: implicit aspect Always_Terminates on "VERTICAL_VGA_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:229:13: info: local subprogram "VERTICAL_VGA_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:231:13: info: implicit aspect Always_Terminates on "VERTICAL_ALTSEL_Select" has been proved, subprogram will terminate
+flight_modes.adb:233:13: info: implicit aspect Always_Terminates on "VERTICAL_ALTSEL_Capture" has been proved, subprogram will terminate
+flight_modes.adb:235:13: info: implicit aspect Always_Terminates on "VERTICAL_ALTSEL_Track" has been proved, subprogram will terminate
+flight_modes.adb:237:13: info: implicit aspect Always_Terminates on "VERTICAL_ALTSEL_Deactivate" has been proved, subprogram will terminate
+flight_modes.adb:239:13: info: implicit aspect Always_Terminates on "VERTICAL_ALTSEL_Clear" has been proved, subprogram will terminate
+flight_modes.adb:241:13: info: add a contract to analyze it separately from calling contexts
+flight_modes.adb:241:13: info: implicit aspect Always_Terminates on "VERTICAL_ALTSEL_Will_Be_Activated" has been proved, subprogram will terminate
+flight_modes.adb:241:13: info: local subprogram "VERTICAL_ALTSEL_Will_Be_Activated" only analyzed in the context of calls
+flight_modes.adb:245:13: info: implicit aspect Always_Terminates on "VERTICAL_New_Vertical_Mode_Activated" has been proved, subprogram will terminate
+flight_modes.adb:247:13: info: implicit aspect Always_Terminates on "VERTICAL_Vertical_Mode_Active" has been proved, subprogram will terminate
+flight_modes.adb:535:43: warning: unused assignment
+flight_modes.adb:536:43: warning: unused assignment
+flight_modes.adb:537:45: warning: unused assignment
+flight_modes.adb:538:43: warning: unused assignment
+flight_modes.adb:539:10: info: no contextual analysis of "LATERAL_Update_Activated_Modes" (body not seen yet)
+flight_modes.adb:578:43: warning: unused assignment
+flight_modes.adb:579:44: warning: unused assignment
+flight_modes.adb:582:46: warning: unused assignment
+flight_modes.adb:583:44: warning: unused assignment
+flight_modes.adb:584:10: info: no contextual analysis of "VERTICAL_Update_Activated_Modes" (body not seen yet)
+flight_modes.adb:642:16: info: no contextual analysis of "FD_Turn_FD_Off" (body not seen yet)
+flight_modes.adb:656:19: info: no contextual analysis of "FD_Turn_FD_On" (body not seen yet)
+flight_modes.adb:672:16: info: no contextual analysis of "ANNUNCIATIONS_Turn_Annunciations_Off" (body not seen yet)
+flight_modes.adb:686:19: info: no contextual analysis of "ANNUNCIATIONS_Turn_Annunciations_On" (body not seen yet)
+flight_modes.adb:702:22: info: no contextual analysis of "INDEPENDENT_In_Independent_Mode" (body not seen yet)
+flight_modes.adb:716:19: info: no contextual analysis of "INDEPENDENT_In_Independent_Mode" (body not seen yet)
+flight_modes.adb:732:22: info: no contextual analysis of "ACTIVE_In_Active_Mode" (body not seen yet)
+flight_modes.adb:746:19: info: no contextual analysis of "ACTIVE_In_Active_Mode" (body not seen yet)
+flight_modes.adb:761:10: info: no contextual analysis of "LATERAL_Update_Activated_Modes" (body not seen yet)
+flight_modes.adb:765:16: info: no contextual analysis of "LATERAL_HDG_Clear" (body not seen yet)
+flight_modes.adb:787:22: info: no contextual analysis of "LATERAL_New_Lateral_Mode_Activated" (body not seen yet)
+flight_modes.adb:809:19: info: no contextual analysis of "LATERAL_HDG_Select" (body not seen yet)
+flight_modes.adb:829:16: info: no contextual analysis of "LATERAL_NAV_Clear" (body not seen yet)
+flight_modes.adb:859:22: info: no contextual analysis of "LATERAL_New_Lateral_Mode_Activated" (body not seen yet)
+flight_modes.adb:877:25: info: no contextual analysis of "LATERAL_NAV_Capture" (body not seen yet)
+flight_modes.adb:897:19: info: no contextual analysis of "LATERAL_NAV_Select" (body not seen yet)
+flight_modes.adb:916:16: info: no contextual analysis of "LATERAL_LAPPR_Clear" (body not seen yet)
+flight_modes.adb:946:22: info: no contextual analysis of "LATERAL_New_Lateral_Mode_Activated" (body not seen yet)
+flight_modes.adb:964:25: info: no contextual analysis of "LATERAL_LAPPR_Capture" (body not seen yet)
+flight_modes.adb:984:19: info: no contextual analysis of "LATERAL_LAPPR_Select" (body not seen yet)
+flight_modes.adb:1003:16: info: no contextual analysis of "LATERAL_LGA_Clear" (body not seen yet)
+flight_modes.adb:1025:22: info: no contextual analysis of "LATERAL_New_Lateral_Mode_Activated" (body not seen yet)
+flight_modes.adb:1047:19: info: no contextual analysis of "LATERAL_LGA_Select" (body not seen yet)
+flight_modes.adb:1069:19: info: no contextual analysis of "LATERAL_Lateral_Mode_Active" (body not seen yet)
+flight_modes.adb:1089:25: info: no contextual analysis of "LATERAL_Lateral_Mode_Active" (body not seen yet)
+flight_modes.adb:1108:10: info: no contextual analysis of "VERTICAL_Update_Activated_Modes" (body not seen yet)
+flight_modes.adb:1112:16: info: no contextual analysis of "VERTICAL_VS_Clear" (body not seen yet)
+flight_modes.adb:1134:22: info: no contextual analysis of "VERTICAL_New_Vertical_Mode_Activated" (body not seen yet)
+flight_modes.adb:1156:19: info: no contextual analysis of "VERTICAL_VS_Select" (body not seen yet)
+flight_modes.adb:1176:16: info: no contextual analysis of "VERTICAL_FLC_Clear" (body not seen yet)
+flight_modes.adb:1198:22: info: no contextual analysis of "VERTICAL_New_Vertical_Mode_Activated" (body not seen yet)
+flight_modes.adb:1220:19: info: no contextual analysis of "VERTICAL_FLC_Select" (body not seen yet)
+flight_modes.adb:1240:16: info: no contextual analysis of "VERTICAL_ALT_Clear" (body not seen yet)
+flight_modes.adb:1262:22: info: no contextual analysis of "VERTICAL_New_Vertical_Mode_Activated" (body not seen yet)
+flight_modes.adb:1284:19: info: no contextual analysis of "VERTICAL_ALT_Select" (body not seen yet)
+flight_modes.adb:1304:16: info: no contextual analysis of "VERTICAL_VAPPR_Clear" (body not seen yet)
+flight_modes.adb:1334:22: info: no contextual analysis of "VERTICAL_New_Vertical_Mode_Activated" (body not seen yet)
+flight_modes.adb:1352:25: info: no contextual analysis of "VERTICAL_VAPPR_Capture" (body not seen yet)
+flight_modes.adb:1372:19: info: no contextual analysis of "VERTICAL_VAPPR_Select" (body not seen yet)
+flight_modes.adb:1391:16: info: no contextual analysis of "VERTICAL_VGA_Clear" (body not seen yet)
+flight_modes.adb:1413:22: info: no contextual analysis of "VERTICAL_New_Vertical_Mode_Activated" (body not seen yet)
+flight_modes.adb:1435:19: info: no contextual analysis of "VERTICAL_VGA_Select" (body not seen yet)
+flight_modes.adb:1455:16: info: no contextual analysis of "VERTICAL_ALTSEL_Clear" (body not seen yet)
+flight_modes.adb:1503:22: info: no contextual analysis of "VERTICAL_ALTSEL_Deactivate" (body not seen yet)
+flight_modes.adb:1533:28: info: no contextual analysis of "VERTICAL_ALTSEL_Track" (body not seen yet)
+flight_modes.adb:1551:25: info: no contextual analysis of "VERTICAL_ALTSEL_Capture" (body not seen yet)
+flight_modes.adb:1574:19: info: no contextual analysis of "VERTICAL_ALTSEL_Select" (body not seen yet)
+flight_modes.adb:1595:19: info: no contextual analysis of "VERTICAL_Vertical_Mode_Active" (body not seen yet)
+flight_modes.adb:1615:25: info: no contextual analysis of "VERTICAL_Vertical_Mode_Active" (body not seen yet)
+flight_modes.adb:1669:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1670:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:1671:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:1672:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:1673:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:1674:07: warning: initialization of "aVarTruthTableCondition_6" has no effect
+flight_modes.adb:1675:07: warning: initialization of "aVarTruthTableCondition_7" has no effect
+flight_modes.adb:1676:07: warning: initialization of "aVarTruthTableCondition_8" has no effect
+flight_modes.adb:1677:07: warning: initialization of "r" has no effect
+flight_modes.adb:1682:36: info: no contextual analysis of "FD_Lateral_Mode_Manually_Selected" (body not seen yet)
+flight_modes.adb:1683:36: info: no contextual analysis of "FD_Vertical_Mode_Manually_Selected" (body not seen yet)
+flight_modes.adb:1732:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1733:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:1734:07: warning: initialization of "r" has no effect
+flight_modes.adb:1752:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1753:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:1754:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:1755:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:1756:07: warning: initialization of "r" has no effect
+flight_modes.adb:1792:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1793:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:1794:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:1795:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:1796:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:1797:07: warning: initialization of "aVarTruthTableCondition_6" has no effect
+flight_modes.adb:1798:07: warning: initialization of "aVarTruthTableCondition_7" has no effect
+flight_modes.adb:1799:07: warning: initialization of "aVarTruthTableCondition_8" has no effect
+flight_modes.adb:1800:07: warning: initialization of "aVarTruthTableCondition_9" has no effect
+flight_modes.adb:1801:07: warning: initialization of "aVarTruthTableCondition_10" has no effect
+flight_modes.adb:1802:07: warning: initialization of "aVarTruthTableCondition_11" has no effect
+flight_modes.adb:1803:07: warning: initialization of "aVarTruthTableCondition_12" has no effect
+flight_modes.adb:1804:07: warning: initialization of "r" has no effect
+flight_modes.adb:1873:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1874:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:1875:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:1876:07: warning: initialization of "r" has no effect
+flight_modes.adb:1905:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1906:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:1907:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:1908:07: warning: initialization of "r" has no effect
+flight_modes.adb:1928:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1929:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:1930:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:1931:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:1932:07: warning: initialization of "r" has no effect
+flight_modes.adb:1960:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1961:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:1962:07: warning: initialization of "r" has no effect
+flight_modes.adb:1984:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:1984:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2037
+flight_modes.adb:1984:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2037, in call inlined at flight_modes.adb:2346
+flight_modes.adb:1985:07: warning: initialization of "r" has no effect
+flight_modes.adb:1985:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2037
+flight_modes.adb:1985:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2037, in call inlined at flight_modes.adb:2346
+flight_modes.adb:2000:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2001:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2002:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2003:07: warning: initialization of "r" has no effect
+flight_modes.adb:2032:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2032:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2346
+flight_modes.adb:2033:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2033:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2346
+flight_modes.adb:2034:07: warning: initialization of "r" has no effect
+flight_modes.adb:2034:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2346
+flight_modes.adb:2037:36: info: analyzing call to "LATERAL_HDG_Select" in context
+flight_modes.adb:2052:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2053:07: warning: initialization of "r" has no effect
+flight_modes.adb:2068:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2068:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2138
+flight_modes.adb:2068:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2138, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2069:07: warning: initialization of "r" has no effect
+flight_modes.adb:2069:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2138
+flight_modes.adb:2069:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2138, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2084:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2084:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2139
+flight_modes.adb:2084:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2139, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2085:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2085:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2139
+flight_modes.adb:2085:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2139, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2086:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2086:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2139
+flight_modes.adb:2086:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2139, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2087:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2087:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2139
+flight_modes.adb:2087:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2139, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2088:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:2088:07: warning: initialization of "aVarTruthTableCondition_5" has no effect, in call inlined at flight_modes.adb:2139
+flight_modes.adb:2088:07: warning: initialization of "aVarTruthTableCondition_5" has no effect, in call inlined at flight_modes.adb:2139, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2089:07: warning: initialization of "r" has no effect
+flight_modes.adb:2089:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2139
+flight_modes.adb:2089:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2139, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2132:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2132:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2133:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2133:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2134:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2134:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2135:07: warning: initialization of "r" has no effect
+flight_modes.adb:2135:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2347
+flight_modes.adb:2138:36: info: analyzing call to "LATERAL_NAV_Capture" in context
+flight_modes.adb:2139:36: info: analyzing call to "LATERAL_NAV_Clear" in context
+flight_modes.adb:2155:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2156:07: warning: initialization of "r" has no effect
+flight_modes.adb:2171:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2171:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2241
+flight_modes.adb:2171:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2241, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2172:07: warning: initialization of "r" has no effect
+flight_modes.adb:2172:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2241
+flight_modes.adb:2172:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2241, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2187:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2187:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2242
+flight_modes.adb:2187:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2242, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2188:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2188:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2242
+flight_modes.adb:2188:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2242, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2189:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2189:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2242
+flight_modes.adb:2189:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2242, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2190:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2190:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2242
+flight_modes.adb:2190:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2242, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2191:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:2191:07: warning: initialization of "aVarTruthTableCondition_5" has no effect, in call inlined at flight_modes.adb:2242
+flight_modes.adb:2191:07: warning: initialization of "aVarTruthTableCondition_5" has no effect, in call inlined at flight_modes.adb:2242, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2192:07: warning: initialization of "r" has no effect
+flight_modes.adb:2192:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2242
+flight_modes.adb:2192:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2242, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2235:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2235:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2236:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2236:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2237:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2237:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2238:07: warning: initialization of "r" has no effect
+flight_modes.adb:2238:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2348
+flight_modes.adb:2241:36: info: analyzing call to "LATERAL_LAPPR_Capture" in context
+flight_modes.adb:2242:36: info: analyzing call to "LATERAL_LAPPR_Clear" in context
+flight_modes.adb:2258:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2258:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2331
+flight_modes.adb:2258:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2331, in call inlined at flight_modes.adb:2349
+flight_modes.adb:2259:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2259:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2331
+flight_modes.adb:2259:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2331, in call inlined at flight_modes.adb:2349
+flight_modes.adb:2260:07: warning: initialization of "r" has no effect
+flight_modes.adb:2260:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2331
+flight_modes.adb:2260:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2331, in call inlined at flight_modes.adb:2349
+flight_modes.adb:2278:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2279:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2280:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2281:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2282:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:2283:07: warning: initialization of "r" has no effect
+flight_modes.adb:2326:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2326:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2349
+flight_modes.adb:2327:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2327:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2349
+flight_modes.adb:2328:07: warning: initialization of "r" has no effect
+flight_modes.adb:2328:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2349
+flight_modes.adb:2331:36: info: analyzing call to "LATERAL_LGA_Select" in context
+flight_modes.adb:2346:43: info: analyzing call to "LATERAL_HDG_Will_Be_Activated" in context
+flight_modes.adb:2347:43: info: analyzing call to "LATERAL_NAV_Will_Be_Activated" in context
+flight_modes.adb:2348:45: info: analyzing call to "LATERAL_LAPPR_Will_Be_Activated" in context
+flight_modes.adb:2349:43: info: analyzing call to "LATERAL_LGA_Will_Be_Activated" in context
+flight_modes.adb:2354:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2355:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2356:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2357:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2358:07: warning: initialization of "r" has no effect
+flight_modes.adb:2394:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2395:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2396:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2397:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2398:07: warning: initialization of "r" has no effect
+flight_modes.adb:2434:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2434:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2494
+flight_modes.adb:2434:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2494, in call inlined at flight_modes.adb:3080
+flight_modes.adb:2435:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2435:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2494
+flight_modes.adb:2435:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2494, in call inlined at flight_modes.adb:3080
+flight_modes.adb:2436:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2436:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2494
+flight_modes.adb:2436:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2494, in call inlined at flight_modes.adb:3080
+flight_modes.adb:2437:07: warning: initialization of "r" has no effect
+flight_modes.adb:2437:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2494
+flight_modes.adb:2437:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2494, in call inlined at flight_modes.adb:3080
+flight_modes.adb:2457:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2458:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2459:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2460:07: warning: initialization of "r" has no effect
+flight_modes.adb:2489:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2489:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3080
+flight_modes.adb:2490:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2490:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:3080
+flight_modes.adb:2491:07: warning: initialization of "r" has no effect
+flight_modes.adb:2491:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3080
+flight_modes.adb:2494:36: info: analyzing call to "VERTICAL_VS_Select" in context
+flight_modes.adb:2509:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2509:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2601
+flight_modes.adb:2509:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2601, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2510:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2510:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2601
+flight_modes.adb:2510:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2601, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2511:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2511:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2601
+flight_modes.adb:2511:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2601, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2512:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2512:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2601
+flight_modes.adb:2512:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2601, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2513:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:2513:07: warning: initialization of "aVarTruthTableCondition_5" has no effect, in call inlined at flight_modes.adb:2601
+flight_modes.adb:2513:07: warning: initialization of "aVarTruthTableCondition_5" has no effect, in call inlined at flight_modes.adb:2601, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2514:07: warning: initialization of "aVarTruthTableCondition_6" has no effect
+flight_modes.adb:2514:07: warning: initialization of "aVarTruthTableCondition_6" has no effect, in call inlined at flight_modes.adb:2601
+flight_modes.adb:2514:07: warning: initialization of "aVarTruthTableCondition_6" has no effect, in call inlined at flight_modes.adb:2601, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2515:07: warning: initialization of "aVarTruthTableCondition_7" has no effect
+flight_modes.adb:2515:07: warning: initialization of "aVarTruthTableCondition_7" has no effect, in call inlined at flight_modes.adb:2601
+flight_modes.adb:2515:07: warning: initialization of "aVarTruthTableCondition_7" has no effect, in call inlined at flight_modes.adb:2601, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2516:07: warning: initialization of "r" has no effect
+flight_modes.adb:2516:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2601
+flight_modes.adb:2516:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2601, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2550:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2551:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2552:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2553:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2554:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:2555:07: warning: initialization of "r" has no effect
+flight_modes.adb:2596:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2596:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2597:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2597:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2598:07: warning: initialization of "r" has no effect
+flight_modes.adb:2598:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3081
+flight_modes.adb:2601:36: info: analyzing call to "VERTICAL_FLC_Select" in context
+flight_modes.adb:2616:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2616:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2693
+flight_modes.adb:2616:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2693, in call inlined at flight_modes.adb:3082
+flight_modes.adb:2617:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2617:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2693
+flight_modes.adb:2617:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2693, in call inlined at flight_modes.adb:3082
+flight_modes.adb:2618:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2618:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2693
+flight_modes.adb:2618:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2693, in call inlined at flight_modes.adb:3082
+flight_modes.adb:2619:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2619:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2693
+flight_modes.adb:2619:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2693, in call inlined at flight_modes.adb:3082
+flight_modes.adb:2620:07: warning: initialization of "r" has no effect
+flight_modes.adb:2620:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2693
+flight_modes.adb:2620:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2693, in call inlined at flight_modes.adb:3082
+flight_modes.adb:2648:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2649:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2650:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2651:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2652:07: warning: initialization of "r" has no effect
+flight_modes.adb:2688:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2688:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3082
+flight_modes.adb:2689:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2689:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:3082
+flight_modes.adb:2690:07: warning: initialization of "r" has no effect
+flight_modes.adb:2690:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3082
+flight_modes.adb:2693:36: info: analyzing call to "VERTICAL_ALT_Select" in context
+flight_modes.adb:2708:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2709:07: warning: initialization of "r" has no effect
+flight_modes.adb:2724:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2724:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2809
+flight_modes.adb:2724:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2809, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2725:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2725:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2809
+flight_modes.adb:2725:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2809, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2726:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2726:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2809
+flight_modes.adb:2726:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2809, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2727:07: warning: initialization of "r" has no effect
+flight_modes.adb:2727:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2809
+flight_modes.adb:2727:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2809, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2747:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2747:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2810
+flight_modes.adb:2747:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2810, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2748:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2748:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2810
+flight_modes.adb:2748:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2810, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2749:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2749:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2810
+flight_modes.adb:2749:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:2810, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2750:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2750:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2810
+flight_modes.adb:2750:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:2810, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2751:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:2751:07: warning: initialization of "aVarTruthTableCondition_5" has no effect, in call inlined at flight_modes.adb:2810
+flight_modes.adb:2751:07: warning: initialization of "aVarTruthTableCondition_5" has no effect, in call inlined at flight_modes.adb:2810, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2752:07: warning: initialization of "aVarTruthTableCondition_6" has no effect
+flight_modes.adb:2752:07: warning: initialization of "aVarTruthTableCondition_6" has no effect, in call inlined at flight_modes.adb:2810
+flight_modes.adb:2752:07: warning: initialization of "aVarTruthTableCondition_6" has no effect, in call inlined at flight_modes.adb:2810, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2753:07: warning: initialization of "r" has no effect
+flight_modes.adb:2753:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2810
+flight_modes.adb:2753:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2810, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2803:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2803:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2804:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2804:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2805:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2805:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2806:07: warning: initialization of "r" has no effect
+flight_modes.adb:2806:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3084
+flight_modes.adb:2809:36: info: analyzing call to "VERTICAL_VAPPR_Capture" in context
+flight_modes.adb:2810:36: info: analyzing call to "VERTICAL_VAPPR_Clear" in context
+flight_modes.adb:2826:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2826:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2907
+flight_modes.adb:2826:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:2907, in call inlined at flight_modes.adb:3085
+flight_modes.adb:2827:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2827:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2907
+flight_modes.adb:2827:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:2907, in call inlined at flight_modes.adb:3085
+flight_modes.adb:2828:07: warning: initialization of "r" has no effect
+flight_modes.adb:2828:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2907
+flight_modes.adb:2828:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:2907, in call inlined at flight_modes.adb:3085
+flight_modes.adb:2846:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2847:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2848:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2849:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2850:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:2851:07: warning: initialization of "aVarTruthTableCondition_6" has no effect
+flight_modes.adb:2852:07: warning: initialization of "r" has no effect
+flight_modes.adb:2902:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2902:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3085
+flight_modes.adb:2903:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2903:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:3085
+flight_modes.adb:2904:07: warning: initialization of "r" has no effect
+flight_modes.adb:2904:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3085
+flight_modes.adb:2907:36: info: analyzing call to "VERTICAL_VGA_Select" in context
+flight_modes.adb:2922:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2923:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2924:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2925:07: warning: initialization of "r" has no effect
+flight_modes.adb:2945:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2945:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3063
+flight_modes.adb:2945:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3063, in call inlined at flight_modes.adb:3083
+flight_modes.adb:2946:07: warning: initialization of "r" has no effect
+flight_modes.adb:2946:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3063
+flight_modes.adb:2946:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3063, in call inlined at flight_modes.adb:3083
+flight_modes.adb:2961:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2962:07: warning: initialization of "r" has no effect
+flight_modes.adb:2977:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:2978:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:2979:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:2980:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:2981:07: warning: initialization of "r" has no effect
+flight_modes.adb:2986:36: info: no contextual analysis of "VERTICAL_New_Vertical_Mode_Activated" (body not seen yet)
+flight_modes.adb:3017:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:3017:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3064
+flight_modes.adb:3017:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3064, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3018:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:3018:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:3064
+flight_modes.adb:3018:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:3064, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3019:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:3019:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:3064
+flight_modes.adb:3019:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:3064, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3020:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:3020:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:3064
+flight_modes.adb:3020:07: warning: initialization of "aVarTruthTableCondition_4" has no effect, in call inlined at flight_modes.adb:3064, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3021:07: warning: initialization of "r" has no effect
+flight_modes.adb:3021:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3064
+flight_modes.adb:3021:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3064, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3057:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:3057:07: warning: initialization of "aVarTruthTableCondition_1" has no effect, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3058:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:3058:07: warning: initialization of "aVarTruthTableCondition_2" has no effect, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3059:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:3059:07: warning: initialization of "aVarTruthTableCondition_3" has no effect, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3060:07: warning: initialization of "r" has no effect
+flight_modes.adb:3060:07: warning: initialization of "r" has no effect, in call inlined at flight_modes.adb:3083
+flight_modes.adb:3063:36: info: analyzing call to "VERTICAL_ALTSEL_Capture" in context
+flight_modes.adb:3064:36: info: analyzing call to "VERTICAL_ALTSEL_Clear" in context
+flight_modes.adb:3080:43: info: analyzing call to "VERTICAL_VS_Will_Be_Activated" in context
+flight_modes.adb:3081:44: info: analyzing call to "VERTICAL_FLC_Will_Be_Activated" in context
+flight_modes.adb:3082:44: info: analyzing call to "VERTICAL_ALT_Will_Be_Activated" in context
+flight_modes.adb:3083:47: info: analyzing call to "VERTICAL_ALTSEL_Will_Be_Activated" in context
+flight_modes.adb:3084:46: info: analyzing call to "VERTICAL_VAPPR_Will_Be_Activated" in context
+flight_modes.adb:3085:44: info: analyzing call to "VERTICAL_VGA_Will_Be_Activated" in context
+flight_modes.adb:3090:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:3091:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:3092:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:3093:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:3094:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:3095:07: warning: initialization of "aVarTruthTableCondition_6" has no effect
+flight_modes.adb:3096:07: warning: initialization of "r" has no effect
+flight_modes.adb:3146:07: warning: initialization of "aVarTruthTableCondition_1" has no effect
+flight_modes.adb:3147:07: warning: initialization of "aVarTruthTableCondition_2" has no effect
+flight_modes.adb:3148:07: warning: initialization of "aVarTruthTableCondition_3" has no effect
+flight_modes.adb:3149:07: warning: initialization of "aVarTruthTableCondition_4" has no effect
+flight_modes.adb:3150:07: warning: initialization of "aVarTruthTableCondition_5" has no effect
+flight_modes.adb:3151:07: warning: initialization of "aVarTruthTableCondition_6" has no effect
+flight_modes.adb:3152:07: warning: initialization of "r" has no effect
+flight_modes.ads:18:08: info: initialization of "Modes_On" proved
+flight_modes.ads:19:08: info: initialization of "FD_On" proved
+flight_modes.ads:20:08: info: initialization of "Independent_Mode" proved
+flight_modes.ads:21:08: info: initialization of "Active_Side" proved
+flight_modes.ads:22:08: info: initialization of "ROLL_Selected" proved
+flight_modes.ads:23:08: info: initialization of "ROLL_Active" proved
+flight_modes.ads:24:08: info: initialization of "HDG_Selected" proved
+flight_modes.ads:25:08: info: initialization of "HDG_Active" proved
+flight_modes.ads:26:08: info: initialization of "NAV_Selected" proved
+flight_modes.ads:27:08: info: initialization of "NAV_Active" proved
+flight_modes.ads:28:08: info: initialization of "LAPPR_Selected" proved
+flight_modes.ads:29:08: info: initialization of "LAPPR_Active" proved
+flight_modes.ads:30:08: info: initialization of "LGA_Selected" proved
+flight_modes.ads:31:08: info: initialization of "LGA_Active" proved
+flight_modes.ads:32:08: info: initialization of "PITCH_Selected" proved
+flight_modes.ads:33:08: info: initialization of "PITCH_Active" proved
+flight_modes.ads:34:08: info: initialization of "VS_Selected" proved
+flight_modes.ads:35:08: info: initialization of "VS_Active" proved
+flight_modes.ads:36:08: info: initialization of "FLC_Selected" proved
+flight_modes.ads:37:08: info: initialization of "FLC_Active" proved
+flight_modes.ads:38:08: info: initialization of "ALT_Selected" proved
+flight_modes.ads:39:08: info: initialization of "ALT_Active" proved
+flight_modes.ads:40:08: info: initialization of "ALTSEL_Selected" proved
+flight_modes.ads:41:08: info: initialization of "ALTSEL_Active" proved
+flight_modes.ads:42:08: info: initialization of "ALTSEL_Track" proved
+flight_modes.ads:43:08: info: initialization of "VAPPR_Selected" proved
+flight_modes.ads:44:08: info: initialization of "VAPPR_Active" proved
+flight_modes.ads:45:08: info: initialization of "VGA_Selected" proved
+flight_modes.ads:46:08: info: initialization of "VGA_Active" proved
+flight_modes.ads:75:08: info: initialization of "Modes_On" proved
+flight_modes.ads:76:08: info: initialization of "FD_On" proved
+flight_modes.ads:77:08: info: initialization of "Independent_Mode" proved
+flight_modes.ads:78:08: info: initialization of "Active_Side" proved
+flight_modes.ads:79:08: info: initialization of "ROLL_Selected" proved
+flight_modes.ads:80:08: info: initialization of "ROLL_Active" proved
+flight_modes.ads:81:08: info: initialization of "HDG_Selected" proved
+flight_modes.ads:82:08: info: initialization of "HDG_Active" proved
+flight_modes.ads:83:08: info: initialization of "NAV_Selected" proved
+flight_modes.ads:84:08: info: initialization of "NAV_Active" proved
+flight_modes.ads:85:08: info: initialization of "LAPPR_Selected" proved
+flight_modes.ads:86:08: info: initialization of "LAPPR_Active" proved
+flight_modes.ads:87:08: info: initialization of "LGA_Selected" proved
+flight_modes.ads:88:08: info: initialization of "LGA_Active" proved
+flight_modes.ads:89:08: info: initialization of "PITCH_Selected" proved
+flight_modes.ads:90:08: info: initialization of "PITCH_Active" proved
+flight_modes.ads:91:08: info: initialization of "VS_Selected" proved
+flight_modes.ads:92:08: info: initialization of "VS_Active" proved
+flight_modes.ads:93:08: info: initialization of "FLC_Selected" proved
+flight_modes.ads:94:08: info: initialization of "FLC_Active" proved
+flight_modes.ads:95:08: info: initialization of "ALT_Selected" proved
+flight_modes.ads:96:08: info: initialization of "ALT_Active" proved
+flight_modes.ads:97:08: info: initialization of "ALTSEL_Selected" proved
+flight_modes.ads:98:08: info: initialization of "ALTSEL_Active" proved
+flight_modes.ads:99:08: info: initialization of "ALTSEL_Track" proved
+flight_modes.ads:100:08: info: initialization of "VAPPR_Selected" proved
+flight_modes.ads:101:08: info: initialization of "VAPPR_Active" proved
+flight_modes.ads:102:08: info: initialization of "VGA_Selected" proved
+flight_modes.ads:103:08: info: initialization of "VGA_Active" proved
+flight_modes.ads:106:10: medium: postcondition might fail (e.g. when HDG_Active = False and LAPPR_Active = False and LGA_Active = False and NAV_Active = False and ROLL_Active = False)
+mode_logic_props.adb:54:23: info: no contextual analysis of "initStates" (body not seen yet)
+mode_logic_props.adb:55:23: info: no contextual analysis of "initOutputs" (body not seen yet)
+mode_logic_props.adb:62:07: info: initialization of "Inputs_out1" proved
+mode_logic_props.adb:63:07: info: initialization of "Pilot_Flying_Side" proved
+mode_logic_props.adb:64:07: info: initialization of "Is_AP_Engaged" proved
+mode_logic_props.adb:65:07: info: initialization of "APPR_Switch" proved
+mode_logic_props.adb:66:07: info: initialization of "GA_Switch" proved
+mode_logic_props.adb:67:07: info: initialization of "VS_Switch" proved
+mode_logic_props.adb:68:07: info: initialization of "FLC_Switch" proved
+mode_logic_props.adb:69:07: info: initialization of "ALT_Switch" proved
+mode_logic_props.adb:70:07: info: initialization of "VS_Pitch_Wheel_Rotated" proved
+mode_logic_props.adb:71:07: info: initialization of "ALTSEL_Target_Changed" proved
+mode_logic_props.adb:72:07: info: initialization of "NAV_Capture_Cond_Met" proved
+mode_logic_props.adb:73:07: info: initialization of "LAPPR_Capture_Cond_Met" proved
+mode_logic_props.adb:74:07: info: initialization of "ALTSEL_Capture_Cond_Met" proved
+mode_logic_props.adb:75:07: info: initialization of "Overspeed" proved
+mode_logic_props.adb:76:07: info: initialization of "ALTSEL_Track_Cond_Met" proved
+mode_logic_props.adb:77:07: info: initialization of "VAPPR_Capture_Cond_Met" proved
+mode_logic_props.adb:78:07: info: initialization of "Selected_Nav_Source_Changed" proved
+mode_logic_props.adb:79:07: info: initialization of "Selected_Nav_Frequency_Changed" proved
+mode_logic_props.adb:80:07: info: initialization of "Offside_FD_On" proved
+mode_logic_props.adb:81:07: info: initialization of "Is_Offside_VAPPR_Active" proved
+mode_logic_props.adb:82:07: info: initialization of "Is_Offside_VGA_Active" proved
+mode_logic_props.adb:83:07: info: initialization of "SYNC_Switch" proved
+mode_logic_props.adb:84:07: info: initialization of "FD_Switch" proved
+mode_logic_props.adb:85:07: info: initialization of "HDG_Switch" proved
+mode_logic_props.adb:86:07: info: initialization of "NAV_Switch" proved
+mode_logic_props.adb:87:07: info: initialization of "Event_Processing_When_Pilot_Fllying_Transfer_Seen" proved
+mode_logic_props.adb:88:07: info: initialization of "Event_Processing_When_AP_Engaged_Seen" proved
+mode_logic_props.adb:89:07: info: initialization of "Event_Processing_When_SYNC_Switch_Pressed_Seen" proved
+mode_logic_props.adb:90:07: info: initialization of "Event_Processing_When_FD_Switch_Pressed_Seen" proved
+mode_logic_props.adb:91:07: info: initialization of "Event_Processing_When_HDG_Switch_Pressed_Seen" proved
+mode_logic_props.adb:92:07: info: initialization of "Event_Processing_When_NAV_Switch_Pressed_Seen" proved
+mode_logic_props.adb:93:07: info: initialization of "Event_Processing_When_APPR_Switch_Pressed_Seen" proved
+mode_logic_props.adb:94:07: info: initialization of "Event_Processing_When_GA_Switch_Pressed_Seen" proved
+mode_logic_props.adb:95:07: info: initialization of "Event_Processing_When_VS_Switch_Pressed_Seen" proved
+mode_logic_props.adb:96:07: info: initialization of "Event_Processing_When_FLC_Switch_Pressed_Seen" proved
+mode_logic_props.adb:97:07: info: initialization of "Event_Processing_When_ALT_Switch_Pressed_Seen" proved
+mode_logic_props.adb:98:07: info: initialization of "Event_Processing_When_VS_Pitch_Wheel_Rotated_Seen" proved
+mode_logic_props.adb:99:07: info: initialization of "Event_Processing_When_ALTSEL_Target_Changed_Seen" proved
+mode_logic_props.adb:100:07: info: initialization of "Event_Processing_If_NAV_Capture_Cond_Met_Seen" proved
+mode_logic_props.adb:101:07: info: initialization of "Event_Processing_If_LAPPR_Capture_Cond_Met_Seen" proved
+mode_logic_props.adb:102:07: info: initialization of "Event_Processing_If_ALTSEL_Capture_Cond_Met_Seen" proved
+mode_logic_props.adb:103:07: info: initialization of "Event_Processing_If_ALTSEL_Track_Cond_Met_Seen" proved
+mode_logic_props.adb:104:07: info: initialization of "Event_Processing_If_VAPPR_Capture_Cond_Met_Seen" proved
+mode_logic_props.adb:105:07: info: initialization of "Bus_Creator_out1" proved
+mode_logic_props.adb:208:1000: (style) this line is too long: 1191 [-gnatyM]
+mode_logic_props.adb:208:1000: (style) this line is too long: 1191 [-gnatyM]
+mode_logic_props.adb:212:1000: (style) this line is too long: 1819 [-gnatyM]
+mode_logic_props.adb:212:1000: (style) this line is too long: 1819 [-gnatyM]
+modes_off_at_startup.adb:26:07: info: initialization of "Unit_Delay_out1" proved
+modes_off_at_startup.adb:27:07: info: initialization of "Modes_On_out1" proved
+modes_off_at_startup.adb:28:07: info: initialization of "NOT_out1" proved
+modes_off_at_startup.adb:29:07: info: initialization of "OR_out1" proved
+modes_off_at_startup.adb:53:22: high: assertion might fail [user message: Violation of assertion at block Mode_Logic_Props/Requirements/Modes_Off_At_Startup/My_Assertion] (e.g. when OR_out1 = False)
+modes_on_iff_fd_on_or_ap_engaged.adb:31:07: info: initialization of "Unit_Delay_out1" proved
+modes_on_iff_fd_on_or_ap_engaged.adb:32:07: info: initialization of "FD_On_out1" proved
+modes_on_iff_fd_on_or_ap_engaged.adb:33:07: info: initialization of "Is_AP_Engaged_out1" proved
+modes_on_iff_fd_on_or_ap_engaged.adb:34:07: info: initialization of "Modes_On_out1" proved
+modes_on_iff_fd_on_or_ap_engaged.adb:35:07: info: initialization of "Offside_FD_On_out1" proved
+modes_on_iff_fd_on_or_ap_engaged.adb:36:07: info: initialization of "OR1_out1" proved
+modes_on_iff_fd_on_or_ap_engaged.adb:37:07: info: initialization of "Equals_out1" proved
+modes_on_iff_fd_on_or_ap_engaged.adb:38:07: info: initialization of "OR_out1" proved
+modes_on_iff_fd_on_or_ap_engaged.adb:80:22: high: assertion might fail [user message: Violation of assertion at block Mode_Logic_Props/Requirements/Modes_On_Iff_FD_On_or_AP_Engaged/My_Assertion] (e.g. when OR_out1 = False)
+nav_active_when_capture_cond_met.adb:47:07: info: initialization of "Unit_Delay_out1" proved
+nav_active_when_capture_cond_met.adb:48:07: info: initialization of "Unit_Delay1_out1" proved
+nav_active_when_capture_cond_met.adb:49:07: info: initialization of "Modes_On_out1" proved
+nav_active_when_capture_cond_met.adb:50:07: info: initialization of "NAV_Capture_Cond_Met_out1" proved
+nav_active_when_capture_cond_met.adb:51:07: info: initialization of "No_Higher_Event_Than_NAV_Capture_Cond_Met_out1" proved
+nav_active_when_capture_cond_met.adb:52:07: info: initialization of "Pilot_Flying_Side_out1" proved
+nav_active_when_capture_cond_met.adb:53:07: info: initialization of "Changed_Out1" proved
+nav_active_when_capture_cond_met.adb:54:07: info: initialization of "Selected_NAV_Frequency_Changed_out1" proved
+nav_active_when_capture_cond_met.adb:55:07: info: initialization of "Selected_NAV_Source_Changed_out1" proved
+nav_active_when_capture_cond_met.adb:56:07: info: initialization of "NOT4_out1" proved
+nav_active_when_capture_cond_met.adb:57:07: info: initialization of "NOT3_out1" proved
+nav_active_when_capture_cond_met.adb:58:07: info: initialization of "NOT2_out1" proved
+nav_active_when_capture_cond_met.adb:59:07: info: initialization of "NOT_out1" proved
+nav_active_when_capture_cond_met.adb:60:07: info: initialization of "OR_out1" proved
+nav_active_when_capture_cond_met.adb:61:07: info: initialization of "NOT1_out1" proved
+nav_active_when_capture_cond_met.adb:62:07: info: initialization of "NOT5_out1" proved
+nav_active_when_capture_cond_met.adb:141:22: medium: assertion might fail [user message: Violation of assertion at block Mode_Logic_Props/Requirements/NAV_Active_When_Capture_Cond_Met/My_Assertion] (e.g. when NOT5_out1 = False)
+no_higher.adb:22:07: info: initialization of "Input_out1" proved
+no_higher.adb:23:07: info: initialization of "No_Higher_Above_out1" proved
+no_higher.adb:24:07: info: initialization of "Not_out1" proved
+no_higher.adb:25:07: info: initialization of "AND_out1" proved
+no_higher.ads:18:08: info: initialization of "No_Higher" proved
+no_higher.ads:19:08: info: initialization of "No_Higher_Below" proved
+no_higher_event_1.adb:85:07: info: initialization of "I_out1" proved
+no_higher_event_1.adb:86:07: info: initialization of "Bus_Selector_out1" proved
+no_higher_event_1.adb:87:07: info: initialization of "Bus_Selector1_out1" proved
+no_higher_event_1.adb:88:07: info: initialization of "Bus_Selector10_out1" proved
+no_higher_event_1.adb:89:07: info: initialization of "Bus_Selector11_out1" proved
+no_higher_event_1.adb:90:07: info: initialization of "Bus_Selector12_out1" proved
+no_higher_event_1.adb:91:07: info: initialization of "Bus_Selector13_out1" proved
+no_higher_event_1.adb:92:07: info: initialization of "Bus_Selector14_out1" proved
+no_higher_event_1.adb:93:07: info: initialization of "Bus_Selector15_out1" proved
+no_higher_event_1.adb:94:07: info: initialization of "Bus_Selector16_out1" proved
+no_higher_event_1.adb:95:07: info: initialization of "Bus_Selector2_out1" proved
+no_higher_event_1.adb:96:07: info: initialization of "Bus_Selector3_out1" proved
+no_higher_event_1.adb:97:07: info: initialization of "Bus_Selector4_out1" proved
+no_higher_event_1.adb:98:07: info: initialization of "Bus_Selector5_out1" proved
+no_higher_event_1.adb:99:07: info: initialization of "Bus_Selector6_out1" proved
+no_higher_event_1.adb:100:07: info: initialization of "Bus_Selector7_out1" proved
+no_higher_event_1.adb:101:07: info: initialization of "Bus_Selector8_out1" proved
+no_higher_event_1.adb:102:07: info: initialization of "Bus_Selector9_out1" proved
+no_higher_event_1.adb:103:07: info: initialization of "Rising_Edge_Out1" proved
+no_higher_event_1.adb:104:07: info: initialization of "Rising_Edge_Out1_1" proved
+no_higher_event_1.adb:105:07: info: initialization of "Rising_Edge_Out1_2" proved
+no_higher_event_1.adb:106:07: info: initialization of "Rising_Edge_Out1_3" proved
+no_higher_event_1.adb:107:07: info: initialization of "Rising_Edge_Out1_4" proved
+no_higher_event_1.adb:108:07: info: initialization of "Rising_Edge_Out1_5" proved
+no_higher_event_1.adb:109:07: info: initialization of "Rising_Edge_Out1_6" proved
+no_higher_event_1.adb:110:07: info: initialization of "Rising_Edge_Out1_7" proved
+no_higher_event_1.adb:111:07: info: initialization of "Rising_Edge_Out1_8" proved
+no_higher_event_1.adb:112:07: info: initialization of "Rising_Edge_Out1_9" proved
+no_higher_event_1.adb:113:07: info: initialization of "Rising_Edge_Out1_10" proved
+no_higher_event_1.adb:114:07: info: initialization of "Rising_Edge_Out1_11" proved
+no_higher_event_1.adb:115:07: info: initialization of "False_out1" proved
+no_higher_event_1.adb:116:07: info: initialization of "No_Higher_Event_Than_SYNC_Switch_Pressed" proved
+no_higher_event_1.adb:117:07: info: initialization of "No_Higher_No_Higher_Below" proved
+no_higher_event_1.adb:118:07: info: initialization of "No_Higher_Event_Than_GA_Switch_Pressed" proved
+no_higher_event_1.adb:119:07: info: initialization of "No_Higher_No_Higher_Below_1" proved
+no_higher_event_1.adb:120:07: info: initialization of "No_Higher_Event_Than_APPR_Switch_Pressed" proved
+no_higher_event_1.adb:121:07: info: initialization of "No_Higher_No_Higher_Below_2" proved
+no_higher_event_1.adb:122:07: info: initialization of "No_Higher_Event_Than_ALTSEL_Target_Changed" proved
+no_higher_event_1.adb:123:07: info: initialization of "No_Higher_No_Higher_Below_3" proved
+no_higher_event_1.adb:124:07: info: initialization of "No_Higher_Event_Than_ALT_Switch_Pressed" proved
+no_higher_event_1.adb:125:07: info: initialization of "No_Higher_No_Higher_Below_4" proved
+no_higher_event_1.adb:126:07: info: initialization of "No_Higher_Event_Than_FLC_Switch_Pressed" proved
+no_higher_event_1.adb:127:07: info: initialization of "No_Higher_No_Higher_Below_5" proved
+no_higher_event_1.adb:128:07: info: initialization of "No_Higher_Event_Than_HDG_Switch_Pressed" proved
+no_higher_event_1.adb:129:07: info: initialization of "No_Higher_No_Higher_Below_6" proved
+no_higher_event_1.adb:131:07: info: initialization of "No_Higher_No_Higher_Below_7" proved
+no_higher_event_1.adb:132:07: info: initialization of "No_Higher_Event_Than_VS_Switch_Pressed" proved
+no_higher_event_1.adb:133:07: info: initialization of "No_Higher_No_Higher_Below_8" proved
+no_higher_event_1.adb:135:07: info: initialization of "No_Higher_No_Higher_Below_9" proved
+no_higher_event_1.adb:136:07: info: initialization of "False1_out1" proved
+no_higher_event_1.adb:137:07: info: initialization of "No_Higher_Event_Than_AP_Engaged" proved
+no_higher_event_1.adb:138:07: info: initialization of "No_Higher_No_Higher_Below_10" proved
+no_higher_event_1.adb:139:07: info: initialization of "AND_out1" proved
+no_higher_event_1.adb:140:07: info: initialization of "No_Higher_Event_Than_FD_Switch_Pressed" proved
+no_higher_event_1.adb:141:07: info: initialization of "No_Higher_No_Higher_Below_11" proved
+no_higher_event_1.adb:142:07: info: initialization of "No_Higher_Event_Than_LAPPR_Capture_Cond_Met" proved
+no_higher_event_1.adb:143:07: info: initialization of "No_Higher_No_Higher_Below_12" proved
+no_higher_event_1.adb:144:07: info: initialization of "No_Higher_Event_Than_NAV_Capture_Cond_Met" proved
+no_higher_event_1.adb:147:07: info: initialization of "No_Higher_Event_Than_VAPPR_Capture_Cond_Met" proved
+no_higher_event_1.adb:148:07: info: initialization of "No_Higher_No_Higher_Below_14" proved
+no_higher_event_1.adb:149:07: info: initialization of "No_Higher_Event_Than_ALTSEL_Track_Cond_Met" proved
+no_higher_event_1.adb:150:07: info: initialization of "No_Higher_No_Higher_Below_15" proved
+no_higher_event_1.adb:151:07: info: initialization of "No_Higher_Event_Than_ALTSEL_Capture_Cond_Met" proved
+no_higher_event_1.adb:309:72: warning: "No_Higher_No_Higher" is set by "comp" but not used after the call
+no_higher_event_1.adb:317:73: warning: "No_Higher_No_Higher_1" is set by "comp" but not used after the call
+no_higher_event_1.adb:343:117: warning: aspect Unreferenced specified for "No_Higher_No_Higher_Below_13" [enabled by default]
+no_higher_event_1.adb:355:120: warning: aspect Unreferenced specified for "No_Higher_No_Higher_Below_16" [enabled by default]
+no_higher_event_1.adb:378:26: info: unrolling loop
+no_higher_event_1.adb:379:21: medium: "Bus_Creator_out1" might not be initialized
+no_higher_event_1.ads:19:43: info: initialization of "O" proved
+offside_fd_on_implies_modes_on.adb:26:07: info: initialization of "Unit_Delay_out1" proved
+offside_fd_on_implies_modes_on.adb:27:07: info: initialization of "Modes_On_out1" proved
+offside_fd_on_implies_modes_on.adb:28:07: info: initialization of "Offside_FD_On_out1" proved
+offside_fd_on_implies_modes_on.adb:29:07: info: initialization of "NOT1_out1" proved
+offside_fd_on_implies_modes_on.adb:30:07: info: initialization of "NOT5_out1" proved
+offside_fd_on_implies_modes_on.adb:31:07: info: initialization of "OR_out1" proved
+offside_fd_on_implies_modes_on.adb:64:22: high: assertion might fail [user message: Violation of assertion at block Mode_Logic_Props/Requirements/Offside_FD_On_Implies_Modes_On/My_Assertion] (e.g. when OR_out1 = False)
+onside_fd_implies_modes_on.adb:17:07: info: initialization of "FD_On_out1" proved
+onside_fd_implies_modes_on.adb:18:07: info: initialization of "Modes_On_out1" proved
+onside_fd_implies_modes_on.adb:19:07: info: initialization of "NOT1_out1" proved
+onside_fd_implies_modes_on.adb:20:07: info: initialization of "NOT5_out1" proved
+onside_fd_implies_modes_on.adb:40:22: high: assertion might fail [user message: Violation of assertion at block Mode_Logic_Props/Requirements/Onside_FD_Implies_Modes_On/My_Assertion] (e.g. when NOT5_out1 = False)
+onside_fd_implies_modes_on.ads:15:14: warning: subprogram "comp" has no effect
+requirements.adb:63:07: info: initialization of "Inputs_out1" proved
+requirements.adb:64:07: info: initialization of "Offside_FD_On" proved
+requirements.adb:65:07: info: initialization of "Is_AP_Engaged" proved
+requirements.adb:66:07: info: initialization of "Pilot_Flying_Side" proved
+requirements.adb:67:07: info: initialization of "Selected_Nav_Source_Changed" proved
+requirements.adb:68:07: info: initialization of "Selected_Nav_Frequency_Changed" proved
+requirements.adb:69:07: info: initialization of "NAV_Capture_Cond_Met" proved
+requirements.adb:70:07: info: initialization of "Is_AP_Engaged_1" proved
+requirements.adb:71:07: info: initialization of "Offside_FD_On_1" proved
+requirements.adb:72:07: info: initialization of "Outputs_out1" proved
+requirements.adb:73:07: info: initialization of "FD_On" proved
+requirements.adb:74:07: info: initialization of "Modes_On_1" proved
+requirements.adb:75:07: info: initialization of "FD_On_1" proved
+requirements.adb:76:07: info: initialization of "Modes_On_1_1" proved
+requirements.adb:77:07: info: initialization of "ROLL_Active" proved
+requirements.adb:78:07: info: initialization of "HDG_Active" proved
+requirements.adb:79:07: info: initialization of "NAV_Active_1" proved
+requirements.adb:80:07: info: initialization of "LAPPR_Active" proved
+requirements.adb:81:07: info: initialization of "LGA_Active" proved
+requirements.adb:82:07: info: initialization of "ROLL_Active_1" proved
+requirements.adb:83:07: info: initialization of "HDG_Active_1" proved
+requirements.adb:84:07: info: initialization of "NAV_Active_1_1" proved
+requirements.adb:85:07: info: initialization of "LAPPR_Active_1" proved
+requirements.adb:86:07: info: initialization of "LGA_Active_1" proved
+requirements.adb:87:07: info: initialization of "Modes_On_2" proved
+requirements.adb:88:07: info: initialization of "Modes_On_3" proved
+requirements.adb:89:07: info: initialization of "Modes_On_4" proved
+requirements.adb:90:07: info: initialization of "No_Higher_Event_O" proved
+requirements.adb:91:07: info: initialization of "No_Higher_Event_Than_NAV_Capture_Cond_Met" proved
+rising_edge.adb:31:07: info: initialization of "Unit_Delay_out1" proved
+rising_edge.adb:32:07: info: initialization of "Logical_Operator2_out1" proved
+rising_edge.adb:33:07: info: initialization of "Logical_Operator1_out1" proved
+rising_edge.ads:21:08: info: initialization of "Out1" proved
+seen.adb:22:07: info: initialization of "Inhibit_In_out1" proved
+seen.adb:23:07: info: initialization of "Input_out1" proved
+seen.adb:24:07: info: initialization of "Not_out1" proved
+seen.adb:25:07: info: initialization of "AND_out1" proved
+seen.adb:26:07: info: initialization of "OR_out1" proved
+seen.ads:18:08: info: initialization of "Seen" proved
+seen.ads:19:08: info: initialization of "Inhibit_Out" proved

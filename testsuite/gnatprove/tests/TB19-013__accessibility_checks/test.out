@@ -1,0 +1,185 @@
+test_accessibility.adb:7:13: info: implicit aspect Always_Terminates on "Hidden_Access" has been proved, subprogram will terminate
+test_accessibility.adb:8:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:14:13: info: implicit aspect Always_Terminates on "Hidden_Access" has been proved, subprogram will terminate
+test_accessibility.adb:15:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:21:13: info: implicit aspect Always_Terminates on "OK1" has been proved, subprogram will terminate
+test_accessibility.adb:22:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:28:17: info: dynamic accessibility check proved (Trivial)
+test_accessibility.adb:28:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility.adb:32:13: info: implicit aspect Always_Terminates on "OK2" has been proved, subprogram will terminate
+test_accessibility.adb:33:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:39:13: info: implicit aspect Always_Terminates on "OK3" has been proved, subprogram will terminate
+test_accessibility.adb:40:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:43:14: medium: dynamic accessibility check might fail [possible fix: subprogram at line 39 should mention X in a precondition]
+test_accessibility.adb:48:13: info: implicit aspect Always_Terminates on "OK4" has been proved, subprogram will terminate
+test_accessibility.adb:49:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:56:17: info: dynamic accessibility check proved (Trivial)
+test_accessibility.adb:56:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility.adb:60:13: info: implicit aspect Always_Terminates on "KO1" has been proved, subprogram will terminate
+test_accessibility.adb:61:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:68:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility.adb:68:17: medium: dynamic accessibility check might fail
+test_accessibility.adb:72:13: info: implicit aspect Always_Terminates on "KO2" has been proved, subprogram will terminate
+test_accessibility.adb:73:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:79:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility.adb:79:17: medium: dynamic accessibility check might fail
+test_accessibility.adb:83:13: info: implicit aspect Always_Terminates on "KO3" has been proved, subprogram will terminate
+test_accessibility.adb:84:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:91:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility.adb:91:17: medium: dynamic accessibility check might fail
+test_accessibility.adb:95:13: info: implicit aspect Always_Terminates on "KO4" has been proved, subprogram will terminate
+test_accessibility.adb:96:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility.adb:102:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility.adb:102:17: medium: dynamic accessibility check might fail
+test_accessibility_2.adb:14:13: info: implicit aspect Always_Terminates on overriding operator "=" has been proved, subprogram will terminate
+test_accessibility_2.adb:19:13: info: implicit aspect Always_Terminates on "Hidden_Access" has been proved, subprogram will terminate
+test_accessibility_2.adb:20:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:26:13: info: implicit aspect Always_Terminates on "Id" has been proved, subprogram will terminate
+test_accessibility_2.adb:27:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:30:14: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:33:13: info: implicit aspect Always_Terminates on "Id" has been proved, subprogram will terminate
+test_accessibility_2.adb:34:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:37:14: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:40:13: info: implicit aspect Always_Terminates on "Hidden_Access" has been proved, subprogram will terminate
+test_accessibility_2.adb:41:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:47:13: info: implicit aspect Always_Terminates on "OK1" has been proved, subprogram will terminate
+test_accessibility_2.adb:48:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:51:18: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:54:13: info: implicit aspect Always_Terminates on "OK1_bis" has been proved, subprogram will terminate
+test_accessibility_2.adb:56:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:62:17: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:62:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:66:13: info: implicit aspect Always_Terminates on "KO2" has been proved, subprogram will terminate
+test_accessibility_2.adb:67:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:72:47: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:74:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:74:17: medium: dynamic accessibility check might fail
+test_accessibility_2.adb:78:13: info: implicit aspect Always_Terminates on "KO3" has been proved, subprogram will terminate
+test_accessibility_2.adb:79:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:85:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:85:17: medium: dynamic accessibility check might fail
+test_accessibility_2.adb:89:13: info: implicit aspect Always_Terminates on "KO4" has been proved, subprogram will terminate
+test_accessibility_2.adb:90:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:96:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:96:17: medium: dynamic accessibility check might fail
+test_accessibility_2.adb:100:13: info: implicit aspect Always_Terminates on "OK5" has been proved, subprogram will terminate
+test_accessibility_2.adb:101:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:107:17: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:107:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:111:13: info: implicit aspect Always_Terminates on "KO6" has been proved, subprogram will terminate
+test_accessibility_2.adb:112:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:117:47: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:119:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:119:17: medium: dynamic accessibility check might fail
+test_accessibility_2.adb:123:13: info: implicit aspect Always_Terminates on "KO7" has been proved, subprogram will terminate
+test_accessibility_2.adb:124:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:130:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:130:17: medium: dynamic accessibility check might fail
+test_accessibility_2.adb:134:13: info: implicit aspect Always_Terminates on "OK8" has been proved, subprogram will terminate
+test_accessibility_2.adb:135:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:141:17: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:141:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:145:13: info: implicit aspect Always_Terminates on "OK9" has been proved, subprogram will terminate
+test_accessibility_2.adb:147:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:153:17: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:153:21: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:157:13: info: implicit aspect Always_Terminates on "OK10" has been proved, subprogram will terminate
+test_accessibility_2.adb:158:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:162:14: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:165:13: info: implicit aspect Always_Terminates on "OK11" has been proved, subprogram will terminate
+test_accessibility_2.adb:166:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:169:14: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:172:13: info: implicit aspect Always_Terminates on "OK12" has been proved, subprogram will terminate
+test_accessibility_2.adb:174:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:177:23: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:180:13: info: implicit aspect Always_Terminates on "OK13" has been proved, subprogram will terminate
+test_accessibility_2.adb:181:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_2.adb:184:14: info: dynamic accessibility check proved (Trivial)
+test_accessibility_2.adb:188:06: info: data dependencies proved
+test_accessibility_2.adb:192:45: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:193:45: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:194:45: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:195:46: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:196:46: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:197:44: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_2.adb:199:22: info: assertion proved (CVC5: 1 VC)
+test_accessibility_2.adb:199:25: info: pointer dereference check proved (CVC5: 1 VC)
+test_accessibility_2.adb:200:22: info: assertion proved (CVC5: 1 VC)
+test_accessibility_2.adb:200:25: info: pointer dereference check proved (CVC5: 1 VC)
+test_accessibility_2.adb:201:22: info: assertion proved (CVC5: 1 VC)
+test_accessibility_2.adb:201:25: info: pointer dereference check proved (CVC5: 1 VC)
+test_accessibility_2.adb:202:22: info: assertion proved (CVC5: 1 VC)
+test_accessibility_2.adb:202:26: info: pointer dereference check proved (CVC5: 1 VC)
+test_accessibility_2.adb:203:22: info: assertion proved (CVC5: 1 VC)
+test_accessibility_2.adb:203:26: info: pointer dereference check proved (CVC5: 1 VC)
+test_accessibility_2.adb:206:04: info: absence of resource or memory leak at end of scope proved (CVC5: 1 VC)
+test_accessibility_2.adb:207:04: medium: resource or memory leak might occur at end of scope
+test_accessibility_2.adb:209:04: info: precondition proved (CVC5: 2 VC)
+test_accessibility_list.adb:12:13: info: implicit aspect Always_Terminates on "Length" has been proved, subprogram will terminate
+test_accessibility_list.adb:12:13: info: implicit function contract might not be available on recursive calls
+test_accessibility_list.adb:13:40: info: predicate check proved (CVC5: 1 VC; Trivial: 1 VC)
+test_accessibility_list.adb:13:48: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:13:48: info: subprogram variant proved (Trivial)
+test_accessibility_list.adb:13:60: info: pointer dereference check proved (CVC5: 1 VC)
+test_accessibility_list.adb:13:65: info: predicate check proved (CVC5: 1 VC; Trivial: 1 VC)
+test_accessibility_list.adb:13:67: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:17:13: info: implicit aspect Always_Terminates on "Nth_Int" has been proved, subprogram will terminate
+test_accessibility_list.adb:17:13: info: implicit function contract might not be available on recursive calls
+test_accessibility_list.adb:18:10: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:18:14: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:18:30: info: precondition proved (CVC5: 1 VC)
+test_accessibility_list.adb:18:30: info: subprogram variant proved (Trivial)
+test_accessibility_list.adb:18:43: info: pointer dereference check proved (CVC5: 1 VC)
+test_accessibility_list.adb:18:48: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:18:50: info: predicate check proved (CVC5: 1 VC; Trivial: 1 VC)
+test_accessibility_list.adb:18:52: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:21:15: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:21:20: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:24:16: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:24:21: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:25:14: info: postcondition proved (Z3: 1 VC)
+test_accessibility_list.adb:25:31: info: precondition proved (CVC5: 1 VC)
+test_accessibility_list.adb:28:10: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:28:14: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:33:48: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_list.adb:34:30: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:34:32: info: predicate check proved (CVC5: 1 VC; Trivial: 1 VC)
+test_accessibility_list.adb:34:34: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:36:16: info: predicate check proved (Trivial: 2 VC)
+test_accessibility_list.adb:36:20: info: predicate check proved (Trivial: 2 VC)
+test_accessibility_list.adb:36:22: medium: implicit aspect Always_Terminates on "Nth" could be incorrect, loop might be nonterminating [possible fix: add loop variant in the loop body]
+test_accessibility_list.adb:37:36: info: loop invariant initialization proved (CVC5: 1 VC)
+test_accessibility_list.adb:37:36: info: loop invariant preservation proved (CVC5: 1 VC)
+test_accessibility_list.adb:37:36: info: predicate check proved (Trivial: 2 VC)
+test_accessibility_list.adb:37:41: info: predicate check proved (Trivial: 2 VC)
+test_accessibility_list.adb:38:36: info: loop invariant initialization proved (CVC5: 1 VC)
+test_accessibility_list.adb:38:36: info: loop invariant preservation proved (CVC5: 1 VC)
+test_accessibility_list.adb:38:36: info: precondition proved (CVC5: 2 VC)
+test_accessibility_list.adb:38:53: info: precondition proved (CVC5: 2 VC)
+test_accessibility_list.adb:39:19: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_list.adb:40:18: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:40:20: info: predicate check proved (CVC5: 1 VC; Trivial: 1 VC)
+test_accessibility_list.adb:40:22: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:45:20: info: dynamic accessibility check proved (Trivial)
+test_accessibility_list.adb:45:20: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_list.adb:51:16: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:51:21: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:52:14: info: postcondition proved (CVC5: 1 VC)
+test_accessibility_list.adb:52:35: info: precondition proved (CVC5: 1 VC)
+test_accessibility_list.adb:57:13: info: predicate check proved (Trivial: 2 VC)
+test_accessibility_list.adb:57:17: info: predicate check proved (Trivial: 2 VC)
+test_accessibility_list.adb:57:19: medium: implicit aspect Always_Terminates on "Nth_Bad" could be incorrect, loop might be nonterminating [possible fix: add loop variant in the loop body]
+test_accessibility_list.adb:58:33: info: loop invariant initialization proved (CVC5: 1 VC)
+test_accessibility_list.adb:58:33: info: loop invariant preservation proved (CVC5: 1 VC)
+test_accessibility_list.adb:58:33: info: predicate check proved (Trivial: 2 VC)
+test_accessibility_list.adb:58:38: info: predicate check proved (Trivial: 2 VC)
+test_accessibility_list.adb:59:33: info: loop invariant initialization proved (CVC5: 1 VC)
+test_accessibility_list.adb:59:33: info: loop invariant preservation proved (CVC5: 1 VC)
+test_accessibility_list.adb:59:33: info: precondition proved (CVC5: 2 VC)
+test_accessibility_list.adb:59:50: info: precondition proved (CVC5: 2 VC)
+test_accessibility_list.adb:60:16: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_list.adb:61:15: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:61:17: info: predicate check proved (CVC5: 1 VC; Trivial: 1 VC)
+test_accessibility_list.adb:61:19: info: predicate check proved (Trivial: 1 VC)
+test_accessibility_list.adb:66:17: info: null exclusion check proved (CVC5: 1 VC)
+test_accessibility_list.adb:66:17: medium: dynamic accessibility check might fail

@@ -1,0 +1,17 @@
+refined_global_illegal.adb:6:14: error: useless refinement, subprogram "P1" does not depend on abstract state with visible refinement
+refined_global_illegal.adb:20:14: error: useless refinement, declaration of subprogram "No_Global_Contract" lacks aspect or pragma Global
+refined_global_illegal.adb:36:14: error: aspect "Refined_Global" must apply to the body of subprogram declared in a package specification
+refined_global_illegal.adb:52:43: error: cannot mention state "State" in global refinement
+refined_global_illegal.adb:52:43: error: use its constituents instead
+refined_global_illegal.adb:60:47: error: extra global item "Y" does not refine or repeat any global item at refined_global_illegal.ads:87
+refined_global_illegal.adb:68:47: error: duplicate global item
+refined_global_illegal.adb:76:14: error: global refinement of state "State" must include at least one constituent of mode "In_Out", "Input", or "Proof_In"
+refined_global_illegal.adb:84:14: error: global refinement of state "State" redefines the mode of its constituents
+refined_global_illegal.adb:92:14: error: "Output" state "State2" must be replaced by all its constituents in global refinement
+refined_global_illegal.adb:92:14: error: constituent "Z" is missing in output list
+refined_global_illegal_2.adb:12:16: medium: overflow check might fail, cannot prove lower bound for X + Y (e.g. when X = 0) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: subprogram at refined_global_illegal_2.ads:6 should mention X in a precondition]
+refined_global_illegal_2.adb:12:18: high: "Y" constituent of "State" must be listed in the Refined_Global aspect of "P1" (SPARK RM 6.1.4(15))
+refined_global_illegal_2.adb:20:16: medium: overflow check might fail, cannot prove lower bound for X + Y (e.g. when X = 0) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: subprogram at refined_global_illegal_2.ads:12 should mention X in a precondition]
+refined_global_illegal_2.adb:20:18: high: "Y" constituent of "State" must be listed in the Refined_Global aspect of "P2" (SPARK RM 6.1.4(15))
+refined_global_illegal_2.adb:21:16: high: overflow check might fail, cannot prove upper bound for X + 1 (e.g. when X = Integer'Last) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: subprogram at refined_global_illegal_2.ads:12 should mention X in a precondition]
+refined_global_illegal_2.ads:4:08: info: flow dependencies proved

@@ -1,0 +1,6 @@
+large: True
+prove_all:
+  prover: ["cvc5"]
+  steps: 100
+  opt: ["--no-loop-unrolling"]
+  check_counterexamples: false

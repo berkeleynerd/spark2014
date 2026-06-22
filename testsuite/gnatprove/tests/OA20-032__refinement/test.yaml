@@ -1,0 +1,4 @@
+large: True
+prove_all:
+  opt: ["--function-sandboxing=off"]
+  steps: 4000

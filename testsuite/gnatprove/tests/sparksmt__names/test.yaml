@@ -1,0 +1,5 @@
+large: True
+prove_all:
+  sparklib: True
+  no_fail: True
+  steps: 1000

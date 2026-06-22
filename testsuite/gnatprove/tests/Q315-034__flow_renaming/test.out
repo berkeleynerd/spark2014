@@ -1,0 +1,1 @@
+main.adb:8:19: medium: assertion might fail [possible fix: call at line 7 should mention X in a postcondition]

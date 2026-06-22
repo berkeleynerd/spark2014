@@ -1,0 +1,20 @@
+INLINING ENABLED:
+c37102b.adb:3:13: info: implicit aspect Always_Terminates on "IDENT_INT" has been proved, subprogram will terminate
+c37102b.adb:6:16: info: data dependencies proved
+c37102b.adb:11:13: info: implicit aspect Always_Terminates on "F" has been proved, subprogram will terminate
+c37102b.adb:11:16: warning: unused variable "D"
+c37102b.adb:18:18: error: launch "gnatprove --explain=E0007" for more information
+c37102b.adb:18:18: error: subtype constraint cannot depend on variable input "G" [E0007]
+c37102b.adb:18:18: error: use instead a constant initialized to the expression with variable input
+c37102b.adb:18:18: info: analyzing call to "F" in context
+gnatprove: error during flow analysis and proof
+
+INLINING DISABLED:
+c37102b.adb:3:13: info: implicit aspect Always_Terminates on "IDENT_INT" has been proved, subprogram will terminate
+c37102b.adb:6:16: info: data dependencies proved
+c37102b.adb:11:13: info: implicit aspect Always_Terminates on "F" has been proved, subprogram will terminate
+c37102b.adb:11:16: warning: unused variable "D"
+c37102b.adb:18:18: error: launch "gnatprove --explain=E0007" for more information
+c37102b.adb:18:18: error: subtype constraint cannot depend on variable input "G" [E0007]
+c37102b.adb:18:18: error: use instead a constant initialized to the expression with variable input
+gnatprove: error during flow analysis and proof

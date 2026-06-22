@@ -1,0 +1,14 @@
+sum_elem.adb:6:22: info: assertion proved (CVC5: 2 VC)
+sum_elem.adb:6:22: info: precondition proved (CVC5: 2 VC)
+sum_elem.adb:6:45: info: precondition proved (CVC5: 2 VC)
+sum_elem.adb:11:07: medium: precondition might fail [possible fix: subprogram at sum_elem.ads:28 should mention P in a precondition]
+sum_elem.adb:12:07: medium: in inlined expression function body at sum_elem.ads:24
+sum_elem.adb:12:07: medium: precondition might fail, cannot prove Element (P, J).First + Element (P, J).Last in Index
+sum_elem.ads:22:14: warning: subprogram "Local" has no effect
+sum_elem.ads:23:40: medium: range check might fail, cannot prove upper bound for Length (P) [reason for check: value must be convertible to the target type of the conversion] [possible fix: add precondition (Length (P) <= Count_Type(Partition_Index'Last)) to subprogram at line 22]
+sum_elem.ads:24:64: info: precondition proved (CVC5: 2 VC)
+sum_elem.ads:24:76: info: range check proved (CVC5: 2 VC)
+sum_elem.ads:24:87: info: precondition proved (CVC5: 2 VC)
+sum_elem.ads:24:99: info: range check proved (CVC5: 2 VC)
+sum_elem.ads:26:04: info: initialization of "P" proved
+sum_elem.ads:26:19: info: range check proved (CVC5: 2 VC)

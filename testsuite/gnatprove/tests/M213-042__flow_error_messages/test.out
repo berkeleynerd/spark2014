@@ -1,0 +1,30 @@
+test.adb:5:04: warning: analyzing unreferenced procedure "Output_Not_Set" [unreferenced-procedure]
+test.adb:6:30: medium: "X" might not be initialized in "Output_Not_Set" [reason for check: OUT parameter should be initialized on return] [possible fix: initialize "X" on all paths or make "X" an IN OUT parameter]
+test.adb:15:04: warning: analyzing unreferenced procedure "Use_Of_Uninitialised" [unreferenced-procedure]
+test.adb:16:36: info: initialization of "X" proved
+test.adb:26:12: medium: "N" might not be initialized
+test.adb:26:14: medium: overflow check might fail, cannot prove upper bound for N + M [reason for check: result of addition must fit in a 32-bits machine integer]
+test.adb:30:25: info: initialization of "X" proved
+test.adb:30:28: info: initialization of "Y" proved
+test.adb:31:23: medium: missing dependency "X => C"
+test.adb:52:04: warning: analyzing unreferenced procedure "Masked_Code" [unreferenced-procedure]
+test.adb:53:27: info: initialization of "X" proved
+test.adb:56:07: warning: statement has no effect
+test.adb:57:12: warning: unused assignment
+test.adb:59:12: warning: unused assignment
+Trace files' contents:
+test.adb:45
+test.adb:48
+
+test.adb:63
+test.adb:65
+
+test.adb:63
+test.adb:65
+
+test.adb:9
+test.adb:10
+
+test.adb:19
+test.adb:21
+test.adb:24

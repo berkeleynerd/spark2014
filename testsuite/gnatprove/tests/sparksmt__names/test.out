@@ -1,0 +1,64 @@
+names-data.ads:27:23: info: Initial_Condition of package "Names" is ignored
+names-data.ads:27:23: info: the elaboration of "Names" is not known to precede the elaboration of the current unit
+names-data.ads:27:23: info: use pragma Elaborate_Body in "Names" or pragma Elaborate in the current unit
+names-data.ads:52:13: info: implicit aspect Always_Terminates on "Eq" has been proved, subprogram will terminate
+names-data.ads:70:13: info: implicit aspect Always_Terminates on "Eq" has been proved, subprogram will terminate
+names.adb:40:04: info: initialization of "Char_Table" constituent of "Name_Table" proved
+names.adb:41:04: info: initialization of "Entry_Table" constituent of "Name_Table" proved
+names.adb:47:13: info: implicit aspect Always_Terminates on "Valid_Tables" has been proved, subprogram will terminate
+names.adb:52:13: info: implicit aspect Always_Terminates on "Valid_Hashes" has been proved, subprogram will terminate
+names.adb:57:13: info: implicit aspect Always_Terminates on "Valid_Entry" has been proved, subprogram will terminate
+names.adb:64:13: info: implicit aspect Always_Terminates on "Valid_Name_Table" has been proved, subprogram will terminate
+names.adb:65:16: info: range check proved (CVC5: 2 VC)
+names.adb:67:10: info: precondition proved (CVC5: 2 VC)
+names.adb:67:23: info: precondition proved (CVC5: 2 VC)
+names.adb:67:45: info: range check proved (CVC5: 2 VC)
+names.adb:72:21: info: initialization of "N" proved
+names.adb:73:09: info: data dependencies proved
+names.adb:76:19: info: postcondition proved (CVC5: 6 VC)
+names.adb:77:67: info: overflow check proved (CVC5: 2 VC)
+names.adb:89:51: info: range check proved (CVC5: 2 VC)
+names.adb:92:11: info: range check proved (CVC5: 2 VC)
+names.adb:92:37: info: range check proved (CVC5: 2 VC)
+names.adb:93:10: info: precondition proved (CVC5: 2 VC)
+names.adb:93:35: info: index check proved (CVC5: 4 VC)
+names.adb:93:35: info: overflow check proved (CVC5: 4 VC)
+names.adb:93:46: info: overflow check proved (CVC5: 4 VC)
+names.adb:95:13: info: loop invariant initialization proved (CVC5: 4 VC)
+names.adb:95:13: info: loop invariant preservation proved (CVC5: 4 VC)
+names.adb:97:46: info: overflow check proved (CVC5: 4 VC)
+names.adb:100:07: info: precondition proved (CVC5: 1 VC)
+names.adb:101:66: info: overflow check proved (CVC5: 2 VC)
+names.adb:101:66: info: range check proved (CVC5: 2 VC)
+names.adb:101:70: info: range check proved (CVC5: 2 VC)
+names.adb:102:43: info: range check proved (CVC5: 2 VC)
+names.adb:117:30: info: division check proved (CVC5: 1 VC)
+names.adb:117:30: info: range check proved (CVC5: 2 VC)
+names.adb:128:16: info: precondition proved (CVC5: 6 VC)
+names.adb:134:16: info: loop invariant initialization proved (CVC5: 6 VC)
+names.adb:134:16: info: loop invariant preservation proved (CVC5: 6 VC)
+names.adb:138:23: info: precondition proved (CVC5: 2 VC)
+names.adb:139:20: info: precondition proved (CVC5: 2 VC)
+names.adb:143:07: info: precondition proved (CVC5: 4 VC)
+names.adb:149:10: info: precondition proved (CVC5: 2 VC)
+names.adb:150:27: info: range check proved (CVC5: 2 VC)
+names.adb:151:27: info: precondition proved (CVC5: 2 VC)
+names.adb:173:37: info: precondition proved (CVC5: 2 VC)
+names.adb:176:17: info: initialization of "S" proved
+names.adb:176:17: info: range check proved (CVC5: 2 VC)
+names.adb:177:17: info: range check proved (CVC5: 2 VC)
+names.adb:178:25: info: precondition proved (CVC5: 4 VC)
+names.adb:179:48: info: overflow check proved (CVC5: 4 VC)
+names.adb:179:48: info: range check proved (CVC5: 4 VC)
+names.adb:180:39: info: loop invariant initialization proved (CVC5: 3 VC)
+names.adb:180:39: info: loop invariant preservation proved (CVC5: 3 VC)
+names.adb:194:31: info: precondition proved (CVC5: 2 VC)
+names.ads:30:04: info: flow dependencies proved
+names.ads:31:04: info: initial condition proved (CVC5: 3 VC)
+names.ads:39:13: info: implicit aspect Always_Terminates on "Invariant" has been proved, subprogram will terminate
+names.ads:41:09: info: data dependencies proved
+names.ads:45:22: info: initialization of "N" proved
+names.ads:46:09: info: data dependencies proved
+names.ads:48:19: info: postcondition proved (CVC5: 3 VC)
+names.ads:51:13: info: implicit aspect Always_Terminates on "To_String" has been proved, subprogram will terminate
+names.ads:52:09: info: data dependencies proved

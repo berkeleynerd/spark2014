@@ -1,0 +1,201 @@
+controller_pack.adb:54:07: info: initialization of "Res" proved
+controller_pack.ads:35:14: info: initialization of "Is_Init" constituent of "Controller_State" proved
+controller_pack.ads:35:14: info: initialization of "Pitch_Pid" constituent of "Attitude_PIDs" proved
+controller_pack.ads:35:14: info: initialization of "Pitch_Rate_Pid" constituent of "Rate_PIDs" proved
+controller_pack.ads:35:14: info: initialization of "Roll_Pid" constituent of "Attitude_PIDs" proved
+controller_pack.ads:35:14: info: initialization of "Roll_Rate_Pid" constituent of "Rate_PIDs" proved
+controller_pack.ads:35:14: info: initialization of "Yaw_Pid" constituent of "Attitude_PIDs" proved
+controller_pack.ads:35:14: info: initialization of "Yaw_Rate_Pid" constituent of "Rate_PIDs" proved
+controller_pack.ads:37:08: info: data dependencies proved
+controller_pack.ads:41:13: info: implicit aspect Always_Terminates on "Controller_Test" has been proved, subprogram will terminate
+controller_pack.ads:43:08: info: data dependencies proved
+controller_pack.ads:58:08: info: data dependencies proved
+controller_pack.ads:71:08: info: data dependencies proved
+controller_pack.ads:76:08: info: data dependencies proved
+controller_pack.ads:81:07: info: initialization of "Actuator_Roll" proved
+controller_pack.ads:82:07: info: initialization of "Actuator_Pitch" proved
+controller_pack.ads:83:07: info: initialization of "Actuator_Yaw" proved
+controller_pack.ads:85:08: info: data dependencies proved
+controller_pack.ads:91:07: info: initialization of "Roll_Rate_Desired" proved
+controller_pack.ads:92:07: info: initialization of "Pitch_Rate_Desired" proved
+controller_pack.ads:93:07: info: initialization of "Yaw_Rate_Desired" proved
+controller_pack.ads:95:08: info: data dependencies proved
+free_fall_pack.adb:58:07: info: initialization of "Derivative" proved
+free_fall_pack.adb:97:07: info: initialization of "Has_Detected_FF" proved
+free_fall_pack.adb:98:07: info: initialization of "Has_Landed" proved
+free_fall_pack.ads:12:03: info: flow dependencies proved
+free_fall_pack.ads:101:04: info: initialization of "Landing_Data_Collector" constituent of "FF_State" proved
+free_fall_pack.ads:109:07: info: initialization of "FF_Detected" proved
+free_fall_pack.ads:112:33: info: initialization of "Landing_Detected" proved
+free_fall_pack.ads:126:13: info: implicit aspect Always_Terminates on "Calculate_Last_Derivative" has been proved, subprogram will terminate
+free_fall_pack.ads:130:13: info: implicit aspect Always_Terminates on "Get_Time_Since_Last_Landing" has been proved, subprogram will terminate
+free_fall_pack.ads:135:13: info: implicit aspect Always_Terminates on "Get_Time_Since_Last_Free_Fall" has been proved, subprogram will terminate
+maths_pack.ads:15:13: info: implicit aspect Always_Terminates on "Inv_Sqrt" has been proved, subprogram will terminate
+maths_pack.ads:21:13: info: implicit aspect Always_Terminates on "Atan" has been proved, subprogram will terminate
+maths_pack.ads:24:13: info: implicit aspect Always_Terminates on "Asin" has been proved, subprogram will terminate
+pid_pack.ads:50:07: info: initialization of "Pid" proved, in instantiation at controller_pack.ads:16
+pid_pack.ads:50:07: info: initialization of "Pid" proved, in instantiation at controller_pack.ads:24
+pid_pack.ads:50:07: info: initialization of "Pid" proved, in instantiation at stabilizer_pack.ads:45
+pid_pack.ads:69:08: info: flow dependencies proved, in instantiation at controller_pack.ads:16
+pid_pack.ads:69:08: info: flow dependencies proved, in instantiation at controller_pack.ads:24
+pid_pack.ads:69:08: info: flow dependencies proved, in instantiation at stabilizer_pack.ads:45
+pid_pack.ads:72:13: info: implicit aspect Always_Terminates on "Pid_Get_Output" has been proved, subprogram will terminate, in instantiation at controller_pack.ads:16
+pid_pack.ads:72:13: info: implicit aspect Always_Terminates on "Pid_Get_Output" has been proved, subprogram will terminate, in instantiation at controller_pack.ads:24
+pid_pack.ads:72:13: info: implicit aspect Always_Terminates on "Pid_Get_Output" has been proved, subprogram will terminate, in instantiation at stabilizer_pack.ads:45
+pid_pack.ads:75:13: info: implicit aspect Always_Terminates on "Pid_Is_Active" has been proved, subprogram will terminate, in instantiation at controller_pack.ads:16
+pid_pack.ads:75:13: info: implicit aspect Always_Terminates on "Pid_Is_Active" has been proved, subprogram will terminate, in instantiation at controller_pack.ads:24
+pid_pack.ads:75:13: info: implicit aspect Always_Terminates on "Pid_Is_Active" has been proved, subprogram will terminate, in instantiation at stabilizer_pack.ads:45
+pid_pack.ads:85:13: info: implicit aspect Always_Terminates on "Pid_Get_Desired" has been proved, subprogram will terminate, in instantiation at controller_pack.ads:16
+pid_pack.ads:85:13: info: implicit aspect Always_Terminates on "Pid_Get_Desired" has been proved, subprogram will terminate, in instantiation at controller_pack.ads:24
+pid_pack.ads:85:13: info: implicit aspect Always_Terminates on "Pid_Get_Desired" has been proved, subprogram will terminate, in instantiation at stabilizer_pack.ads:45
+safety_pack.ads:10:13: info: implicit aspect Always_Terminates on "Dead_Band" has been proved, subprogram will terminate
+safety_pack.ads:24:13: info: implicit aspect Always_Terminates on "Saturate" has been proved, subprogram will terminate
+safety_pack.ads:37:13: info: implicit aspect Always_Terminates on "Saturate" has been proved, subprogram will terminate
+safety_pack.ads:50:13: info: implicit aspect Always_Terminates on "Truncate_To_T_Int16" has been proved, subprogram will terminate
+safety_pack.ads:62:13: info: implicit aspect Always_Terminates on "Lift_Away_From_Zero" has been proved, subprogram will terminate
+sensfusion6_pack.adb:45:07: info: initialization of "Recip_Norm" proved
+sensfusion6_pack.adb:45:07: warning: unused variable "Recip_Norm", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:46:07: info: initialization of "S0" proved
+sensfusion6_pack.adb:46:07: warning: unused variable "S0", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:47:07: info: initialization of "S1" proved
+sensfusion6_pack.adb:47:07: warning: unused variable "S1", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:48:07: info: initialization of "S2" proved
+sensfusion6_pack.adb:48:07: warning: unused variable "S2", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:49:07: info: initialization of "S3" proved
+sensfusion6_pack.adb:49:07: warning: unused variable "S3", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:50:07: info: initialization of "Q_Dot1" proved
+sensfusion6_pack.adb:50:07: warning: unused variable "Q_Dot1", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:51:07: info: initialization of "Q_Dot2" proved
+sensfusion6_pack.adb:51:07: warning: unused variable "Q_Dot2", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:52:07: info: initialization of "Q_Dot3" proved
+sensfusion6_pack.adb:52:07: warning: unused variable "Q_Dot3", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:53:07: info: initialization of "Q_Dot4" proved
+sensfusion6_pack.adb:53:07: warning: unused variable "Q_Dot4", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:54:07: info: initialization of "Q0_X2" proved
+sensfusion6_pack.adb:54:07: warning: unused variable "Q0_X2", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:55:07: info: initialization of "Q1_X2" proved
+sensfusion6_pack.adb:55:07: warning: unused variable "Q1_X2", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:56:07: info: initialization of "Q2_X2" proved
+sensfusion6_pack.adb:56:07: warning: unused variable "Q2_X2", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:57:07: info: initialization of "Q3_X2" proved
+sensfusion6_pack.adb:57:07: warning: unused variable "Q3_X2", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:58:07: info: initialization of "Q0_X4" proved
+sensfusion6_pack.adb:58:07: warning: unused variable "Q0_X4", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:59:07: info: initialization of "Q1_X4" proved
+sensfusion6_pack.adb:59:07: warning: unused variable "Q1_X4", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:60:07: info: initialization of "Q2_X4" proved
+sensfusion6_pack.adb:60:07: warning: unused variable "Q2_X4", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:61:07: info: initialization of "Q1_X8" proved
+sensfusion6_pack.adb:61:07: warning: unused variable "Q1_X8", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:62:07: info: initialization of "Q2_X8" proved
+sensfusion6_pack.adb:62:07: warning: unused variable "Q2_X8", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:63:07: info: initialization of "Q0_Q0" proved
+sensfusion6_pack.adb:63:07: warning: unused variable "Q0_Q0", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:64:07: info: initialization of "Q1_Q1" proved
+sensfusion6_pack.adb:64:07: warning: unused variable "Q1_Q1", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:65:07: info: initialization of "Q2_Q2" proved
+sensfusion6_pack.adb:65:07: warning: unused variable "Q2_Q2", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:66:07: info: initialization of "Q3_Q3" proved
+sensfusion6_pack.adb:66:07: warning: unused variable "Q3_Q3", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:67:07: info: initialization of "Norm_Ax" proved
+sensfusion6_pack.adb:67:07: warning: unused variable "Norm_Ax", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:68:07: info: initialization of "Norm_Ay" proved
+sensfusion6_pack.adb:68:07: warning: unused variable "Norm_Ay", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:69:07: info: initialization of "Norm_Az" proved
+sensfusion6_pack.adb:69:07: warning: unused variable "Norm_Az", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:70:07: info: initialization of "Q0_Tmp" proved
+sensfusion6_pack.adb:71:07: info: initialization of "Q1_Tmp" proved
+sensfusion6_pack.adb:72:07: info: initialization of "Q2_Tmp" proved
+sensfusion6_pack.adb:73:07: info: initialization of "Q3_Tmp" proved
+sensfusion6_pack.adb:74:07: info: initialization of "Ax_Tmp" proved
+sensfusion6_pack.adb:75:07: info: initialization of "Ay_Tmp" proved
+sensfusion6_pack.adb:76:07: info: initialization of "Az_Tmp" proved
+sensfusion6_pack.adb:77:07: info: initialization of "Square_Sum" proved
+sensfusion6_pack.adb:77:07: warning: unused variable "Square_Sum", in call inlined at sensfusion6_pack.adb:327
+sensfusion6_pack.adb:179:07: info: initialization of "Recip_Norm" proved
+sensfusion6_pack.adb:179:07: info: initialization of "Recip_Norm" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:180:07: info: initialization of "Norm_Ax" proved
+sensfusion6_pack.adb:180:07: info: initialization of "Norm_Ax" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:181:07: info: initialization of "Norm_Ay" proved
+sensfusion6_pack.adb:181:07: info: initialization of "Norm_Ay" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:182:07: info: initialization of "Norm_Az" proved
+sensfusion6_pack.adb:182:07: info: initialization of "Norm_Az" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:192:07: info: initialization of "Half_Ex" proved
+sensfusion6_pack.adb:192:07: info: initialization of "Half_Ex" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:193:07: info: initialization of "Half_Ey" proved
+sensfusion6_pack.adb:193:07: info: initialization of "Half_Ey" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:194:07: info: initialization of "Half_Ez" proved
+sensfusion6_pack.adb:194:07: info: initialization of "Half_Ez" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:195:07: info: initialization of "Q0_Tmp" proved
+sensfusion6_pack.adb:195:07: info: initialization of "Q0_Tmp" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:196:07: info: initialization of "Q1_Tmp" proved
+sensfusion6_pack.adb:196:07: info: initialization of "Q1_Tmp" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:197:07: info: initialization of "Q2_Tmp" proved
+sensfusion6_pack.adb:197:07: info: initialization of "Q2_Tmp" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:198:07: info: initialization of "Q3_Tmp" proved
+sensfusion6_pack.adb:198:07: info: initialization of "Q3_Tmp" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:202:07: info: initialization of "Ax_Lifted" proved
+sensfusion6_pack.adb:202:07: info: initialization of "Ax_Lifted" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:203:07: info: initialization of "Ay_Lifted" proved
+sensfusion6_pack.adb:203:07: info: initialization of "Ay_Lifted" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:204:07: info: initialization of "Az_Lifted" proved
+sensfusion6_pack.adb:204:07: info: initialization of "Az_Lifted" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:205:07: info: initialization of "Square_Sum" proved
+sensfusion6_pack.adb:205:07: info: initialization of "Square_Sum" proved, in call inlined at sensfusion6_pack.adb:320
+sensfusion6_pack.adb:320:25: info: analyzing call to "Mahony_Update_Q" in context
+sensfusion6_pack.adb:327:25: info: analyzing call to "Madgwick_Update_Q" in context
+sensfusion6_pack.adb:327:25: warning: this statement is never reached
+sensfusion6_pack.adb:341:07: info: initialization of "Grav_X" proved
+sensfusion6_pack.adb:342:07: info: initialization of "Grav_Y" proved
+sensfusion6_pack.adb:343:07: info: initialization of "Grav_Z" proved
+sensfusion6_pack.adb:364:07: info: initialization of "Grav_X" proved
+sensfusion6_pack.adb:365:07: info: initialization of "Grav_Y" proved
+sensfusion6_pack.adb:366:07: info: initialization of "Grav_Z" proved
+sensfusion6_pack.ads:8:03: info: flow dependencies proved
+sensfusion6_pack.ads:15:13: info: implicit aspect Always_Terminates on "SensFusion6_Test" has been proved, subprogram will terminate
+sensfusion6_pack.ads:27:07: info: initialization of "Euler_Roll_Actual" proved
+sensfusion6_pack.ads:28:07: info: initialization of "Euler_Pitch_Actual" proved
+sensfusion6_pack.ads:29:07: info: initialization of "Euler_Yaw_Actual" proved
+sensfusion6_pack.ads:32:13: info: implicit aspect Always_Terminates on "SensFusion6_Get_AccZ_Without_Gravity" has been proved, subprogram will terminate
+stabilizer_pack.adb:71:07: info: initialization of "Res" proved
+stabilizer_pack.adb:97:07: warning: statement has no effect
+stabilizer_pack.adb:106:25: warning: this statement is never reached
+stabilizer_pack.adb:107:25: warning: this statement is never reached
+stabilizer_pack.adb:108:25: warning: this statement is never reached
+stabilizer_pack.adb:109:25: warning: this statement is never reached
+stabilizer_pack.adb:178:07: info: initialization of "LPS25H_Data_Valid" proved
+stabilizer_pack.adb:179:07: info: initialization of "Prev_Integ" proved
+stabilizer_pack.adb:180:07: info: initialization of "Baro_V_Speed" proved
+stabilizer_pack.adb:181:07: info: initialization of "Alt_Hold_PID_Out" proved
+stabilizer_pack.adb:182:07: info: initialization of "Raw_Thrust" proved
+stabilizer_pack.adb:185:07: warning: assuming "Commander_Get_Alt_Hold" always terminates
+stabilizer_pack.adb:185:07: warning: no Always_Terminates aspect available for "Commander_Get_Alt_Hold" [assumed-always-terminates]
+stabilizer_pack.adb:293:07: warning: assuming "IMU_9_Read" always terminates
+stabilizer_pack.adb:293:07: warning: no Always_Terminates aspect available for "IMU_9_Read" [assumed-always-terminates]
+stabilizer_pack.adb:313:07: warning: assuming "Commander_Get_RPY_Type" always terminates
+stabilizer_pack.adb:313:07: warning: no Always_Terminates aspect available for "Commander_Get_RPY_Type" [assumed-always-terminates]
+stabilizer_pack.adb:346:10: warning: assuming "Commander_Get_Thrust" always terminates
+stabilizer_pack.adb:346:10: warning: no Always_Terminates aspect available for "Commander_Get_Thrust" [assumed-always-terminates]
+stabilizer_pack.adb:352:10: warning: assuming "Commander_Watchdog" always terminates
+stabilizer_pack.adb:352:10: warning: no Always_Terminates aspect available for "Commander_Watchdog" [assumed-always-terminates]
+stabilizer_pack.ads:30:03: info: flow dependencies proved
+stabilizer_pack.ads:65:08: info: data dependencies proved
+stabilizer_pack.ads:89:08: info: data dependencies proved
+stabilizer_pack.ads:100:08: info: data dependencies proved
+stabilizer_pack.ads:112:08: info: data dependencies proved
+stabilizer_pack.ads:378:14: info: initialization of "Motor_Power_M1" constituent of "Motor_Powers" proved
+stabilizer_pack.ads:378:14: info: initialization of "Motor_Power_M2" constituent of "Motor_Powers" proved
+stabilizer_pack.ads:378:14: info: initialization of "Motor_Power_M3" constituent of "Motor_Powers" proved
+stabilizer_pack.ads:378:14: info: initialization of "Motor_Power_M4" constituent of "Motor_Powers" proved
+stabilizer_pack.ads:384:08: info: data dependencies proved
+stabilizer_pack.ads:387:13: info: implicit aspect Always_Terminates on "Limit_Thrust" has been proved, subprogram will terminate
+worker_pack.adb:76:07: warning: assuming "Worker_Function" always terminates
+worker_pack.adb:76:07: warning: no Always_Terminates aspect available for "Worker_Function" [assumed-always-terminates]
+worker_pack.adb:85:07: warning: assuming "Worker_Function" always terminates
+worker_pack.adb:85:07: warning: no Always_Terminates aspect available for "Worker_Function" [assumed-always-terminates]
+worker_pack.ads:8:03: info: flow dependencies proved
+worker_pack.ads:33:08: info: data dependencies proved
+worker_pack.ads:37:13: info: implicit aspect Always_Terminates on "Worker_Test" has been proved, subprogram will terminate
+worker_pack.ads:39:08: info: data dependencies proved
+worker_pack.ads:57:08: info: data dependencies proved
+worker_pack.ads:62:08: info: data dependencies proved

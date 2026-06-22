@@ -1,0 +1,2 @@
+foo.adb:18:10: high: cannot write "VT" during elaboration of "P" [E0008]
+foo.adb:18:10: high: launch "gnatprove --explain=E0008" for more information

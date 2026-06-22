@@ -1,0 +1,1210 @@
+hw-gfx-dp_aux_ch.adb:31:07: info: initialization of "Request" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:46:13: info: implicit aspect Always_Terminates on "Is_Empty" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:51:13: info: implicit aspect Always_Terminates on "Is_Aux_Ack" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:53:07: info: flow dependencies proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:59:13: info: implicit aspect Always_Terminates on "Is_Aux_Defer" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:64:13: info: implicit aspect Always_Terminates on "Is_I2C_Ack" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:66:07: info: flow dependencies proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:72:13: info: implicit aspect Always_Terminates on "Is_I2C_Defer" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:83:07: info: initialization of "Response" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:84:07: info: initialization of "Response_Length" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:85:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:113:07: info: initialization of "Request" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:114:07: info: initialization of "Response" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:115:07: info: initialization of "Response_Length" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:148:07: info: initialization of "Request" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:180:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:182:07: info: initialization of "Request" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:184:07: info: initialization of "Response" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:223:07: info: initialization of "Response" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:224:07: info: initialization of "Response_Length" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:225:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:227:07: info: initialization of "Request" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:253:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:278:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:315:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:323:07: info: initialization of "Response" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:324:07: info: initialization of "Response_Length" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.adb:381:07: info: initialization of "Index_Payload" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.ads:36:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.ads:37:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.ads:44:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.ads:52:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_aux_ch.ads:53:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_aux_ch.ads:19
+hw-gfx-dp_info.adb:31:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:32:07: info: initialization of "Length" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:92:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:94:07: info: flow dependencies proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:96:16: info: implicit aspect Always_Terminates on "Link_Pixel_Per_Second" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:113:07: info: initialization of "Count" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:192:07: info: initialization of "M" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:193:07: info: initialization of "N" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:200:10: info: flow dependencies proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:210:13: info: initialization of "RN" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:213:13: medium: implicit aspect Always_Terminates on "Round_N" could be incorrect, loop might be nonterminating, in instantiation at hw-gfx-gma-dp_info.ads:19 [possible fix: add loop variant in the loop body]
+hw-gfx-dp_info.adb:292:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.adb:293:07: info: initialization of "Length" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:82:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:87:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:92:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:109:07: info: initialization of "Data_M" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:110:07: info: initialization of "Data_N" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:111:07: info: initialization of "Link_M" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:112:07: info: initialization of "Link_N" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:118:07: info: initialization of "Status" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:119:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:121:13: info: implicit aspect Always_Terminates on "All_CR_Done" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:126:13: info: implicit aspect Always_Terminates on "All_EQ_Done" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:131:13: info: implicit aspect Always_Terminates on "Max_Requested_VS" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_info.ads:136:13: info: implicit aspect Always_Terminates on "Max_Requested_Emph" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-dp_info.ads:19
+hw-gfx-dp_training.adb:28:13: info: implicit aspect Always_Terminates on "Training_Set" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:28:13: info: implicit aspect Always_Terminates on "Training_Set" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:36:07: info: initialization of "Value" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:36:07: info: initialization of "Value" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:64:13: info: implicit aspect Always_Terminates on "Lane_Count" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:64:13: info: implicit aspect Always_Terminates on "Lane_Count" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:75:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:75:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:80:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:80:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:119:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:119:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:128:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:128:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:153:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:153:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:155:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:155:07: info: initialization of "Data" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:179:07: info: initialization of "EQ_Done" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:179:07: info: initialization of "EQ_Done" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:180:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:180:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:185:07: info: initialization of "Status" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:185:07: info: initialization of "Status" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:286:07: info: initialization of "Retries" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:286:07: info: initialization of "Retries" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:296:07: info: initialization of "Train_Set" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:296:07: info: initialization of "Train_Set" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:296:18: info: initialization of "Last_Train_Set" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:296:18: info: initialization of "Last_Train_Set" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:298:16: info: implicit aspect Always_Terminates on "CR_Delay" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:298:16: info: implicit aspect Always_Terminates on "CR_Delay" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.adb:309:16: info: implicit aspect Always_Terminates on "EQ_Delay" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.adb:309:16: info: implicit aspect Always_Terminates on "EQ_Delay" has been proved, subprogram will terminate, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-dp_training.ads:56:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-connectors-edp.adb:238
+hw-gfx-dp_training.ads:56:07: info: initialization of "Success" proved, in instantiation at hw-gfx-gma-pch-dp.adb:167
+hw-gfx-edid.adb:30:13: info: implicit aspect Always_Terminates on "Checksum_Valid" has been proved, subprogram will terminate
+hw-gfx-edid.adb:44:13: info: implicit aspect Always_Terminates on "Header_Score" has been proved, subprogram will terminate
+hw-gfx-edid.adb:113:07: info: initialization of "Mode" proved
+hw-gfx-edid.adb:115:16: info: implicit aspect Always_Terminates on "Read_12" has been proved, subprogram will terminate
+hw-gfx-edid.adb:122:16: info: implicit aspect Always_Terminates on "Read_10" has been proved, subprogram will terminate
+hw-gfx-edid.adb:129:16: info: implicit aspect Always_Terminates on "Read_6" has been proved, subprogram will terminate
+hw-gfx-edid.ads:24:13: info: implicit aspect Always_Terminates on "Valid" has been proved, subprogram will terminate
+hw-gfx-edid.ads:25:57: info: initialization of "Success" proved
+hw-gfx-edid.ads:31:13: info: implicit aspect Always_Terminates on "Read_LE16" has been proved, subprogram will terminate
+hw-gfx-edid.ads:38:13: info: implicit aspect Always_Terminates on "Compatible_Display" has been proved, subprogram will terminate
+hw-gfx-edid.ads:45:13: info: implicit aspect Always_Terminates on "Has_Preferred_Mode" has been proved, subprogram will terminate
+hw-gfx-edid.ads:65:13: info: implicit aspect Always_Terminates on "Preferred_Mode" has been proved, subprogram will terminate
+hw-gfx-framebuffer_filler.adb:25:04: warning: address specification on "MMIO" is imprecisely supported: assuming no concurrent accesses to non-atomic object and no writes to a potential alias [imprecise-address-specification] [E0012]
+hw-gfx-framebuffer_filler.adb:25:04: warning: in instantiation at hw-mmio_range.adb:22
+hw-gfx-framebuffer_filler.adb:25:04: warning: launch "gnatprove --explain=E0012" for more information
+hw-gfx-framebuffer_filler.adb:25:04: warning: make sure that all overlapping objects have Async_Writers set to True
+hw-gfx-framebuffer_filler.adb:35:09: warning: this statement is never reached
+hw-gfx-framebuffer_filler.adb:36:47: warning: this statement is never reached
+hw-gfx-framebuffer_filler.adb:38:48: warning: this statement is never reached
+hw-gfx-framebuffer_filler.adb:40:15: warning: this statement is never reached
+hw-gfx-framebuffer_filler.adb:42:21: warning: this statement is never reached
+hw-gfx-framebuffer_filler.ads:24:14: warning: subprogram "Fill" has no effect
+hw-gfx-gma-config.ads:17:04: info: flow dependencies proved
+hw-gfx-gma-config.ads:324:13: info: implicit aspect Always_Terminates on "Is_Broadwell_H" has been proved, subprogram will terminate
+hw-gfx-gma-config.ads:327:13: info: implicit aspect Always_Terminates on "Is_Skylake_U" has been proved, subprogram will terminate
+hw-gfx-gma-config.ads:333:13: info: implicit aspect Always_Terminates on "Is_GPU" has been proved, subprogram will terminate
+hw-gfx-gma-config.ads:361:13: info: implicit aspect Always_Terminates on "Compatible_GPU" has been proved, subprogram will terminate
+hw-gfx-gma-config_helpers.adb:89:07: info: initialization of "Success" proved
+hw-gfx-gma-config_helpers.adb:95:10: info: initialization of "Enabled" proved
+hw-gfx-gma-config_helpers.adb:114:47: info: non-aliasing of formal parameters "Link" and "Mode" proved
+hw-gfx-gma-config_helpers.ads:20:13: info: implicit aspect Always_Terminates on "To_GPU_Port" has been proved, subprogram will terminate
+hw-gfx-gma-config_helpers.ads:25:13: info: implicit aspect Always_Terminates on "To_PCH_Port" has been proved, subprogram will terminate
+hw-gfx-gma-config_helpers.ads:27:13: info: implicit aspect Always_Terminates on "To_Display_Type" has been proved, subprogram will terminate
+hw-gfx-gma-config_helpers.ads:30:07: info: initialization of "Port_Cfg" proved
+hw-gfx-gma-config_helpers.ads:34:07: info: initialization of "Success" proved
+hw-gfx-gma-config_helpers.ads:42:13: info: implicit aspect Always_Terminates on "Validate_Config" has been proved, subprogram will terminate
+hw-gfx-gma-connector_info.adb:42:13: warning: statement has no effect
+hw-gfx-gma-connector_info.adb:45:21: warning: this statement is never reached
+hw-gfx-gma-connector_info.adb:55:36: info: non-aliasing of formal parameters "Link" and "Mode" proved
+hw-gfx-gma-connector_info.adb:74:33: info: non-aliasing of formal parameters "Link" and "Mode" proved
+hw-gfx-gma-connector_info.ads:21:07: info: initialization of "Success" proved
+hw-gfx-gma-connector_info.ads:29:07: info: initialization of "Success" proved
+hw-gfx-gma-connector_info.ads:35:13: info: implicit aspect Always_Terminates on "Default_BPC" has been proved, subprogram will terminate
+hw-gfx-gma-connectors-edp.adb:97:13: info: implicit aspect Always_Terminates on "Max_V_Swing" has been proved, subprogram will terminate
+hw-gfx-gma-connectors-edp.adb:105:13: info: implicit aspect Always_Terminates on "Max_Pre_Emph" has been proved, subprogram will terminate
+hw-gfx-gma-connectors-edp.adb:151:07: info: initialization of "VSwing_Emph" proved
+hw-gfx-gma-connectors-edp.adb:185:07: info: initialization of "DP_CTL_Set" proved
+hw-gfx-gma-connectors-edp.adb:221:11: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-connectors-edp.adb:221:11: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:232:16: info: implicit aspect Always_Terminates on "To_DP" has been proved, subprogram will terminate
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "New_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "New_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "New_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "New_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Int8" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Int8" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Int8" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Int8" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Int8" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Int8" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Int8" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Int8" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:194
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:194
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:195
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:195
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:200
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:200
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:201
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:201
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:202
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:202
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:204
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:204
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:206
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:206
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:208
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:208
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:212
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:212
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:218
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:218
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:219
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:219
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:220
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:220
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:222
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:222
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:223
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:223
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:225
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:225
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:226
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:226
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:227
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:227
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:229
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:229
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:232
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:232
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:343
+hw-gfx-gma-connectors-edp.adb:238:07: warning: in instantiation at hw-gfx-dp_training.adb:373
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Int8" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Int8" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Int8" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Int8" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Int8" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Int8" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Int8" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Int8" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:238:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-connectors-edp.adb:270:07: info: initialization of "Enabled" proved
+hw-gfx-gma-connectors-edp.adb:296:14: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-connectors-edp.adb:296:14: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-connectors-edp.ads:22:07: info: initialization of "Success" proved
+hw-gfx-gma-connectors-fdi.adb:58:13: info: implicit aspect Always_Terminates on "FDI_TX_CTL_PORT_WIDTH_SEL" has been proved, subprogram will terminate
+hw-gfx-gma-connectors-fdi.adb:73:07: info: initialization of "Success" proved
+hw-gfx-gma-connectors-fdi.adb:103:17: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-connectors-fdi.adb:103:17: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-connectors-fdi.adb:135:07: info: initialization of "Success" proved
+hw-gfx-gma-connectors-fdi.adb:210:07: info: initialization of "Success" proved
+hw-gfx-gma-connectors-fdi.adb:273:07: warning: statement has no effect
+hw-gfx-gma-connectors-fdi.adb:274:10: warning: this statement is never reached
+hw-gfx-gma-connectors-fdi.adb:278:22: warning: this statement is never reached
+hw-gfx-gma-connectors-fdi.adb:281:10: warning: this statement is never reached
+hw-gfx-gma-connectors-fdi.adb:282:22: warning: this statement is never reached
+hw-gfx-gma-connectors-fdi.adb:298:11: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-connectors-fdi.adb:298:11: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-connectors-fdi.adb:311:40: warning: this statement is never reached
+hw-gfx-gma-connectors-fdi.adb:313:40: warning: this statement is never reached
+hw-gfx-gma-connectors-fdi.ads:38:07: info: initialization of "Success" proved
+hw-gfx-gma-connectors.adb:35:13: info: implicit aspect Always_Terminates on "Is_Internal" has been proved, subprogram will terminate
+hw-gfx-gma-connectors.ads:29:07: info: initialization of "Success" proved
+hw-gfx-gma-connectors.ads:35:07: info: initialization of "Success" proved
+hw-gfx-gma-display_probing.adb:30:13: info: implicit aspect Always_Terminates on "Port_Configured" has been proved, subprogram will terminate
+hw-gfx-gma-display_probing.adb:37:13: info: implicit aspect Always_Terminates on "Sibling_Port" has been proved, subprogram will terminate
+hw-gfx-gma-display_probing.adb:47:13: info: implicit aspect Always_Terminates on "Has_Sibling_Port" has been proved, subprogram will terminate
+hw-gfx-gma-display_probing.adb:50:13: info: implicit aspect Always_Terminates on "Is_DVI_I" has been proved, subprogram will terminate
+hw-gfx-gma-display_probing.adb:56:07: info: initialization of "Raw_EDID" proved
+hw-gfx-gma-display_probing.adb:58:07: info: initialization of "Success" proved
+hw-gfx-gma-display_probing.adb:113:07: info: initialization of "Success" proved
+hw-gfx-gma-display_probing.adb:144:16: info: initialization of "Have_Sibling_EDID" proved
+hw-gfx-gma-display_probing.adb:168:07: info: initialization of "Success" proved
+hw-gfx-gma-display_probing.ads:24:07: info: initialization of "Configs" proved
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: in instantiation at hw-gfx-dp_aux_ch.adb:213
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: in instantiation at hw-gfx-dp_aux_ch.adb:244
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: in instantiation at hw-gfx-dp_aux_ch.adb:98
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-dp_aux_ch.ads:19:09: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-dp_aux_request.adb:47:13: info: implicit aspect Always_Terminates on "DP_AUX_CTL_MESSAGE_SIZE" has been proved, subprogram will terminate
+hw-gfx-gma-dp_aux_request.adb:161:07: info: initialization of "Response" proved
+hw-gfx-gma-dp_aux_request.adb:162:07: info: initialization of "Response_Length" proved
+hw-gfx-gma-dp_aux_request.adb:163:07: info: initialization of "Success" proved
+hw-gfx-gma-dp_aux_request.adb:165:07: info: data dependencies proved
+hw-gfx-gma-dp_aux_request.adb:167:07: info: flow dependencies proved
+hw-gfx-gma-dp_aux_request.adb:186:10: info: initialization of "Value" proved
+hw-gfx-gma-dp_aux_request.adb:187:10: info: initialization of "Count" proved
+hw-gfx-gma-dp_aux_request.adb:211:10: info: initialization of "Value" proved
+hw-gfx-gma-dp_aux_request.adb:212:10: info: initialization of "Count" proved
+hw-gfx-gma-dp_aux_request.adb:242:07: info: initialization of "Busy" proved
+hw-gfx-gma-dp_aux_request.adb:243:07: info: initialization of "Status" proved
+hw-gfx-gma-dp_aux_request.adb:248:07: warning: statement has no effect
+hw-gfx-gma-dp_aux_request.adb:249:19: warning: this statement is never reached
+hw-gfx-gma-dp_aux_request.adb:252:19: warning: this statement is never reached
+hw-gfx-gma-dp_aux_request.adb:317:07: warning: statement has no effect
+hw-gfx-gma-dp_aux_request.adb:318:19: warning: this statement is never reached
+hw-gfx-gma-dp_aux_request.ads:23:07: info: initialization of "Response" proved
+hw-gfx-gma-dp_aux_request.ads:24:07: info: initialization of "Response_Length" proved
+hw-gfx-gma-dp_aux_request.ads:25:07: info: initialization of "Success" proved
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "New_Line" always terminates
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "New_Line" always terminates
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "Put" always terminates
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "Put" always terminates
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma-dp_info.ads:19:09: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:166
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:166
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:167
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:167
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:168
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:168
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:169
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:169
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:170
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:170
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:171
+hw-gfx-gma-dp_info.ads:19:09: warning: in instantiation at hw-gfx-dp_info.adb:171
+hw-gfx-gma-dp_info.ads:19:09: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma-dp_info.ads:19:09: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma-i2c.adb:90:13: info: implicit aspect Always_Terminates on "GMBUS1_TOTAL_BYTE_COUNT" has been proved, subprogram will terminate
+hw-gfx-gma-i2c.adb:97:13: info: implicit aspect Always_Terminates on "GMBUS1_SLAVE_ADDRESS" has been proved, subprogram will terminate
+hw-gfx-gma-i2c.adb:104:13: info: implicit aspect Always_Terminates on "GMBUS0_PIN_PAIR_SELECT" has been proved, subprogram will terminate
+hw-gfx-gma-i2c.adb:124:27: info: initialization of "Result" proved
+hw-gfx-gma-i2c.adb:126:07: info: initialization of "GMBUS2" proved
+hw-gfx-gma-i2c.adb:135:27: info: initialization of "Success" proved
+hw-gfx-gma-i2c.adb:146:43: info: initialization of "Success" proved
+hw-gfx-gma-i2c.adb:150:07: warning: statement has no effect
+hw-gfx-gma-i2c.adb:151:19: warning: this statement is never reached
+hw-gfx-gma-i2c.adb:188:07: warning: statement has no effect
+hw-gfx-gma-i2c.adb:189:19: warning: this statement is never reached
+hw-gfx-gma-i2c.adb:202:07: info: initialization of "GMBUS2" proved
+hw-gfx-gma-i2c.adb:203:07: info: initialization of "GMBUS3" proved
+hw-gfx-gma-i2c.adb:205:07: info: initialization of "Current" proved
+hw-gfx-gma-i2c.ads:23:07: info: initialization of "Data" proved
+hw-gfx-gma-i2c.ads:24:07: info: initialization of "Success" proved
+hw-gfx-gma-panel.adb:61:13: info: implicit aspect Always_Terminates on "Div_Round_Up32" has been proved, subprogram will terminate
+hw-gfx-gma-panel.adb:108:13: info: implicit aspect Always_Terminates on "PCH_PP_ON_DELAYS_PWR_UP" has been proved, subprogram will terminate
+hw-gfx-gma-panel.adb:112:13: info: implicit aspect Always_Terminates on "PCH_PP_ON_DELAYS_PWR_UP_BL_ON" has been proved, subprogram will terminate
+hw-gfx-gma-panel.adb:119:13: info: implicit aspect Always_Terminates on "PCH_PP_OFF_DELAYS_PWR_DOWN" has been proved, subprogram will terminate
+hw-gfx-gma-panel.adb:123:13: info: implicit aspect Always_Terminates on "PCH_PP_OFF_DELAYS_BL_OFF_PWR_DOWN" has been proved, subprogram will terminate
+hw-gfx-gma-panel.adb:130:13: info: implicit aspect Always_Terminates on "PCH_PP_DIVISOR_PWR_CYC_DELAY" has been proved, subprogram will terminate
+hw-gfx-gma-panel.adb:160:21: info: initialization of "Power_Cycle_Timer" constituent of "Panel_State" proved
+hw-gfx-gma-panel.adb:160:40: info: initialization of "Power_Up_Timer" constituent of "Panel_State" proved
+hw-gfx-gma-panel.adb:160:56: info: initialization of "Delays_US" constituent of "Panel_State" proved
+hw-gfx-gma-panel.adb:186:07: info: initialization of "Power_Delay" proved
+hw-gfx-gma-panel.adb:186:20: info: initialization of "Port_Select" proved
+hw-gfx-gma-panel.adb:219:10: warning: statement has no effect
+hw-gfx-gma-panel.adb:220:13: warning: statement has no effect
+hw-gfx-gma-panel.adb:221:28: warning: this statement is never reached
+hw-gfx-gma-panel.adb:226:25: warning: this statement is never reached
+hw-gfx-gma-panel.adb:255:07: warning: statement has no effect
+hw-gfx-gma-panel.adb:262:19: warning: this statement is never reached
+hw-gfx-gma-panel.adb:283:07: info: initialization of "Was_On" proved
+hw-gfx-gma-panel.adb:289:14: warning: assuming "Delay_Until" always terminates
+hw-gfx-gma-panel.adb:289:14: warning: no Always_Terminates aspect available for "Delay_Until" [assumed-always-terminates]
+hw-gfx-gma-panel.adb:305:11: warning: assuming "Delay_Until" always terminates
+hw-gfx-gma-panel.adb:305:11: warning: no Always_Terminates aspect available for "Delay_Until" [assumed-always-terminates]
+hw-gfx-gma-panel.adb:316:07: info: initialization of "Was_On" proved
+hw-gfx-gma-panel.adb:326:14: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-panel.adb:326:14: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-panel.adb:369:07: info: initialization of "Reg" proved
+hw-gfx-gma-panel.ads:25:07: info: data dependencies proved
+hw-gfx-gma-panel.ads:29:14: info: initialization of "Delays_US" constituent of "Panel_State" proved
+hw-gfx-gma-panel.ads:29:14: info: initialization of "Power_Cycle_Timer" constituent of "Panel_State" proved
+hw-gfx-gma-panel.ads:29:14: info: initialization of "Power_Up_Timer" constituent of "Panel_State" proved
+hw-gfx-gma-panel.ads:31:07: info: data dependencies proved
+hw-gfx-gma-panel.ads:35:07: info: flow dependencies proved
+hw-gfx-gma-panel.ads:59:33: info: initialization of "Level" proved
+hw-gfx-gma-pch-dp.adb:46:13: info: implicit aspect Always_Terminates on "DP_CTL_VSWING_LEVEL_SET" has been proved, subprogram will terminate
+hw-gfx-gma-pch-dp.adb:56:13: info: implicit aspect Always_Terminates on "DP_CTL_PREEMPH_LEVEL_SET" has been proved, subprogram will terminate
+hw-gfx-gma-pch-dp.adb:63:13: info: implicit aspect Always_Terminates on "DP_CTL_PORT_WIDTH" has been proved, subprogram will terminate
+hw-gfx-gma-pch-dp.adb:83:13: info: implicit aspect Always_Terminates on "Max_V_Swing" has been proved, subprogram will terminate
+hw-gfx-gma-pch-dp.adb:91:13: info: implicit aspect Always_Terminates on "Max_Pre_Emph" has been proved, subprogram will terminate
+hw-gfx-gma-pch-dp.adb:158:16: info: implicit aspect Always_Terminates on "To_DP" has been proved, subprogram will terminate
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "New_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "New_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "New_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "New_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Int8" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Int8" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Int8" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Int8" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Int8" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Int8" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Int8" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Int8" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:194
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:194
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:195
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:195
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:200
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:200
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:201
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:201
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:202
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:202
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:204
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:204
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:206
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:206
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:208
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:208
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:212
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:212
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:218
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:218
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:219
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:219
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:220
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:220
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:222
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:222
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:223
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:223
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:225
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:225
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:226
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:226
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:227
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:227
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:229
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:229
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:232
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:232
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:343
+hw-gfx-gma-pch-dp.adb:167:07: warning: in instantiation at hw-gfx-dp_training.adb:373
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Int8" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Int8" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Int8" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Int8" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Int8" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Int8" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Int8" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Int8" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.adb:167:07: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma-pch-dp.ads:20:07: info: initialization of "Success" proved
+hw-gfx-gma-pch-fdi.adb:43:13: info: implicit aspect Always_Terminates on "FDI_RX_CTL_PORT_WIDTH_SEL" has been proved, subprogram will terminate
+hw-gfx-gma-pch-fdi.adb:51:13: info: implicit aspect Always_Terminates on "FDI_RX_CTL_BPC" has been proved, subprogram will terminate
+hw-gfx-gma-pch-fdi.adb:70:13: info: implicit aspect Always_Terminates on "FDI_RX_MISC_FDI_RX_PWRDN_LANE1" has been proved, subprogram will terminate
+hw-gfx-gma-pch-fdi.adb:77:13: info: implicit aspect Always_Terminates on "FDI_RX_MISC_FDI_RX_PWRDN_LANE0" has been proved, subprogram will terminate
+hw-gfx-gma-pch-fdi.adb:86:13: info: implicit aspect Always_Terminates on "FDI_RX_TUSIZE" has been proved, subprogram will terminate
+hw-gfx-gma-pch-fdi.adb:173:11: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pch-fdi.adb:173:11: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pch-fdi.adb:203:17: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pch-fdi.adb:203:17: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pch-fdi.adb:215:14: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pch-fdi.adb:215:14: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pch-fdi.adb:225:14: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pch-fdi.adb:225:14: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pch-fdi.adb:239:07: warning: statement has no effect
+hw-gfx-gma-pch-fdi.adb:240:14: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pch-fdi.adb:240:14: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pch-fdi.adb:240:14: warning: this statement is never reached
+hw-gfx-gma-pch-fdi.adb:241:19: warning: this statement is never reached
+hw-gfx-gma-pch-fdi.adb:247:19: warning: this statement is never reached
+hw-gfx-gma-pch-fdi.adb:250:11: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pch-fdi.adb:250:11: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pch-fdi.ads:23:07: info: initialization of "Success" proved
+hw-gfx-gma-pch-sideband.adb:109:07: info: initialization of "Value" proved
+hw-gfx-gma-pch-sideband.adb:120:07: info: initialization of "Value" proved
+hw-gfx-gma-pch-sideband.adb:132:07: info: initialization of "Value" proved
+hw-gfx-gma-pch-sideband.ads:27:07: info: initialization of "Value" proved
+hw-gfx-gma-pch-transcoder.adb:34:13: info: implicit aspect Always_Terminates on "DPLL_SEL_TRANSCODER_x_DPLL_SEL" has been proved, subprogram will terminate
+hw-gfx-gma-pch-transcoder.adb:66:13: info: implicit aspect Always_Terminates on "TRANS_DP_CTL_BPC" has been proved, subprogram will terminate
+hw-gfx-gma-pch-transcoder.adb:77:13: info: implicit aspect Always_Terminates on "TRANS_DATA_M_TU" has been proved, subprogram will terminate
+hw-gfx-gma-pch-transcoder.adb:156:16: info: implicit aspect Always_Terminates on "Encode" has been proved, subprogram will terminate
+hw-gfx-gma-pch-transcoder.adb:163:07: warning: statement has no effect
+hw-gfx-gma-pch-transcoder.adb:192:13: info: initialization of "Data_M" proved
+hw-gfx-gma-pch-transcoder.adb:192:21: info: initialization of "Link_M" proved
+hw-gfx-gma-pch-transcoder.adb:193:13: info: initialization of "Data_N" proved
+hw-gfx-gma-pch-transcoder.adb:193:21: info: initialization of "Link_N" proved
+hw-gfx-gma-pch-transcoder.adb:217:10: warning: statement has no effect
+hw-gfx-gma-pch-transcoder.adb:239:07: warning: statement has no effect
+hw-gfx-gma-pch-transcoder.adb:262:07: warning: statement has no effect
+hw-gfx-gma-pch-transcoder.adb:268:07: warning: statement has no effect
+hw-gfx-gma-pch-transcoder.adb:274:07: warning: statement has no effect
+hw-gfx-gma-pch-vga.adb:69:07: warning: initialization of "Sync_Disable" has no effect
+hw-gfx-gma-pch-vga.adb:73:07: warning: statement has no effect
+hw-gfx-gma-pch-vga.adb:99:13: info: implicit aspect Always_Terminates on "SBI_SSCDIVINTPHASE_DIVSEL" has been proved, subprogram will terminate
+hw-gfx-gma-pch-vga.adb:104:13: info: implicit aspect Always_Terminates on "SBI_SSCDIVINTPHASE_INCVAL" has been proved, subprogram will terminate
+hw-gfx-gma-pch-vga.adb:109:13: info: implicit aspect Always_Terminates on "SBI_SSCDIVINTPHASE_DIR" has been proved, subprogram will terminate
+hw-gfx-gma-pch-vga.adb:114:13: info: implicit aspect Always_Terminates on "SBI_SSCAUXDIV_FINALDIV2SEL" has been proved, subprogram will terminate
+hw-gfx-gma-pch-vga.adb:123:07: info: initialization of "Aux_Div" proved
+hw-gfx-gma-pch-vga.adb:124:07: info: initialization of "Div_Sel" proved
+hw-gfx-gma-pch-vga.adb:125:07: info: initialization of "Phase_Inc" proved
+hw-gfx-gma-pch-vga.adb:126:07: info: initialization of "Phase_Dir" proved
+hw-gfx-gma-pipe_setup.adb:94:13: info: implicit aspect Always_Terminates on "CUR_POS_Y" has been proved, subprogram will terminate
+hw-gfx-gma-pipe_setup.adb:98:13: info: implicit aspect Always_Terminates on "CUR_POS_X" has been proved, subprogram will terminate
+hw-gfx-gma-pipe_setup.adb:104:13: info: implicit aspect Always_Terminates on "VGA_CONTROL_VSYNC_BLINK_RATE" has been proved, subprogram will terminate
+hw-gfx-gma-pipe_setup.adb:136:13: info: implicit aspect Always_Terminates on "PLANE_WM_LINES" has been proved, subprogram will terminate
+hw-gfx-gma-pipe_setup.adb:142:13: info: implicit aspect Always_Terminates on "PLANE_WM_BLOCKS" has been proved, subprogram will terminate
+hw-gfx-gma-pipe_setup.adb:149:13: info: implicit aspect Always_Terminates on "Encode" has been proved, subprogram will terminate
+hw-gfx-gma-pipe_setup.adb:205:07: info: data dependencies proved
+hw-gfx-gma-pipe_setup.adb:206:07: info: flow dependencies proved
+hw-gfx-gma-pipe_setup.adb:220:07: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:222:13: warning: unused variable "Stride"
+hw-gfx-gma-pipe_setup.adb:222:21: warning: unused variable "Offset"
+hw-gfx-gma-pipe_setup.adb:223:13: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:224:13: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:226:13: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:227:25: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:228:25: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:231:25: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:232:25: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:235:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:242:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:243:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:244:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:245:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:246:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:249:10: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:268:13: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:283:07: warning: unused variable "Dither_BPC"
+hw-gfx-gma-pipe_setup.adb:284:07: warning: unused variable "Dither"
+hw-gfx-gma-pipe_setup.adb:286:07: info: data dependencies proved
+hw-gfx-gma-pipe_setup.adb:287:07: medium: missing dependency "null => Dither"
+hw-gfx-gma-pipe_setup.adb:287:07: medium: missing dependency "null => Dither_BPC"
+hw-gfx-gma-pipe_setup.adb:293:16: medium: incorrect dependency "Registers.Register_State constituent of GMA.Device_State => Dither_BPC"
+hw-gfx-gma-pipe_setup.adb:294:16: medium: incorrect dependency "Registers.Register_State constituent of GMA.Device_State => Dither"
+hw-gfx-gma-pipe_setup.adb:304:07: info: initialization of "Reg8" proved
+hw-gfx-gma-pipe_setup.adb:308:07: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:309:10: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:313:10: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:314:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:318:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:344:07: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:345:19: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:396:13: info: implicit aspect Always_Terminates on "Scale" has been proved, subprogram will terminate
+hw-gfx-gma-pipe_setup.adb:403:07: info: initialization of "Width" proved
+hw-gfx-gma-pipe_setup.adb:404:07: info: initialization of "Height" proved
+hw-gfx-gma-pipe_setup.adb:463:07: info: initialization of "Width" proved
+hw-gfx-gma-pipe_setup.adb:464:07: info: initialization of "Height" proved
+hw-gfx-gma-pipe_setup.adb:506:07: info: initialization of "Width" proved
+hw-gfx-gma-pipe_setup.adb:507:07: info: initialization of "Height" proved
+hw-gfx-gma-pipe_setup.adb:508:07: info: initialization of "X" proved
+hw-gfx-gma-pipe_setup.adb:508:10: info: initialization of "Y" proved
+hw-gfx-gma-pipe_setup.adb:565:07: info: initialization of "In_Use" proved
+hw-gfx-gma-pipe_setup.adb:582:38: info: initialization of "Pipe" proved
+hw-gfx-gma-pipe_setup.adb:584:07: info: initialization of "Used_For_Secondary" proved
+hw-gfx-gma-pipe_setup.adb:596:07: warning: unused variable "Pipe_Using_PF"
+hw-gfx-gma-pipe_setup.adb:599:07: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:600:19: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:601:19: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:602:10: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:605:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:606:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:608:07: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:609:10: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:610:10: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:611:22: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:630:10: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:631:13: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:632:10: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:633:13: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:644:07: warning: initialization of "Pipe_Using_PF" has no effect
+hw-gfx-gma-pipe_setup.adb:645:07: warning: unused variable "PF_Enabled"
+hw-gfx-gma-pipe_setup.adb:647:07: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:648:19: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:652:10: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:653:13: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:656:20: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:708:07: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:709:19: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:712:07: warning: statement has no effect
+hw-gfx-gma-pipe_setup.adb:713:10: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:714:19: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:715:19: warning: this statement is never reached
+hw-gfx-gma-pipe_setup.adb:735:07: info: initialization of "Reg8" proved
+hw-gfx-gma-pipe_setup.adb:740:11: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-pipe_setup.adb:740:11: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-pipe_setup.ads:60:32: info: initialization of "Available" proved
+hw-gfx-gma-pipe_setup.ads:60:57: warning: unused variable "Pipe"
+hw-gfx-gma-plls.adb:183:08: info: initialization of "Result" proved
+hw-gfx-gma-plls.adb:184:08: info: initialization of "Valid" proved
+hw-gfx-gma-plls.adb:186:07: info: data dependencies proved
+hw-gfx-gma-plls.adb:190:07: info: initialization of "M" proved
+hw-gfx-gma-plls.adb:191:07: info: initialization of "P" proved
+hw-gfx-gma-plls.adb:192:07: info: initialization of "VCO" proved
+hw-gfx-gma-plls.adb:193:07: info: initialization of "Dotclock" proved
+hw-gfx-gma-plls.adb:256:08: info: initialization of "Best_Clock" proved
+hw-gfx-gma-plls.adb:257:08: info: initialization of "Valid" proved
+hw-gfx-gma-plls.adb:259:07: info: data dependencies proved
+hw-gfx-gma-plls.adb:272:07: info: initialization of "P2" proved
+hw-gfx-gma-plls.adb:274:07: info: initialization of "Current_Delta" proved
+hw-gfx-gma-plls.adb:275:07: info: initialization of "Current_Clock" proved
+hw-gfx-gma-plls.adb:276:07: info: initialization of "Registers_Valid" proved
+hw-gfx-gma-plls.adb:356:07: info: data dependencies proved
+hw-gfx-gma-plls.adb:360:07: info: initialization of "FP" proved
+hw-gfx-gma-plls.adb:360:11: info: initialization of "Encoded_P1" proved
+hw-gfx-gma-plls.adb:360:23: info: initialization of "Encoded_P2" proved
+hw-gfx-gma-plls.adb:392:07: info: initialization of "Success" proved
+hw-gfx-gma-plls.adb:399:07: info: initialization of "Clk" proved
+hw-gfx-gma-plls.adb:450:14: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-plls.adb:450:14: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-plls.adb:479:07: info: initialization of "PLL" proved
+hw-gfx-gma-plls.adb:480:07: info: initialization of "Success" proved
+hw-gfx-gma-plls.adb:484:16: info: implicit aspect Always_Terminates on "Config_Matches" has been proved, subprogram will terminate
+hw-gfx-gma-plls.ads:25:14: info: initialization of "PLLs" constituent of "State" proved
+hw-gfx-gma-plls.ads:27:07: info: data dependencies proved
+hw-gfx-gma-plls.ads:31:07: info: initialization of "PLL" proved
+hw-gfx-gma-plls.ads:32:07: info: initialization of "Success" proved
+hw-gfx-gma-plls.ads:38:13: info: implicit aspect Always_Terminates on "Register_Value" has been proved, subprogram will terminate
+hw-gfx-gma-port_detect.adb:58:07: info: initialization of "Internal_Detected" proved
+hw-gfx-gma-port_detect.adb:59:07: info: initialization of "HDMI_Detected" proved
+hw-gfx-gma-port_detect.adb:60:07: info: initialization of "DP_Detected" proved
+hw-gfx-gma-port_detect.adb:81:22: warning: this statement is never reached
+hw-gfx-gma-port_detect.adb:86:31: warning: this statement is never reached
+hw-gfx-gma-port_detect.adb:122:07: info: initialization of "Ctl32" proved
+hw-gfx-gma-port_detect.ads:21:07: info: initialization of "Detected" proved
+hw-gfx-gma-power_and_clocks_ironlake.adb:44:11: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-power_and_clocks_ironlake.adb:44:11: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-power_and_clocks_ironlake.adb:45:07: warning: statement has no effect
+hw-gfx-gma-power_and_clocks_ironlake.adb:47:19: warning: this statement is never reached
+hw-gfx-gma-power_and_clocks_ironlake.adb:50:19: warning: this statement is never reached
+hw-gfx-gma-power_and_clocks_ironlake.adb:51:14: warning: assuming "U_Delay" always terminates
+hw-gfx-gma-power_and_clocks_ironlake.adb:51:14: warning: no Always_Terminates aspect available for "U_Delay" [assumed-always-terminates]
+hw-gfx-gma-power_and_clocks_ironlake.adb:51:14: warning: this statement is never reached
+hw-gfx-gma-registers.adb:41:04: warning: address specification on "MMIO" is imprecisely supported: assuming no concurrent accesses to non-atomic object, no writes to a potential alias, and valid reads [imprecise-address-specification] [E0012]
+hw-gfx-gma-registers.adb:41:04: warning: in instantiation at hw-mmio_range.adb:22
+hw-gfx-gma-registers.adb:41:04: warning: launch "gnatprove --explain=E0012" for more information
+hw-gfx-gma-registers.adb:41:04: warning: make sure that all overlapping objects have Async_Writers set to True
+hw-gfx-gma-registers.adb:54:04: warning: address specification on "MMIO" is imprecisely supported: assuming no concurrent accesses to non-atomic object, no writes to a potential alias, and valid reads [imprecise-address-specification] [E0012]
+hw-gfx-gma-registers.adb:54:04: warning: in instantiation at hw-mmio_range.adb:22
+hw-gfx-gma-registers.adb:54:04: warning: launch "gnatprove --explain=E0012" for more information
+hw-gfx-gma-registers.adb:54:04: warning: make sure that all overlapping objects have Async_Writers set to True
+hw-gfx-gma-registers.adb:71:13: info: implicit aspect Always_Terminates on "Fence_Lower_Idx" has been proved, subprogram will terminate
+hw-gfx-gma-registers.adb:73:13: info: implicit aspect Always_Terminates on "Fence_Upper_Idx" has been proved, subprogram will terminate
+hw-gfx-gma-registers.adb:92:07: info: initialization of "Reg32" proved
+hw-gfx-gma-registers.adb:128:07: info: initialization of "Fence_Upper" proved
+hw-gfx-gma-registers.adb:128:20: info: initialization of "Fence_Lower" proved
+hw-gfx-gma-registers.adb:150:07: warning: statement has no effect
+hw-gfx-gma-registers.adb:158:13: warning: this statement is never reached
+hw-gfx-gma-registers.adb:240:07: info: initialization of "Value" proved
+hw-gfx-gma-registers.adb:261:07: info: initialization of "Current" proved
+hw-gfx-gma-registers.adb:262:07: info: initialization of "Timeout" proved
+hw-gfx-gma-registers.adb:263:07: info: initialization of "Timed_Out" proved
+hw-gfx-gma-registers.adb:322:07: info: initialization of "Value" proved
+hw-gfx-gma-registers.adb:341:07: info: initialization of "Value" proved
+hw-gfx-gma-registers.adb:361:07: info: initialization of "Value" proved
+hw-gfx-gma-registers.ads:24:04: info: flow dependencies proved
+hw-gfx-gma-registers.ads:1635:07: info: data dependencies proved
+hw-gfx-gma-registers.ads:1636:07: info: flow dependencies proved
+hw-gfx-gma-registers.ads:1644:08: info: initialization of "Value" proved
+hw-gfx-gma-registers.ads:1647:07: info: data dependencies proved
+hw-gfx-gma-registers.ads:1648:07: info: flow dependencies proved
+hw-gfx-gma-registers.ads:1658:07: info: data dependencies proved
+hw-gfx-gma-registers.ads:1659:07: info: flow dependencies proved
+hw-gfx-gma-registers.ads:1666:08: info: initialization of "Result" proved
+hw-gfx-gma-registers.ads:1710:07: info: initialization of "Success" proved
+hw-gfx-gma-registers.ads:1720:07: info: data dependencies proved
+hw-gfx-gma-registers.ads:1721:07: info: flow dependencies proved
+hw-gfx-gma-registers.ads:1726:14: high: "GTT.Base_Address" constituent of "Registers.Address_State" is not initialized
+hw-gfx-gma-registers.ads:1726:14: high: "Regs.Base_Address" constituent of "Registers.Address_State" is not initialized
+hw-gfx-gma-registers.ads:1728:07: info: data dependencies proved
+hw-gfx-gma-registers.ads:1728:30: low: unused global "Registers.Address_State" constituent of "GMA.State"
+hw-gfx-gma-registers.ads:1729:07: medium: missing dependency "null => Base"
+hw-gfx-gma-registers.ads:1729:07: medium: missing dependency "null => GTT_Base"
+hw-gfx-gma-registers.ads:1729:38: medium: incorrect dependency "Registers.Address_State constituent of GMA.State => Base"
+hw-gfx-gma-registers.ads:1729:44: medium: incorrect dependency "Registers.Address_State constituent of GMA.State => GTT_Base"
+hw-gfx-gma-transcoder.adb:28:13: info: implicit aspect Always_Terminates on "Get_Idx" has been proved, subprogram will terminate
+hw-gfx-gma-transcoder.adb:134:13: info: implicit aspect Always_Terminates on "TRANS_DATA_M_TU" has been proved, subprogram will terminate
+hw-gfx-gma-transcoder.adb:141:13: info: implicit aspect Always_Terminates on "Encode" has been proved, subprogram will terminate
+hw-gfx-gma-transcoder.adb:153:07: info: data dependencies proved
+hw-gfx-gma-transcoder.adb:154:07: info: flow dependencies proved
+hw-gfx-gma-transcoder.adb:156:07: info: initialization of "Data_M" proved
+hw-gfx-gma-transcoder.adb:156:15: info: initialization of "Link_M" proved
+hw-gfx-gma-transcoder.adb:157:07: info: initialization of "Data_N" proved
+hw-gfx-gma-transcoder.adb:157:15: info: initialization of "Link_N" proved
+hw-gfx-gma-transcoder.adb:184:07: warning: statement has no effect
+hw-gfx-gma-transcoder.adb:185:19: warning: this statement is never reached
+hw-gfx-gma-transcoder.adb:245:07: warning: statement has no effect
+hw-gfx-gma-transcoder.adb:246:19: warning: this statement is never reached
+hw-gfx-gma-transcoder.adb:270:07: info: initialization of "Enabled" proved
+hw-gfx-gma-transcoder.adb:288:07: warning: statement has no effect
+hw-gfx-gma-transcoder.adb:289:19: warning: this statement is never reached
+hw-gfx-gma-transcoder.adb:295:07: warning: unused variable "DDI_Func_Ctl"
+hw-gfx-gma-transcoder.adb:297:07: warning: statement has no effect
+hw-gfx-gma-transcoder.adb:298:19: warning: this statement is never reached
+hw-gfx-gma-transcoder.adb:299:23: warning: this statement is never reached
+hw-gfx-gma-transcoder.adb:301:10: warning: this statement is never reached
+hw-gfx-gma-transcoder.adb:305:13: warning: this statement is never reached
+hw-gfx-gma-transcoder.ads:26:07: warning: unused initial value of "Scale"
+hw-gfx-gma-transcoder.ads:31:13: info: implicit aspect Always_Terminates on "BPC_Conf" has been proved, subprogram will terminate
+hw-gfx-gma.adb:68:04: warning: address specification on "MMIO" is imprecisely supported: assuming no concurrent accesses to non-atomic object, no writes to a potential alias, and valid reads [imprecise-address-specification] [E0012]
+hw-gfx-gma.adb:68:04: warning: address specification on "MMIO" is imprecisely supported: assuming no concurrent accesses to non-atomic object, no writes to a potential alias, and valid reads [imprecise-address-specification] [E0012]
+hw-gfx-gma.adb:68:04: warning: address specification on "MMIO" is imprecisely supported: assuming no concurrent accesses to non-atomic object, no writes to a potential alias, and valid reads [imprecise-address-specification] [E0012]
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-mmio_range.adb:22
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-mmio_range.adb:22
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-mmio_range.adb:22
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-pci-dev.adb:28
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-pci-dev.adb:28
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-pci-dev.adb:28
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-pci-mmconf.adb:36
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-pci-mmconf.adb:38
+hw-gfx-gma.adb:68:04: warning: in instantiation at hw-pci-mmconf.adb:40
+hw-gfx-gma.adb:68:04: warning: launch "gnatprove --explain=E0012" for more information
+hw-gfx-gma.adb:68:04: warning: launch "gnatprove --explain=E0012" for more information
+hw-gfx-gma.adb:68:04: warning: launch "gnatprove --explain=E0012" for more information
+hw-gfx-gma.adb:68:04: warning: make sure that all overlapping objects have Async_Writers set to True
+hw-gfx-gma.adb:68:04: warning: make sure that all overlapping objects have Async_Writers set to True
+hw-gfx-gma.adb:68:04: warning: make sure that all overlapping objects have Async_Writers set to True
+hw-gfx-gma.adb:88:13: info: implicit aspect Always_Terminates on "PCH_RAWCLK_FREQ" has been proved, subprogram will terminate
+hw-gfx-gma.adb:99:07: info: initialization of "Success" proved
+hw-gfx-gma.adb:103:07: info: initialization of "Port_Cfg" proved
+hw-gfx-gma.adb:104:07: info: initialization of "Scaler_Available" proved
+hw-gfx-gma.adb:193:07: info: initialization of "Port_Cfg" proved
+hw-gfx-gma.adb:194:07: info: initialization of "Success" proved
+hw-gfx-gma.adb:214:56: info: initialization of "Detected" proved
+hw-gfx-gma.adb:227:07: info: initialization of "Old_Configs" proved
+hw-gfx-gma.adb:240:16: info: implicit aspect Always_Terminates on "Full_Update" has been proved, subprogram will terminate
+hw-gfx-gma.adb:262:13: info: initialization of "Unplug_Detected" proved
+hw-gfx-gma.adb:281:13: info: initialization of "Success" proved
+hw-gfx-gma.adb:282:13: info: initialization of "Scaler_Available" proved
+hw-gfx-gma.adb:356:16: info: implicit aspect Always_Terminates on "Cap_Add" has been proved, subprogram will terminate
+hw-gfx-gma.adb:382:16: high: "Dev.Address_State" constituent of "GMA.State" is not initialized
+hw-gfx-gma.adb:382:16: low: unused global "Dev.Address_State" constituent of "GMA.State"
+hw-gfx-gma.adb:383:22: info: initialization of "Registers.Address_State" constituent of "GMA.State" proved
+hw-gfx-gma.adb:384:17: info: initialization of "PLLs.State" constituent of "GMA.State" proved
+hw-gfx-gma.adb:384:30: info: initialization of "Panel.Panel_State" constituent of "GMA.State" proved
+hw-gfx-gma.adb:385:13: info: initialization of "Cur_Configs" constituent of "State" proved
+hw-gfx-gma.adb:385:26: info: initialization of "Allocated_PLLs" constituent of "State" proved
+hw-gfx-gma.adb:386:13: info: initialization of "HPD_Delay" constituent of "State" proved
+hw-gfx-gma.adb:386:24: info: initialization of "Wait_For_HPD" constituent of "State" proved
+hw-gfx-gma.adb:387:13: info: initialization of "Linear_FB_Base" constituent of "State" proved
+hw-gfx-gma.adb:387:29: info: initialization of "Initialized" constituent of "Init_State" proved
+hw-gfx-gma.adb:391:07: info: initialization of "PCI_MMIO_Base" proved
+hw-gfx-gma.adb:391:22: info: initialization of "PCI_GTT_Base" proved
+hw-gfx-gma.adb:395:33: info: initialization of "Success" proved
+hw-gfx-gma.adb:397:10: info: initialization of "Audio_VID_DID" proved
+hw-gfx-gma.adb:401:25: warning: this statement is never reached
+hw-gfx-gma.adb:403:25: warning: this statement is never reached
+hw-gfx-gma.adb:422:37: info: initialization of "Success" proved
+hw-gfx-gma.adb:425:10: info: initialization of "Vendor" proved
+hw-gfx-gma.adb:425:18: info: initialization of "Device" proved
+hw-gfx-gma.adb:509:07: warning: statement has no effect
+hw-gfx-gma.adb:549:13: info: implicit aspect Always_Terminates on "FB_First_Page" has been proved, subprogram will terminate
+hw-gfx-gma.adb:551:13: info: implicit aspect Always_Terminates on "FB_Pages" has been proved, subprogram will terminate
+hw-gfx-gma.adb:553:13: info: implicit aspect Always_Terminates on "FB_Last_Page" has been proved, subprogram will terminate
+hw-gfx-gma.adb:559:13: info: implicit aspect Always_Terminates on "Valid_FB" has been proved, subprogram will terminate
+hw-gfx-gma.adb:569:13: info: implicit aspect Always_Terminates on "Valid_Phys_FB" has been proved, subprogram will terminate
+hw-gfx-gma.adb:631:13: info: implicit aspect Always_Terminates on "GGMS_Gen4" has been proved, subprogram will terminate
+hw-gfx-gma.adb:633:13: info: implicit aspect Always_Terminates on "GTT_Size_Gen4" has been proved, subprogram will terminate
+hw-gfx-gma.adb:637:13: info: implicit aspect Always_Terminates on "GMS_Gen4" has been proved, subprogram will terminate
+hw-gfx-gma.adb:642:13: info: implicit aspect Always_Terminates on "Stolen_Size_Gen4" has been proved, subprogram will terminate
+hw-gfx-gma.adb:646:13: info: implicit aspect Always_Terminates on "GTT_Size_Gen6" has been proved, subprogram will terminate
+hw-gfx-gma.adb:649:13: info: implicit aspect Always_Terminates on "Stolen_Size_Gen6" has been proved, subprogram will terminate
+hw-gfx-gma.adb:652:13: info: implicit aspect Always_Terminates on "GTT_Size_Gen8" has been proved, subprogram will terminate
+hw-gfx-gma.adb:655:13: info: implicit aspect Always_Terminates on "GMS_Gen8" has been proved, subprogram will terminate
+hw-gfx-gma.adb:657:13: info: implicit aspect Always_Terminates on "Stolen_Size_Gen8" has been proved, subprogram will terminate
+hw-gfx-gma.adb:660:13: info: implicit aspect Always_Terminates on "Stolen_Size_Gen9" has been proved, subprogram will terminate
+hw-gfx-gma.adb:667:07: info: initialization of "GTT_Size" proved
+hw-gfx-gma.adb:668:07: info: initialization of "Stolen_Size" proved
+hw-gfx-gma.adb:676:07: info: initialization of "GGC" proved
+hw-gfx-gma.adb:681:25: warning: this statement is never reached
+hw-gfx-gma.adb:682:25: warning: this statement is never reached
+hw-gfx-gma.adb:687:25: warning: this statement is never reached
+hw-gfx-gma.adb:688:25: warning: this statement is never reached
+hw-gfx-gma.adb:690:25: warning: this statement is never reached
+hw-gfx-gma.adb:691:25: warning: this statement is never reached
+hw-gfx-gma.adb:696:50: info: initialization of "Valid" proved
+hw-gfx-gma.adb:701:07: info: initialization of "GTT_Size" proved
+hw-gfx-gma.adb:701:17: info: initialization of "Aperture_Size" proved
+hw-gfx-gma.adb:702:07: info: initialization of "Stolen_Size" proved
+hw-gfx-gma.adb:726:07: info: initialization of "Phys_Base" proved
+hw-gfx-gma.adb:758:13: info: initialization of "Linear_FB" proved
+hw-gfx-gma.adb:772:07: info: initialization of "Valid" proved
+hw-gfx-gma.adb:816:12: warning: assuming "New_Line" always terminates
+hw-gfx-gma.adb:816:12: warning: assuming "New_Line" has no effect on global items
+hw-gfx-gma.adb:816:12: warning: no Always_Terminates aspect available for "New_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:816:12: warning: no Global contract available for "New_Line" [assumed-global-null]
+hw-gfx-gma.adb:817:12: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:817:12: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:817:12: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:817:12: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:820:18: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:820:18: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:820:18: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:820:18: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:822:18: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:822:18: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:822:18: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:822:18: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:824:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:824:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:824:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:824:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:825:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:825:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:825:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:825:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:827:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:827:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:827:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:827:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:828:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:828:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:828:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:828:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:829:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:829:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:829:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:829:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:830:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:830:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:830:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:830:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:831:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:831:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:831:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:831:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:832:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:832:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:832:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:832:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:833:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:833:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:833:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:833:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:834:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:834:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:834:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:834:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:835:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:835:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:835:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:835:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:836:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:836:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:836:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:836:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:837:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:837:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:837:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:837:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:838:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:838:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:838:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:838:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:839:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:839:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:839:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:839:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:840:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:840:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:840:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:840:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:841:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:841:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:841:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:841:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:842:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:842:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:842:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:842:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:843:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:843:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:843:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:843:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:844:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:844:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:844:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:844:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:845:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:845:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:845:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:845:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:846:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:846:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:846:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:846:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:847:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:847:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:847:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:847:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:848:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:848:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:848:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:848:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:849:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:849:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:849:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:849:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:850:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:850:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:850:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:850:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:851:15: warning: assuming "Put_Word32" always terminates
+hw-gfx-gma.adb:851:15: warning: assuming "Put_Word32" has no effect on global items
+hw-gfx-gma.adb:851:15: warning: no Always_Terminates aspect available for "Put_Word32" [assumed-always-terminates]
+hw-gfx-gma.adb:851:15: warning: no Global contract available for "Put_Word32" [assumed-global-null]
+hw-gfx-gma.adb:852:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:852:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:852:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:852:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:853:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:853:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:853:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:853:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:854:15: warning: assuming "Put_Int64" always terminates
+hw-gfx-gma.adb:854:15: warning: assuming "Put_Int64" has no effect on global items
+hw-gfx-gma.adb:854:15: warning: no Always_Terminates aspect available for "Put_Int64" [assumed-always-terminates]
+hw-gfx-gma.adb:854:15: warning: no Global contract available for "Put_Int64" [assumed-global-null]
+hw-gfx-gma.adb:855:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:855:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:855:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:855:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:856:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:856:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:856:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:856:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:857:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:857:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:857:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:857:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:858:15: warning: assuming "Put_Int64" always terminates
+hw-gfx-gma.adb:858:15: warning: assuming "Put_Int64" has no effect on global items
+hw-gfx-gma.adb:858:15: warning: no Always_Terminates aspect available for "Put_Int64" [assumed-always-terminates]
+hw-gfx-gma.adb:858:15: warning: no Global contract available for "Put_Int64" [assumed-global-null]
+hw-gfx-gma.adb:859:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:859:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:859:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:859:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:860:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:860:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:860:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:860:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:861:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:861:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:861:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:861:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:862:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:862:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:862:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:862:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:863:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:863:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:863:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:863:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:864:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:864:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:864:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:864:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:865:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:865:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:865:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:865:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:866:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:866:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:866:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:866:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:867:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:867:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:867:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:867:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:868:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:868:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:868:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:868:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:869:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:869:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:869:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:869:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:870:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:870:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:870:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:870:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:871:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:871:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:871:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:871:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:872:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:872:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:872:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:872:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:873:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:873:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:873:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:873:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:874:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:874:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:874:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:874:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:875:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:875:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:875:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:875:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:876:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:876:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:876:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:876:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:877:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:877:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:877:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:877:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:878:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:878:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:878:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:878:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:879:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:879:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:879:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:879:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:880:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:880:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:880:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:880:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:881:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:881:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:881:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:881:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:882:15: warning: assuming "Put_Int32" always terminates
+hw-gfx-gma.adb:882:15: warning: assuming "Put_Int32" has no effect on global items
+hw-gfx-gma.adb:882:15: warning: no Always_Terminates aspect available for "Put_Int32" [assumed-always-terminates]
+hw-gfx-gma.adb:882:15: warning: no Global contract available for "Put_Int32" [assumed-global-null]
+hw-gfx-gma.adb:883:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:883:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:883:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:883:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:884:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:884:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:884:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:884:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:888:15: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:888:15: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:888:15: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:888:15: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:892:15: warning: assuming "Put" always terminates
+hw-gfx-gma.adb:892:15: warning: assuming "Put" has no effect on global items
+hw-gfx-gma.adb:892:15: warning: no Always_Terminates aspect available for "Put" [assumed-always-terminates]
+hw-gfx-gma.adb:892:15: warning: no Global contract available for "Put" [assumed-global-null]
+hw-gfx-gma.adb:893:15: warning: assuming "Put_Int64" always terminates
+hw-gfx-gma.adb:893:15: warning: assuming "Put_Int64" has no effect on global items
+hw-gfx-gma.adb:893:15: warning: no Always_Terminates aspect available for "Put_Int64" [assumed-always-terminates]
+hw-gfx-gma.adb:893:15: warning: no Global contract available for "Put_Int64" [assumed-global-null]
+hw-gfx-gma.adb:895:18: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:895:18: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:895:18: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:895:18: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.adb:897:18: warning: assuming "Put_Line" always terminates
+hw-gfx-gma.adb:897:18: warning: assuming "Put_Line" has no effect on global items
+hw-gfx-gma.adb:897:18: warning: no Always_Terminates aspect available for "Put_Line" [assumed-always-terminates]
+hw-gfx-gma.adb:897:18: warning: no Global contract available for "Put_Line" [assumed-global-null]
+hw-gfx-gma.ads:27:04: info: flow dependencies proved
+hw-gfx-gma.ads:98:07: info: initialization of "Success" proved
+hw-gfx-gma.ads:100:07: info: data dependencies proved
+hw-gfx-gma.ads:105:13: info: implicit aspect Always_Terminates on "Is_Initialized" has been proved, subprogram will terminate
+hw-gfx-gma.ads:107:07: info: data dependencies proved
+hw-gfx-gma.ads:140:07: info: initialization of "Success" proved
+hw-gfx-gma.ads:144:29: info: initialization of "Linear_FB" proved
+hw-gfx-gma.ads:154:13: info: implicit aspect Always_Terminates on "Phys_Offset" has been proved, subprogram will terminate
+hw-gfx-gma.ads:164:13: info: implicit aspect Always_Terminates on "Requires_Scaling" has been proved, subprogram will terminate
+hw-gfx-gma.ads:167:13: info: implicit aspect Always_Terminates on "Scaling_Type" has been proved, subprogram will terminate
+hw-gfx-gma.ads:218:13: info: implicit aspect Always_Terminates on "FB_Pitch" has been proved, subprogram will terminate
+hw-gfx-gma.ads:222:13: info: implicit aspect Always_Terminates on "Valid_Stride" has been proved, subprogram will terminate
+hw-gfx.ads:185:13: info: implicit aspect Always_Terminates on "Rotation_90" has been proved, subprogram will terminate
+hw-gfx.ads:188:13: info: implicit aspect Always_Terminates on "Rotated_Width" has been proved, subprogram will terminate
+hw-gfx.ads:190:13: info: implicit aspect Always_Terminates on "Rotated_Height" has been proved, subprogram will terminate
+hw-gfx.ads:193:13: info: implicit aspect Always_Terminates on "Pixel_To_Bytes" has been proved, subprogram will terminate
+hw-gfx.ads:195:13: info: implicit aspect Always_Terminates on "FB_Size" has been proved, subprogram will terminate
+hw-gfx.ads:198:13: info: implicit aspect Always_Terminates on "Requires_Scaling" has been proved, subprogram will terminate
+hw-gfx.ads:204:13: info: implicit aspect Always_Terminates on "Scaling_Type" has been proved, subprogram will terminate
+hw-gfx.ads:213:13: info: implicit aspect Always_Terminates on "Scaling_Type" has been proved, subprogram will terminate
+hw-mmio_range.ads:26:07: info: initialization of "GTT.Base_Address" constituent of "Registers.Address_State" proved, in instantiation at hw-gfx-gma-registers.adb:54
+hw-mmio_range.ads:26:07: info: initialization of "MM16.Base_Address" constituent of "MM.Address_State" proved, in instantiation at hw-pci-mmconf.adb:38, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-mmio_range.ads:26:07: info: initialization of "MM32.Base_Address" constituent of "MM.Address_State" proved, in instantiation at hw-pci-mmconf.adb:40, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-mmio_range.ads:26:07: info: initialization of "MM8.Base_Address" constituent of "MM.Address_State" proved, in instantiation at hw-pci-mmconf.adb:36, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-mmio_range.ads:26:07: info: initialization of "Regs.Base_Address" constituent of "Registers.Address_State" proved, in instantiation at hw-gfx-gma-registers.adb:41
+hw-mmio_range.ads:27:04: info: flow dependencies proved, in instantiation at hw-gfx-framebuffer_filler.adb:25
+hw-mmio_range.ads:27:04: info: flow dependencies proved, in instantiation at hw-gfx-gma-registers.adb:41
+hw-mmio_range.ads:27:04: info: flow dependencies proved, in instantiation at hw-gfx-gma-registers.adb:54
+hw-mmio_range.ads:27:04: info: flow dependencies proved, in instantiation at hw-pci-mmconf.adb:36, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-mmio_range.ads:27:04: info: flow dependencies proved, in instantiation at hw-pci-mmconf.adb:38, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-mmio_range.ads:27:04: info: flow dependencies proved, in instantiation at hw-pci-mmconf.adb:40, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-mmio_range.ads:30:20: info: initialization of "Value" proved, in instantiation at hw-gfx-framebuffer_filler.adb:25
+hw-mmio_range.ads:30:20: info: initialization of "Value" proved, in instantiation at hw-gfx-gma-registers.adb:41
+hw-mmio_range.ads:30:20: info: initialization of "Value" proved, in instantiation at hw-gfx-gma-registers.adb:54
+hw-mmio_range.ads:30:20: info: initialization of "Value" proved, in instantiation at hw-pci-mmconf.adb:36, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-mmio_range.ads:30:20: info: initialization of "Value" proved, in instantiation at hw-pci-mmconf.adb:38, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-mmio_range.ads:30:20: info: initialization of "Value" proved, in instantiation at hw-pci-mmconf.adb:40, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.adb:48:07: info: initialization of "Header_Type" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.adb:49:07: info: initialization of "Reg32" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.adb:84:07: info: initialization of "Cmd" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.adb:85:07: info: initialization of "Base" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.adb:85:13: info: initialization of "Backup" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.ads:20:04: info: flow dependencies proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.ads:23:21: info: initialization of "Value" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.ads:24:22: info: initialization of "Value" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.ads:27:22: info: initialization of "Value" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.ads:42:07: info: initialization of "Addr" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.ads:49:29: info: initialization of "Length" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-dev.ads:53:26: info: initialization of "Success" proved, in instantiation at hw-gfx-gma.adb:68
+hw-pci-mmconf.ads:24:23: info: initialization of "MM.Address_State" constituent of "Dev.Address_State" proved, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-pci-mmconf.ads:25:04: info: flow dependencies proved, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-pci-mmconf.ads:28:21: info: initialization of "Value" proved, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-pci-mmconf.ads:29:22: info: initialization of "Value" proved, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-pci-mmconf.ads:32:22: info: initialization of "Value" proved, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-pci-mmconf.ads:44:14: warning: subprogram "Set_Base_Address" has no effect, in instantiation at hw-pci-dev.adb:28, in instantiation at hw-gfx-gma.adb:68
+hw-pci.ads:54:13: info: implicit aspect Always_Terminates on "Calc_Base_Address" has been proved, subprogram will terminate
+hw-time-timer.ads:21:07: info: flow dependencies proved
+hw.ads:57:13: info: implicit aspect Always_Terminates on "Div_Round_Up" has been proved, subprogram will terminate
+hw.ads:60:13: info: implicit aspect Always_Terminates on "Div_Round_Closest" has been proved, subprogram will terminate
+hw.ads:65:13: info: implicit aspect Always_Terminates on "Div_Round_Up" has been proved, subprogram will terminate
+hw.ads:68:13: info: implicit aspect Always_Terminates on "Div_Round_Closest" has been proved, subprogram will terminate
+hw.ads:73:13: info: implicit aspect Always_Terminates on "Div_Round_Up" has been proved, subprogram will terminate
+hw.ads:76:13: info: implicit aspect Always_Terminates on "Div_Round_Closest" has been proved, subprogram will terminate
+hw.ads:81:13: info: implicit aspect Always_Terminates on "Div_Round_Up" has been proved, subprogram will terminate
+hw.ads:84:13: info: implicit aspect Always_Terminates on "Div_Round_Closest" has been proved, subprogram will terminate

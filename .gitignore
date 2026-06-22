@@ -1,0 +1,47 @@
+# git-ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+*.bexch
+*~
+*.sli
+*.lst
+*.tmp
+*.log
+*.idx
+*.smf
+*.rep
+*.pyc
+*.swp
+*.bak
+.bugtool
+_build
+/auto.cgpr
+GNAT-*
+/gnat2why/gnat_src
+/install
+/gnat2why/obj
+/gnat2why/why/xgen/obj
+/gnat2why/obj-gnat
+/gnat2why/obj-gnat2why
+/gnat2why/obj-tools
+/obj
+/benchmark_script/data
+/benchmark_script/bench
+/gnat2why/why/xgen/b__xtree.ad?
+/testsuite/gnatprove/temp
+/include
+/spark2014vsn.ads.stderr
+/spark2014vsn.ads.stdout
+
+# Artifacts generated when running GNAT SAS on SPARK sources or reviewing GNAT
+# SAS messages
+**/analyzer/**/*.annots
+**/analyzer/**/*.backup
+**/analyzer/**/*.json
+**/analyzer/**/*.sam
+.gnatsas*
+**/obj/**/gnatsas
+*spark*check*.log

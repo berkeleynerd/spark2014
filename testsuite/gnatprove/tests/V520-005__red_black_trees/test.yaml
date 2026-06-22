@@ -1,0 +1,6 @@
+large: True
+prove_all:
+  sparklib: True
+  steps: 1
+  counterexample: False
+  prover: ["cvc5"]

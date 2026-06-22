@@ -1,0 +1,11 @@
+with "included";
+
+project Shared is
+   for Source_Dirs use ("src0");
+   for Object_Dir use "obj";
+
+   package Compiler is
+      for Local_Configuration_Pragmas use "spark.adc";
+   end Compiler;
+
+end Shared;

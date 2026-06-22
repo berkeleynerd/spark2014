@@ -1,0 +1,1 @@
+test.gpr:3:31: error: undefined external reference "NONEXISTING_ENVIRONMENTAL_VARIABLE"

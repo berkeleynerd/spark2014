@@ -1,0 +1,18 @@
+error: Elaboration circularity detected
+info:
+info:    Reason:
+info:
+info:      unit "p (spec)" depends on its own elaboration
+info:
+info:    Circularity:
+info:
+info:      unit "p (spec)" invokes a construct of unit "q (body)" at elaboration time
+info:      unit "q (body)" has with clause for unit "p (spec)"
+info:
+info:    Suggestions:
+info:
+info:      use the dynamic elaboration model (compiler switch -gnatE)
+info:      use detailed invocation information (compiler switch -gnatd_F)
+info:
+gnatmake: *** bind failed.
+q.ads:3:13: info: implicit aspect Always_Terminates on "Fun" has been proved, subprogram will terminate

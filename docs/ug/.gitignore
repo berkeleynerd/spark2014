@@ -1,0 +1,11 @@
+_build
+gnatprove_by_example/flow
+gnatprove_by_example/prove
+gnatprove_by_example/examples/proof/sessions
+en/source/flow_checks_table.rst
+en/source/proof_checks_table.rst
+en/source/misc_warnings_table.rst
+en/source/unsupported_constructs.rst
+examples
+_templates/search.html
+static/custom.css

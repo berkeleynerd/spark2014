@@ -1,0 +1,4 @@
+large: True
+prove_all:
+  steps: 9000
+  opt: ["--warnings=off"]

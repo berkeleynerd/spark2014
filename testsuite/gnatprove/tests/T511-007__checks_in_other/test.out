@@ -1,0 +1,14 @@
+test_aggregates.adb:4:13: info: implicit aspect Always_Terminates on "F" has been proved, subprogram will terminate
+test_aggregates.adb:5:13: info: implicit aspect Always_Terminates on "Only_6" has been proved, subprogram will terminate
+test_aggregates.adb:9:37: info: index check proved (CVC5: 2 VC)
+test_aggregates.adb:9:48: info: index check proved (CVC5: 2 VC)
+test_aggregates.adb:9:48: info: range check proved (CVC5: 2 VC)
+test_aggregates.adb:11:04: info: range check proved (CVC5: 2 VC)
+test_aggregates.adb:15:09: info: length check proved (CVC5: 3 VC; Trivial: 1 VC)
+test_aggregates.adb:15:19: info: range check proved (CVC5: 2 VC)
+test_aggregates.adb:15:23: info: range check proved (CVC5: 2 VC)
+test_aggregates.adb:15:32: info: index check proved (CVC5: 2 VC)
+test_aggregates.adb:16:21: info: range check proved (CVC5: 2 VC)
+test_aggregates.adb:16:31: info: overflow check proved (CVC5: 2 VC)
+test_aggregates.adb:17:29: info: precondition proved (CVC5: 1 VC)
+test_aggregates.adb:19:19: info: assertion proved (CVC5: 1 VC)

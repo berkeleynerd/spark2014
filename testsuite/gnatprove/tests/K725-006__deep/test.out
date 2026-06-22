@@ -1,0 +1,3 @@
+pack.adb:2:08: info: data dependencies proved
+pack.adb:7:26: info: flow dependencies proved, in instantiation at pack.adb:18
+pack.adb:11:29: info: flow dependencies proved, in instantiation at pack.adb:18

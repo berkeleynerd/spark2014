@@ -1,0 +1,1 @@
+ALL XFAIL should be rejected by the frontend (eng/toolchain/gnat#169)

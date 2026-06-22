@@ -1,0 +1,186 @@
+Do not stop at compilation:
+---------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:14:04: warning: statement has no effect
+p.adb:15:09: warning: unused assignment
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+
+Do not issue all compilation warnings, stop at flow warnings treated as errors:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:14:04: warning: statement has no effect
+p.adb:15:09: warning: unused assignment
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+gnatprove: error during flow analysis and proof
+
+Do not issue all compilation warnings, stop at flow warnings treated as errors:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:14:04: warning: statement has no effect
+p.adb:15:09: warning: unused assignment
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+gnatprove: error during flow analysis and proof
+
+Do not issue any compilation warnings, stop at flow warnings treated as errors:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:14:04: warning: statement has no effect
+p.adb:15:09: warning: unused assignment
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+gnatprove: error during flow analysis and proof
+
+Do not issue all compilation warnings, issue flow warnings and continue:
+------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:14:04: warning: statement has no effect
+p.adb:15:09: warning: unused assignment
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+
+Do not issue all compilation warnings, issue flow warnings and continue:
+------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:14:04: warning: statement has no effect
+p.adb:15:09: warning: unused assignment
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+
+Do not issue any compilation warnings, issue flow warnings and continue:
+------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:14:04: warning: statement has no effect
+p.adb:15:09: warning: unused assignment
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+
+Issue all compilation warnings, do not issue flow warnings and continue:
+------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+
+Do not issue all compilation warnings, do not issue flow warnings and continue:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+
+Do not issue any compilation warnings, do not issue flow warnings and continue:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+
+Do not stop at compilation:
+---------------------------
+p.adb:1:14: info: initialization of "Y" proved[#2]
+p.adb:14:04: warning: statement has no effect[#0]
+p.adb:15:09: warning: unused assignment[#1]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#3]
+completed 1 out of 1 (100%)...
+
+Do not issue all compilation warnings, stop at flow warnings treated as errors:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#2]
+p.adb:14:04: warning: statement has no effect[#0]
+p.adb:15:09: warning: unused assignment[#1]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#3]
+completed 1 out of 1 (100%)...
+gnatprove: error during flow analysis and proof
+
+Do not issue all compilation warnings, stop at flow warnings treated as errors:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#2]
+p.adb:14:04: warning: statement has no effect[#0]
+p.adb:15:09: warning: unused assignment[#1]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#3]
+completed 1 out of 1 (100%)...
+gnatprove: error during flow analysis and proof
+
+Do not issue any compilation warnings, stop at flow warnings treated as errors:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#2]
+p.adb:14:04: warning: statement has no effect[#0]
+p.adb:15:09: warning: unused assignment[#1]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#3]
+completed 1 out of 1 (100%)...
+gnatprove: error during flow analysis and proof
+
+Do not issue all compilation warnings, issue flow warnings and continue:
+------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#2]
+p.adb:14:04: warning: statement has no effect[#0]
+p.adb:15:09: warning: unused assignment[#1]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#3]
+completed 1 out of 1 (100%)...
+
+Do not issue all compilation warnings, issue flow warnings and continue:
+------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#2]
+p.adb:14:04: warning: statement has no effect[#0]
+p.adb:15:09: warning: unused assignment[#1]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#3]
+completed 1 out of 1 (100%)...
+
+Do not issue any compilation warnings, issue flow warnings and continue:
+------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#2]
+p.adb:14:04: warning: statement has no effect[#0]
+p.adb:15:09: warning: unused assignment[#1]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#3]
+completed 1 out of 1 (100%)...
+
+Issue all compilation warnings, do not issue flow warnings and continue:
+------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#0]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#1]
+completed 1 out of 1 (100%)...
+
+Do not issue all compilation warnings, do not issue flow warnings and continue:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#0]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#1]
+completed 1 out of 1 (100%)...
+
+Do not issue any compilation warnings, do not issue flow warnings and continue:
+-------------------------------------------------------------------------------
+p.adb:1:14: info: initialization of "Y" proved[#0]
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)[#1]
+completed 1 out of 1 (100%)...
+
+p.adb:1:14: info: initialization of "Y" proved
+p.adb:14:04: warning: statement has no effect
+p.adb:15:09: warning: unused assignment
+p.adb:18:19: info: assertion proved (CVC5: 1 VC)
+
+=========================
+Summary of SPARK analysis
+=========================
+
+-
+SPARK Analysis results Total Flow Provers Justified Unproved
+-
+Data Dependencies . . . . .
+Flow Dependencies . . . . .
+Initialization 1 1 . . .
+Non-Aliasing . . . . .
+Run-time Checks . . . . .
+Assertions 1 . 1 . .
+Functional Contracts . . . . .
+LSP Verification . . . . .
+Termination . . . . .
+Concurrency . . . . .
+-
+Total 2 1 (50%) 1 (50%) . .
+
+
+max steps used for successful proof: 1
+
+============================
+Most difficult proved checks
+============================
+
+No check found with max time greater than 1 second
+
+========================
+Detailed analysis report
+========================
+
+Analyzed 1 unit
+in unit p, 1 subprograms and packages out of 1 analyzed
+ P at p.adb:1 flow analyzed (0 errors, 0 checks, 2 warnings and 0 pragma Assume statements) and proved (1 checks)
+absence of run-time errors of P fully established

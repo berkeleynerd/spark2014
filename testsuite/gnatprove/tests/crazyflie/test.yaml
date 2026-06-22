@@ -1,0 +1,6 @@
+prove_all:
+  mode: flow
+  prover: ["cvc5"]
+  opt: ["-XMODE=Analyze"]
+large: True
+timeout: 1500

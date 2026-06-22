@@ -1,0 +1,46 @@
+binary_search_trees.adb:13:22: info: postcondition proved (CVC5: 1 VC)
+binary_search_trees.adb:17:34: info: pointer dereference check proved (CVC5: 1 VC)
+binary_search_trees.adb:18:34: info: pointer dereference check proved (CVC5: 1 VC)
+binary_search_trees.adb:19:13: info: absence of resource or memory leak proved (CVC5: 1 VC; Trivial: 1 VC)
+binary_search_trees.adb:23:07: info: absence of resource or memory leak at end of scope proved (CVC5: 1 VC)
+binary_search_trees.adb:26:12: info: absence of resource or memory leak proved (CVC5: 1 VC)
+binary_search_trees.adb:26:15: info: predicate check proved (CVC5: 2 VC)
+binary_search_trees.adb:36:19: info: postcondition proved (CVC5: 1 VC)
+binary_search_trees.adb:36:57: info: overflow check proved (CVC5: 2 VC)
+binary_search_trees.adb:45:33: info: absence of resource or memory leak proved (CVC5: 1 VC)
+binary_search_trees.adb:46:29: info: overflow check proved (CVC5: 2 VC)
+binary_search_trees.adb:48:16: info: precondition proved (CVC5: 1 VC)
+binary_search_trees.adb:48:39: info: null exclusion check proved (CVC5: 1 VC)
+binary_search_trees.adb:53:34: info: absence of resource or memory leak proved (CVC5: 1 VC)
+binary_search_trees.adb:54:29: info: overflow check proved (CVC5: 2 VC)
+binary_search_trees.adb:56:16: info: precondition proved (CVC5: 1 VC)
+binary_search_trees.adb:56:39: info: null exclusion check proved (CVC5: 1 VC)
+binary_search_trees.adb:62:07: info: absence of resource or memory leak at end of scope proved (CVC5: 1 VC)
+binary_search_trees.adb:62:07: info: initialization of "New_Node" proved
+binary_search_trees.adb:65:19: info: absence of resource or memory leak proved (CVC5: 1 VC)
+binary_search_trees.adb:66:15: info: absence of resource or memory leak proved (CVC5: 1 VC)
+binary_search_trees.adb:66:18: info: predicate check proved (CVC5: 2 VC)
+binary_search_trees.adb:66:55: info: overflow check proved (CVC5: 2 VC)
+binary_search_trees.adb:68:10: info: precondition proved (CVC5: 1 VC)
+binary_search_trees.adb:68:26: info: in value of subprogram parameter after the call at binary_search_trees.adb:68
+binary_search_trees.adb:68:26: info: non-aliasing of formal parameters "Starting_At" and "Size" proved
+binary_search_trees.adb:68:26: info: null exclusion check proved (CVC5: 1 VC)
+binary_search_trees.adb:68:26: info: predicate check proved (CVC5: 2 VC)
+binary_search_trees.adb:68:43: info: in value of subprogram parameter after the call at binary_search_trees.adb:68
+binary_search_trees.adb:68:43: info: predicate check proved (CVC5: 2 VC)
+binary_search_trees.adb:76:10: info: initialization of "Result" proved
+binary_search_trees.adb:81:34: info: pointer dereference check proved (CVC5: 1 VC)
+binary_search_trees.adb:83:37: info: pointer dereference check proved (CVC5: 1 VC)
+binary_search_trees.adb:84:23: medium: implicit aspect Always_Terminates on "Lookup_Node" could be incorrect, subprogram is recursive [possible fix: annotate "Lookup_Node" with a Subprogram_Variant aspect]
+binary_search_trees.adb:84:49: info: pointer dereference check proved (CVC5: 1 VC)
+binary_search_trees.adb:86:23: medium: implicit aspect Always_Terminates on "Lookup_Node" could be incorrect, subprogram is recursive [possible fix: annotate "Lookup_Node" with a Subprogram_Variant aspect]
+binary_search_trees.adb:86:49: info: pointer dereference check proved (CVC5: 1 VC)
+binary_search_trees.adb:102:34: medium: implicit aspect Always_Terminates on "Minimum_Node" could be incorrect, loop might be nonterminating [possible fix: add loop variant in the loop body]
+binary_search_trees.adb:103:28: info: null exclusion check proved (CVC5: 1 VC)
+binary_search_trees.adb:105:14: info: dynamic accessibility check proved (Trivial)
+binary_search_trees.adb:111:31: info: null exclusion check proved (CVC5: 1 VC)
+binary_search_trees.ads:5:09: info: in default value of private type at binary_search_trees.ads:5
+binary_search_trees.ads:5:09: info: predicate check proved on default value (CVC5: 2 VC)
+binary_search_trees.ads:16:13: info: implicit aspect Always_Terminates on "Lookup" has been proved, subprogram will terminate
+binary_search_trees.ads:19:13: info: implicit aspect Always_Terminates on "Minimum" has been proved, subprogram will terminate
+binary_search_trees.ads:27:13: info: implicit aspect Always_Terminates on "Size" has been proved, subprogram will terminate

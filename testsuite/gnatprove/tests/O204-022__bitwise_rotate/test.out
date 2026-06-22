@@ -1,0 +1,5 @@
+test_rotate.adb:8:13: info: implicit aspect Always_Terminates on "R" has been proved, subprogram will terminate
+test_rotate.adb:13:14: info: postcondition proved (CVC5: 1 VC)
+test_rotate.adb:15:06: info: data dependencies proved
+test_rotate.adb:19:39: info: range check proved (CVC5: 2 VC)
+test_rotate.adb:25:09: info: precondition proved (CVC5: 3 VC)

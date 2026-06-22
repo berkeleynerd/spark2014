@@ -1,0 +1,14 @@
+test.ads:9:13: info: implicit aspect Always_Terminates on "Check_Array_Ptr" has been proved, subprogram will terminate
+test.ads:12:16: info: range check proved (CVC5: 4 VC)
+test.ads:12:37: info: overflow check proved (CVC5: 2 VC)
+test.ads:12:58: info: overflow check proved (CVC5: 2 VC)
+test.ads:13:16: info: range check proved (CVC5: 4 VC)
+test.ads:13:37: info: overflow check proved (CVC5: 2 VC)
+test.ads:13:58: info: overflow check proved (CVC5: 2 VC)
+test.ads:15:13: info: implicit aspect Always_Terminates on "Check_Array" has been proved, subprogram will terminate
+test.ads:18:16: info: range check proved (CVC5: 4 VC)
+test.ads:18:37: info: overflow check proved (CVC5: 2 VC)
+test.ads:18:58: info: overflow check proved (CVC5: 2 VC)
+test.ads:19:16: info: range check proved (CVC5: 4 VC)
+test.ads:19:37: info: overflow check proved (CVC5: 2 VC)
+test.ads:19:58: info: overflow check proved (CVC5: 2 VC)

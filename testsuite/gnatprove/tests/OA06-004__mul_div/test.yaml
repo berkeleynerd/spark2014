@@ -1,0 +1,4 @@
+comment: "Do not run with Z3 (P212-018) until deterministic on all platforms."
+prove_all:
+  steps : 240
+  prover: ["cvc5", "altergo"]

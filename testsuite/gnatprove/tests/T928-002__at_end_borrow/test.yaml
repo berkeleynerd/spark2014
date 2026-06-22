@@ -1,0 +1,4 @@
+large: True
+prove_all:
+  sparklib: True
+  check_counterexamples: false

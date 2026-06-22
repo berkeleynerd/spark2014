@@ -1,0 +1,39 @@
+allocator.adb:12:39: info: index check proved (CVC5: 2 VC)
+allocator.adb:14:39: info: index check proved (CVC5: 2 VC)
+allocator.adb:33:10: info: initialization of "Avail" proved
+allocator.adb:34:10: info: initialization of "Alloc" proved
+allocator.adb:38:43: info: precondition proved (CVC5: 4 VC)
+allocator.adb:39:43: info: precondition proved (CVC5: 4 VC)
+allocator.adb:42:16: info: loop invariant initialization proved (CVC5: 8 VC)
+allocator.adb:42:16: info: loop invariant preservation proved (CVC5: 8 VC)
+allocator.adb:47:30: info: index check proved (CVC5: 4 VC)
+allocator.adb:48:51: info: range check proved (CVC5: 4 VC)
+allocator.adb:48:75: info: range check proved (CVC5: 4 VC)
+allocator.adb:49:55: info: range check proved (CVC5: 4 VC)
+allocator.adb:49:75: info: range check proved (CVC5: 4 VC)
+allocator.adb:65:13: info: loop invariant initialization proved (CVC5: 2 VC)
+allocator.adb:65:13: info: loop invariant preservation proved (CVC5: 2 VC)
+allocator.adb:66:53: info: index check proved (CVC5: 4 VC)
+allocator.adb:73:44: info: index check proved (CVC5: 2 VC)
+allocator.adb:74:16: info: index check proved (CVC5: 2 VC)
+allocator.ads:8:03: info: flow dependencies proved
+allocator.ads:9:03: info: initial condition proved (CVC5: 1 VC)
+allocator.ads:18:13: info: implicit aspect Always_Terminates on "Is_Available" has been proved, subprogram will terminate
+allocator.ads:19:13: info: implicit aspect Always_Terminates on "Is_Allocated" has been proved, subprogram will terminate
+allocator.ads:21:13: info: implicit aspect Always_Terminates on "All_Available" has been proved, subprogram will terminate
+allocator.ads:34:16: info: implicit aspect Always_Terminates on overriding operator "=" has been proved, subprogram will terminate
+allocator.ads:39:16: info: implicit aspect Always_Terminates on "Is_Valid" has been proved, subprogram will terminate
+allocator.ads:41:16: info: implicit aspect Always_Terminates on "Model" has been proved, subprogram will terminate
+allocator.ads:41:44: info: postcondition proved (CVC5: 6 VC)
+allocator.ads:47:13: info: implicit aspect Always_Terminates on "Is_Valid" has been proved, subprogram will terminate
+allocator.ads:49:21: info: initialization of "Res" proved
+allocator.ads:55:09: info: contract case proved (CVC5: 3 VC; Trivial: 1 VC)
+allocator.ads:62:09: info: contract case proved (CVC5: 2 VC; Trivial: 1 VC)
+allocator.ads:72:09: info: contract case proved (CVC5: 2 VC; Trivial: 1 VC)
+allocator.ads:79:09: info: contract case proved (CVC5: 2 VC; Trivial: 1 VC)
+functional_sets.ads:25:13: info: during checks for quantification at functional_sets.ads:14, in instantiation at allocator.ads:25
+functional_sets.ads:25:13: info: precondition proved (Trivial: 1 VC), in instantiation at allocator.ads:25
+functional_sets.ads:108:13: info: during checks for quantification at functional_sets.ads:14, in instantiation at allocator.ads:25
+functional_sets.ads:108:13: info: precondition proved (Trivial: 1 VC), in instantiation at allocator.ads:25
+functional_sets.ads:111:13: info: during checks for quantification at functional_sets.ads:14, in instantiation at allocator.ads:25
+functional_sets.ads:111:13: info: precondition proved (CVC5: 1 VC), in instantiation at allocator.ads:25

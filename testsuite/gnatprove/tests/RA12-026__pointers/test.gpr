@@ -1,0 +1,4 @@
+project Test is
+   for Languages use ("Ada");
+   for Main use ();
+end Test;

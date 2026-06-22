@@ -1,0 +1,5 @@
+large: True
+prove_all:
+  no_fail: True
+  steps: 15000
+  vc_timeout: 150

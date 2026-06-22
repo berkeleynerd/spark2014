@@ -1,0 +1,4 @@
+prove_all:
+  sparklib: True
+  opt: ["--function-sandboxing=off"]
+  steps: 2000

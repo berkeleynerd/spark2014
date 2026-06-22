@@ -1,0 +1,2 @@
+minimal.adb:8:09: info: discriminant check proved (CVC5: 1 VC)
+minimal.ads:18:30: info: range check proved (CVC5: 1 VC)

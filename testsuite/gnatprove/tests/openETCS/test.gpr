@@ -1,0 +1,7 @@
+with "sparklib";
+
+project Test is
+   package Compiler is
+      for Default_Switches ("ada") use ("-gnat2022", "-gnatws", "-gnato13");
+   end Compiler;
+end Test;

@@ -1,0 +1,4 @@
+with "sparklib";
+
+project Test is
+end Test;

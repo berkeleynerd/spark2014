@@ -1,0 +1,1 @@
+ALL XFAIL visibility in generic private child of generic parent (eng/spark/spark2014#90)

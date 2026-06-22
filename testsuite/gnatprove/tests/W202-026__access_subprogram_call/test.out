@@ -1,0 +1,3 @@
+main.adb:16:12: info: range check proved (CVC5: 2 VC)
+main.adb:19:06: info: data dependencies proved
+main.adb:23:10: info: range check proved (CVC5: 2 VC)

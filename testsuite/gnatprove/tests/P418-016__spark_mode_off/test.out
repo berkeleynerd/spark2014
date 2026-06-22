@@ -1,0 +1,2 @@
+lexer.adb:18:06: info: discriminant check proved (CVC5: 1 VC; Trivial: 1 VC)
+names.ads:4:04: info: flow dependencies proved

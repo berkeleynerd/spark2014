@@ -1,0 +1,36 @@
+initializes_illegal.adb:6:11: error: aspect "Initializes" must apply to a package declaration
+initializes_illegal.ads:11:30: error: initialization item must denote object or state
+initializes_illegal_3.ads:24:30: error: initialization item must denote object or state
+initializes_illegal_3.ads:26:27: error: "PrivVar" is undefined
+initializes_illegal_3.ads:32:34: error: input item "Rec" cannot denote a visible object or state of package "Initializes_Illegal_3"
+initializes_illegal_3.ads:32:39: error: input item "S2" cannot denote a visible object or state of package "Initializes_Illegal_3"
+initializes_illegal_3.ads:32:46: error: input item "SS" cannot denote a visible object or state of package "Initializes_Illegal_3"
+initializes_illegal_3.ads:32:54: error: input item "XX" cannot denote a visible object or state of package "Initializes_Illegal_3"
+initializes_illegal_3.ads:36:45: error: duplicate input item
+initializes_illegal_3.ads:36:49: error: duplicate input item
+initializes_illegal_3.ads:52:04: error: "PrivVar" is declared in the private part of package "Initializes_Illegal_3"
+initializes_illegal_3.ads:52:04: error: indicator Part_Of is required in this context [E0009]
+initializes_illegal_3.ads:52:04: error: launch "gnatprove --explain=E0009" for more information
+initializes_illegal_3_helper.ads:5:35: error: "SH" is declared in the visible part of package "Standard"
+initializes_illegal_3_helper.ads:5:35: error: indicator Part_Of cannot appear in this context (SPARK RM 7.2.6(5))
+initializes_illegal_4.adb:11:09: warning: unused assignment
+initializes_illegal_4.adb:19:07: info: initialization of "Body_Var" constituent of "State" proved
+initializes_illegal_4.adb:22:17: warning: unused assignment
+initializes_illegal_4.adb:28:16: info: implicit aspect Always_Terminates on "F1" has been proved, subprogram will terminate
+initializes_illegal_4.adb:30:35: medium: overflow check might fail, cannot prove lower bound for G_Var - F1 (e.g. when G_Var = Integer'First and G_Var2 = 1) [reason for check: result of subtraction must fit in a 32-bits machine integer]
+initializes_illegal_4.ads:17:29: warning: no subprogram exists that can initialize abstract state "Pac1.State"
+initializes_illegal_4.ads:20:07: low: initialization of "X" must be mentioned in the Initializes contract of "Pac1" (SPARK RM 7.1.5(9))
+initializes_illegal_4.ads:33:37: warning: no subprogram exists that can initialize abstract state "Pac2.State2"
+initializes_illegal_4.ads:36:12: low: initialization of "Var2" must be mentioned in the Initializes contract of "Pac2" (SPARK RM 7.1.5(9))
+initializes_illegal_4.ads:50:11: info: flow dependencies proved
+initializes_illegal_4.ads:53:30: high: overflow check might fail, cannot prove lower bound for G_Var + G_Var2 (e.g. when G_Var = Integer'First and G_Var2 = -1) [reason for check: result of addition must fit in a 32-bits machine integer]
+initializes_illegal_4.ads:53:32: high: "G_Var2" must be mentioned as an input of the Initializes aspect of "Pac3" (SPARK RM 7.1.5(11))
+initializes_illegal_4.ads:63:11: info: flow dependencies proved
+initializes_illegal_4.ads:65:22: high: "G_Var" must be mentioned as an input of the Initializes aspect of "Pac4" (SPARK RM 7.1.5(11))
+initializes_illegal_5.ads:1:14: error: current unit must also be private descendant of "Initializes_Illegal_5"
+initializes_illegal_5.ads:14:66: error: input item "Pr_Var" cannot denote a visible object or state of package "Initializes_Illegal_5"
+initializes_illegal_6.adb:8:04: high: "Var" constituent of "State" is not initialized in "Initializes_Illegal_6" [reason for check: encapsulating state is mentioned in the Initializes contract of the package declaration] [possible fix: initialize "Var" constituent of "State" at declaration or in the package body statements]
+initializes_illegal_6.adb:8:04: high: initialization of "Initializes_Illegal_6.State" is specified at initializes_illegal_6.ads:14
+initializes_illegal_6.ads:14:08: info: flow dependencies proved
+initializes_illegal_6.ads:16:13: info: implicit aspect Always_Terminates on "F1" has been proved, subprogram will terminate
+initializes_illegal_6.ads:17:11: info: data dependencies proved

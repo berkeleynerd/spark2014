@@ -1,0 +1,2 @@
+p.ads:1:37: info: flow dependencies proved
+p.ads:2:42: low: global Input "P.S" of "Get_Half" not read

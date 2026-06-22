@@ -1,0 +1,64 @@
+pumpunit.adb:55:13: info: implicit aspect Always_Terminates on "current_variant" has been proved, subprogram will terminate
+pumpunit.adb:63:07: info: initialization of "sum" proved
+pumpunit.adb:63:07: info: initialization of "sum" proved, in call inlined at pumpunit.adb:106
+pumpunit.adb:73:07: info: no contextual analysis of "current_variant" (inside expression function)
+pumpunit.adb:81:11: info: initialization of "pump_one" constituent of "Children" proved
+pumpunit.adb:81:21: info: initialization of "pump_two" constituent of "Children" proved
+pumpunit.adb:81:31: info: initialization of "cur_state" constituent of "State" proved
+pumpunit.adb:81:42: info: initialization of "cur_pump" constituent of "Children" proved
+pumpunit.adb:81:52: info: initialization of "outstanding" constituent of "Account" proved
+pumpunit.adb:81:65: info: initialization of "total_pay" constituent of "Account" proved
+pumpunit.adb:82:11: info: initialization of "invariant_value" constituent of "Account" proved
+pumpunit.adb:106:26: info: analyzing call to "current_variant" in context
+pumpunit.adb:119:43: info: overflow check proved (CVC5: 2 VC)
+pumpunit.adb:120:49: info: range check proved (CVC5: 2 VC)
+pumpunit.adb:147:68: info: initialization of "cur_pump" constituent of "Children" proved
+pumpunit.adb:174:33: info: overflow check proved (CVC5: 2 VC)
+pumpunit.ads:8:04: info: flow dependencies proved
+pumpunit.ads:9:04: info: initial condition proved (CVC5: 1 VC)
+pumpunit.ads:15:13: info: implicit aspect Always_Terminates on "get_outstanding" has been proved, subprogram will terminate
+pumpunit.ads:16:07: info: data dependencies proved
+pumpunit.ads:17:07: info: flow dependencies proved
+pumpunit.ads:19:13: info: implicit aspect Always_Terminates on "get_total" has been proved, subprogram will terminate
+pumpunit.ads:20:07: info: data dependencies proved
+pumpunit.ads:21:07: info: flow dependencies proved
+pumpunit.ads:23:13: info: implicit aspect Always_Terminates on "get_cur_price" has been proved, subprogram will terminate
+pumpunit.ads:24:07: info: data dependencies proved
+pumpunit.ads:25:07: info: flow dependencies proved
+pumpunit.ads:27:13: info: implicit aspect Always_Terminates on "get_cur_resevoir" has been proved, subprogram will terminate
+pumpunit.ads:28:07: info: data dependencies proved
+pumpunit.ads:29:07: info: flow dependencies proved
+pumpunit.ads:31:13: info: implicit aspect Always_Terminates on "is_waiting" has been proved, subprogram will terminate
+pumpunit.ads:32:07: info: data dependencies proved
+pumpunit.ads:33:07: info: flow dependencies proved
+pumpunit.ads:35:13: info: implicit aspect Always_Terminates on "is_ready" has been proved, subprogram will terminate
+pumpunit.ads:36:07: info: data dependencies proved
+pumpunit.ads:37:07: info: flow dependencies proved
+pumpunit.ads:39:13: info: implicit aspect Always_Terminates on "is_pumping" has been proved, subprogram will terminate
+pumpunit.ads:40:07: info: data dependencies proved
+pumpunit.ads:41:07: info: flow dependencies proved
+pumpunit.ads:43:13: info: implicit aspect Always_Terminates on "is_base" has been proved, subprogram will terminate
+pumpunit.ads:44:07: info: data dependencies proved
+pumpunit.ads:45:07: info: flow dependencies proved
+pumpunit.ads:47:13: info: implicit aspect Always_Terminates on "till_invariant" has been proved, subprogram will terminate
+pumpunit.ads:55:07: info: data dependencies proved
+pumpunit.ads:56:07: info: flow dependencies proved
+pumpunit.ads:58:63: info: overflow check proved (CVC5: 2 VC)
+pumpunit.ads:60:15: info: postcondition proved (CVC5: 3 VC)
+pumpunit.ads:61:54: info: overflow check proved (CVC5: 2 VC)
+pumpunit.ads:65:07: info: data dependencies proved
+pumpunit.ads:66:07: info: flow dependencies proved
+pumpunit.ads:68:18: info: postcondition proved (CVC5: 1 VC)
+pumpunit.ads:71:07: info: data dependencies proved
+pumpunit.ads:72:07: info: flow dependencies proved
+pumpunit.ads:75:15: info: postcondition proved (CVC5: 1 VC)
+pumpunit.ads:78:07: info: data dependencies proved
+pumpunit.ads:79:07: info: flow dependencies proved
+pumpunit.ads:81:18: info: postcondition proved (CVC5: 1 VC)
+pumpunit.ads:84:07: info: data dependencies proved
+pumpunit.ads:85:07: info: flow dependencies proved
+pumpunit.ads:86:59: info: overflow check proved (CVC5: 2 VC)
+pumpunit.ads:87:35: medium: postcondition might fail, cannot prove get_total = get_total'Old + get_outstanding
+pumpunit.ads:87:61: info: overflow check proved (CVC5: 2 VC)
+pumpunit.ads:92:07: info: data dependencies proved
+pumpunit.ads:93:07: info: flow dependencies proved

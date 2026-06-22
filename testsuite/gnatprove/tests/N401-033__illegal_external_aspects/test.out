@@ -1,0 +1,13 @@
+vc.ads:9:11: error: external property "ASYNC_READERS" must apply to a volatile type or object
+vc.ads:12:11: error: external property "ASYNC_READERS" must apply to a volatile type or object
+vc.ads:14:09: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc.ads:15:11: error: external property "ASYNC_READERS" must apply to a volatile type or object
+vc.ads:28:09: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc.ads:38:11: error: incorrect placement of aspect "ASYNC_READERS"
+vc.ads:41:11: error: incorrect placement of aspect "ASYNC_READERS"
+vc.ads:44:11: error: incorrect placement of aspect "ASYNC_READERS"
+vc.ads:63:04: error: illegal combination of external properties (SPARK RM 7.1.2(6))
+vc.ads:77:11: error: incorrect placement of aspect "ASYNC_READERS"
+vc.ads:82:11: error: incorrect placement of aspect "ASYNC_READERS"
+vc.ads:87:11: error: incorrect placement of aspect "ASYNC_READERS"
+gnatprove: error during generation of Global contracts

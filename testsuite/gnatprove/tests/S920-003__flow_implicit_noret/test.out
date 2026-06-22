@@ -1,0 +1,3 @@
+p.adb:3:42: info: data dependencies proved
+p.adb:5:10: medium: unexpected exception might be raised
+p.adb:8:29: info: data dependencies proved

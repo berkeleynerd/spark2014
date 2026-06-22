@@ -1,0 +1,6 @@
+large: True
+prove_all:
+  sparklib: True
+  prover: ["z3"]
+  steps: 10
+  filter_sparklib: False

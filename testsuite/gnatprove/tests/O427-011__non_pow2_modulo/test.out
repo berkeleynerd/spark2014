@@ -1,0 +1,48 @@
+t.adb:8:13: info: implicit aspect Always_Terminates on "MMin" has been proved, subprogram will terminate
+t.adb:9:19: info: postcondition proved (CVC5: 1 VC)
+t.adb:15:13: info: implicit aspect Always_Terminates on "MAdd" has been proved, subprogram will terminate
+t.adb:16:19: info: postcondition proved (CVC5: 1 VC)
+t.adb:16:59: info: division check proved (CVC5: 1 VC)
+t.adb:22:13: info: implicit aspect Always_Terminates on "MSub" has been proved, subprogram will terminate
+t.adb:23:11: info: disjoint contract or exit cases proved (CVC5: 1 VC)
+t.adb:23:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t.adb:24:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t.adb:25:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t.adb:26:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t.adb:27:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t.adb:28:30: info: contract case proved (Trivial: 2 VC)
+t.adb:34:13: info: implicit aspect Always_Terminates on "MMul" has been proved, subprogram will terminate
+t.adb:35:19: info: postcondition proved (CVC5: 1 VC)
+t.adb:35:59: info: division check proved (CVC5: 1 VC)
+t2.adb:8:13: info: implicit aspect Always_Terminates on "MMin" has been proved, subprogram will terminate
+t2.adb:9:19: info: postcondition proved (CVC5: 1 VC)
+t2.adb:15:13: info: implicit aspect Always_Terminates on "MAdd" has been proved, subprogram will terminate
+t2.adb:16:19: info: postcondition proved (CVC5: 1 VC)
+t2.adb:16:59: info: division check proved (CVC5: 1 VC)
+t2.adb:22:13: info: implicit aspect Always_Terminates on "MSub" has been proved, subprogram will terminate
+t2.adb:23:11: info: disjoint contract or exit cases proved (CVC5: 1 VC)
+t2.adb:23:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t2.adb:24:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t2.adb:25:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t2.adb:26:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t2.adb:27:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t2.adb:28:30: info: contract case proved (Trivial: 2 VC)
+t2.adb:34:13: info: implicit aspect Always_Terminates on "MMul" has been proved, subprogram will terminate
+t2.adb:35:19: info: postcondition proved (CVC5: 1 VC)
+t2.adb:35:59: info: division check proved (CVC5: 1 VC)
+t3.adb:8:13: info: implicit aspect Always_Terminates on "MMin" has been proved, subprogram will terminate
+t3.adb:9:19: info: postcondition proved (CVC5: 1 VC)
+t3.adb:15:13: info: implicit aspect Always_Terminates on "MAdd" has been proved, subprogram will terminate
+t3.adb:16:19: info: postcondition proved (CVC5: 1 VC)
+t3.adb:16:59: info: division check proved (CVC5: 1 VC)
+t3.adb:22:13: info: implicit aspect Always_Terminates on "MSub" has been proved, subprogram will terminate
+t3.adb:23:11: info: disjoint contract or exit cases proved (CVC5: 1 VC)
+t3.adb:23:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t3.adb:24:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t3.adb:25:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t3.adb:26:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t3.adb:27:30: info: contract case proved (CVC5: 1 VC; Trivial: 1 VC)
+t3.adb:28:30: info: contract case proved (Trivial: 2 VC)
+t3.adb:34:13: info: implicit aspect Always_Terminates on "MMul" has been proved, subprogram will terminate
+t3.adb:35:19: info: postcondition proved (CVC5: 1 VC)
+t3.adb:35:59: info: division check proved (CVC5: 1 VC)

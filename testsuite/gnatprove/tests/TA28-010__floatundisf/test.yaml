@@ -1,0 +1,4 @@
+large: True
+prove_all:
+  prover: ["z3", "colibri"]
+  steps: 5000

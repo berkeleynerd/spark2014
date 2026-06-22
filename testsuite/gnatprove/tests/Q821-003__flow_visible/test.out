@@ -1,0 +1,2 @@
+p.ads:1:41: info: flow dependencies proved
+p.ads:4:24: info: data dependencies proved, in instantiation at main.adb:4

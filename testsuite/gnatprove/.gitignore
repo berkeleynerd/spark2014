@@ -1,0 +1,6 @@
+*.loc
+*.labels
+*.xpl
+*.rgo
+out/
+internal

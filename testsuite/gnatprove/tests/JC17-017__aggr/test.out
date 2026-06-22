@@ -1,0 +1,12 @@
+p.adb:30:19: info: range check proved (CVC5: 1 VC)
+p.adb:40:16: info: implicit aspect Always_Terminates on "Zero" has been proved, subprogram will terminate
+p.adb:43:19: info: range check proved (CVC5: 1 VC)
+p.adb:47:16: info: implicit aspect Always_Terminates on "Zero" has been proved, subprogram will terminate
+p.ads:2:14: warning: subprogram "Proc" has no effect
+p.ads:3:14: warning: subprogram "Proc2" has no effect
+p.ads:4:14: warning: subprogram "Proc3" has no effect
+p.ads:5:14: warning: subprogram "Proc4" has no effect
+p.ads:6:14: warning: subprogram "Proc5" has no effect
+p.ads:7:14: warning: subprogram "Proc6" has no effect
+p.ads:8:14: warning: subprogram "Proc7" has no effect
+p.ads:9:14: warning: subprogram "Proc8" has no effect

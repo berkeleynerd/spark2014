@@ -1,0 +1,2 @@
+taa.ads:14:14: error: illegal move during elaboration
+gnatprove: error during flow analysis and proof

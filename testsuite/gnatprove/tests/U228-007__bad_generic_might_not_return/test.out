@@ -1,0 +1,39 @@
+bad_spec.ads:7:06: error: aspect "Always_Terminates" cannot apply to generic function [E0016]
+bad_spec.ads:7:06: error: launch "gnatprove --explain=E0016" for more information
+bad_spec.ads:9:04: error: aspect "Always_Terminates" cannot apply to function [E0016]
+bad_spec.ads:9:04: error: instantiation error at line 7
+bad_spec.ads:9:04: error: launch "gnatprove --explain=E0016" for more information
+gnatprove: error during generation of Global contracts
+bad_spec_prag.ads:5:04: warning: Terminating, Always_Return, and Might_Not_Return annotations are deprecated, ignored [deprecated-feature]
+bad_spec_prag.ads:5:04: warning: replace "pragma Annotate (GNATprove, might_not_return, ...)" by "with Always_Terminates => False" or use an exceptional contract on the corresponding entity
+bad_spec_prag.ads:9:04: warning: Terminating, Always_Return, and Might_Not_Return annotations are deprecated, ignored [deprecated-feature]
+bad_spec_prag.ads:9:04: warning: replace "pragma Annotate (GNATprove, might_not_return, ...)" by "with Always_Terminates => False" or use an exceptional contract on the corresponding entity
+bad_spec_prag.ads:15:06: warning: postcondition does not check the outcome of calling "Call_Jump" [-gnatw.t]
+bad_spec_prag.ads:16:04: warning: Terminating, Always_Return, and Might_Not_Return annotations are deprecated, ignored [deprecated-feature]
+bad_spec_prag.ads:16:04: warning: replace "pragma Annotate (GNATprove, might_not_return, ...)" by "with Always_Terminates => False" or use an exceptional contract on the corresponding entity
+bad_spec_prag.ads:21:04: warning: Terminating, Always_Return, and Might_Not_Return annotations are deprecated, ignored [deprecated-feature]
+bad_spec_prag.ads:21:04: warning: replace "pragma Annotate (GNATprove, might_not_return, ...)" by "with Always_Terminates => False" or use an exceptional contract on the corresponding entity
+bad_spec_prag.ads:26:04: warning: Terminating, Always_Return, and Might_Not_Return annotations are deprecated, ignored [deprecated-feature]
+bad_spec_prag.ads:26:04: warning: replace "pragma Annotate (GNATprove, might_not_return, ...)" by "with Always_Terminates => False" or use an exceptional contract on the corresponding entity
+bad.adb:5:07: medium: unexpected exception might be raised
+bad.adb:11:07: warning: this statement is never reached
+bad.adb:26:07: medium: unexpected exception might be raised
+bad.ads:5:13: high: all paths in "Call_Jump_Fun" raise exceptions or do not terminate normally
+bad.ads:9:38: medium: exceptional case might fail, in instantiation at bad.adb:22 [possible fix: subprogram at line 8 should mention B in a precondition]
+bad.ads:10:06: info: data dependencies proved, in instantiation at bad.adb:22
+bad.ads:13:13: info: implicit aspect Always_Terminates on "Silent_Call_Jump" has been proved, subprogram will terminate
+weird.adb:25:07: medium: unexpected exception might be raised, in instantiation at weird_inst.adb:6
+weird_inst.adb:6:14: info: aspect Always_Terminates on "RG_Inst" has been proved, subprogram will terminate
+weird_inst.adb:6:14: warning: launch "gnatprove --explain=E0013" for more information
+weird_inst.adb:6:14: warning: procedure which does not return normally nor raises an exception cannot always terminate [no-possible-termination] [E0013]
+pack.adb:5:07: medium: unexpected exception might be raised
+pack.adb:11:10: high: precondition might fail, in instantiation at pack.adb:15
+pack.adb:27:22: info: assertion proved (CVC5: 1 VC)
+pack.adb:36:10: high: precondition might fail, in instantiation at pack.adb:43
+pack.ads:8:06: info: data dependencies proved, in instantiation at pack.adb:15
+pack.ads:9:14: info: postcondition proved (CVC5: 1 VC), in instantiation at pack.adb:15
+pack.ads:13:06: info: data dependencies proved
+pack.ads:14:14: info: postcondition proved (CVC5: 1 VC)
+pack.ads:18:06: info: data dependencies proved
+pack.ads:22:14: info: postcondition proved (CVC5: 1 VC)
+pack.ads:30:06: info: data dependencies proved, in instantiation at pack.adb:43

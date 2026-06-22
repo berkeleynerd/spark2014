@@ -1,0 +1,15 @@
+project Test is
+
+   for Languages use ("Ada");
+
+   for Main use ("test_sqrt.adb");
+
+   package Compiler is
+      for Default_Switches ("Ada") use ("-gnata", "-gnato");
+   end Compiler;
+
+   package Prove is
+      for Proof_Switches ("Ada") use ("--function-sandboxing=off");
+   end Prove;
+
+end Test;

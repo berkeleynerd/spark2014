@@ -1,0 +1,13 @@
+binary_search_trees.adb:29:07: info: initialization of "Node" proved
+binary_search_trees.adb:31:17: error: launch "gnatprove --explain=E0010" for more information
+binary_search_trees.adb:31:17: error: object was moved at line 43 [E0010]
+binary_search_trees.adb:31:17: error: return from "Insert_Node" with moved value for "Node"
+binary_search_trees.adb:33:11: info: data dependencies proved
+binary_search_trees.adb:68:10: warning: "Node" is set by "Insert_Node" but not used after the call
+binary_search_trees.adb:68:26: high: formal parameter "Starting_At" and global "Tree" are aliased (SPARK RM 6.4.2)
+binary_search_trees.adb:76:10: info: initialization of "Result" proved
+binary_search_trees.adb:84:23: medium: implicit aspect Always_Terminates on "Lookup_Node" could be incorrect, subprogram is recursive [possible fix: annotate "Lookup_Node" with a Subprogram_Variant aspect]
+binary_search_trees.adb:86:23: medium: implicit aspect Always_Terminates on "Lookup_Node" could be incorrect, subprogram is recursive [possible fix: annotate "Lookup_Node" with a Subprogram_Variant aspect]
+binary_search_trees.ads:16:13: info: implicit aspect Always_Terminates on "Lookup" has been proved, subprogram will terminate
+binary_search_trees.ads:19:13: info: implicit aspect Always_Terminates on "Size" has been proved, subprogram will terminate
+gnatprove: error during flow analysis and proof

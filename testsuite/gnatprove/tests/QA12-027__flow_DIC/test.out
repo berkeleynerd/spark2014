@@ -1,0 +1,4 @@
+main.ads:5:08: info: flow dependencies proved
+main.ads:7:04: info: initialization of "A" proved
+main.ads:8:04: info: initialization of "B" proved
+main.ads:9:04: info: initialization of "C" proved

@@ -1,0 +1,9 @@
+with "sparklib";
+
+project Test is
+
+   package Compiler is
+      for Switches ("Ada") use ("-g", "-gnat2022");
+   end Compiler;
+
+end Test;

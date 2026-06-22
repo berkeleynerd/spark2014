@@ -1,0 +1,86 @@
+moth-config.ads:35:13: info: implicit aspect Always_Terminates on "get_mbx_permission" has been proved, subprogram will terminate
+moth-config.ads:37:08: info: data dependencies proved
+moth-config.ads:43:13: info: implicit aspect Always_Terminates on "get_task_priority" has been proved, subprogram will terminate
+moth-config.ads:45:07: info: data dependencies proved
+moth-mailbox.adb:75:13: info: implicit aspect Always_Terminates on overriding operator "+" has been proved, subprogram will terminate
+moth-mailbox.adb:84:13: info: implicit aspect Always_Terminates on "mbx_is_empty" has been proved, subprogram will terminate
+moth-mailbox.adb:92:13: info: implicit aspect Always_Terminates on "mbx_is_full" has been proved, subprogram will terminate
+moth-mailbox.adb:100:13: info: implicit aspect Always_Terminates on "get_mbx_head" has been proved, subprogram will terminate
+moth-mailbox.adb:109:13: info: implicit aspect Always_Terminates on "get_mbx_count" has been proved, subprogram will terminate
+moth-mailbox.adb:118:13: info: implicit aspect Always_Terminates on "get_mbx_tail" has been proved, subprogram will terminate
+moth-mailbox.adb:152:13: info: implicit aspect Always_Terminates on "get_mbx_entry_sender" has been proved, subprogram will terminate
+moth-mailbox.adb:192:07: info: initialization of "status" proved
+moth-mailbox.adb:229:07: info: initialization of "status" proved
+moth-mailbox.adb:237:07: info: initialization of "ret" proved
+moth-mailbox.adb:260:13: info: implicit aspect Always_Terminates on "get_mbx_entry" has been proved, subprogram will terminate
+moth-mailbox.adb:269:13: info: implicit aspect Always_Terminates on "is_waiting_mbx_entry" has been proved, subprogram will terminate
+moth-mailbox.adb:354:07: info: initialization of "mbx_index" proved
+moth-scheduler.adb:304:24: info: initialization of "task_id" proved
+moth-scheduler.adb:324:17: warning: assuming "idle" always terminates
+moth-scheduler.adb:324:17: warning: no Always_Terminates aspect available for "idle" [assumed-always-terminates]
+moth-scheduler.adb:368:07: info: initialization of "tmp_mask" proved
+moth-scheduler.adb:442:14: warning: assuming "space_init" always terminates
+moth-scheduler.adb:442:14: warning: no Always_Terminates aspect available for "space_init" [assumed-always-terminates]
+moth-scheduler.adb:456:17: warning: assuming "space_switch" always terminates
+moth-scheduler.adb:456:17: warning: no Always_Terminates aspect available for "space_switch" [assumed-always-terminates]
+moth-scheduler.adb:459:17: warning: assuming "context_create" always terminates
+moth-scheduler.adb:459:17: warning: no Always_Terminates aspect available for "context_create" [assumed-always-terminates]
+moth-scheduler.adb:471:14: warning: assuming "context_set" always terminates
+moth-scheduler.adb:471:14: warning: no Always_Terminates aspect available for "context_set" [assumed-always-terminates]
+moth-scheduler.adb:474:14: warning: assuming "space_switch" always terminates
+moth-scheduler.adb:474:14: warning: no Always_Terminates aspect available for "space_switch" [assumed-always-terminates]
+moth.adb:54:14: warning: assuming "cons_init" always terminates
+moth.adb:54:14: warning: no Always_Terminates aspect available for "cons_init" [assumed-always-terminates]
+moth.ads:87:13: info: implicit aspect Always_Terminates on "os_ghost_mbx_are_well_formed" has been proved, subprogram will terminate
+moth.ads:91:13: info: implicit aspect Always_Terminates on "os_ghost_task_list_is_well_formed" has been proved, subprogram will terminate
+moth.ads:95:13: info: implicit aspect Always_Terminates on "os_ghost_current_task_is_ready" has been proved, subprogram will terminate
+moth.ads:99:13: info: implicit aspect Always_Terminates on "os_ghost_task_is_ready" has been proved, subprogram will terminate
+moth.ads:116:10: info: flow dependencies proved
+moth.ads:125:19: info: implicit aspect Always_Terminates on overriding operator "<" has been proved, subprogram will terminate
+moth.ads:142:19: info: implicit aspect Always_Terminates on overriding operator "=" has been proved, subprogram will terminate
+moth.ads:144:10: info: initialization of "Model" proved
+moth.ads:146:19: info: implicit aspect Always_Terminates on "os_ghost_task_list_is_well_formed" has been proved, subprogram will terminate
+moth.ads:167:16: info: implicit aspect Always_Terminates on "task_list_is_well_formed" has been proved, subprogram will terminate
+moth.ads:171:16: info: implicit aspect Always_Terminates on "current_task_is_ready" has been proved, subprogram will terminate
+moth.ads:175:16: info: implicit aspect Always_Terminates on "task_is_ready" has been proved, subprogram will terminate
+moth.ads:193:23: info: initialization of "task_id" proved
+moth.ads:208:24: info: initialization of "task_id" proved
+moth.ads:220:28: info: initialization of "task_id" proved
+moth.ads:232:16: info: implicit aspect Always_Terminates on "get_current_task_id" has been proved, subprogram will terminate
+moth.ads:239:16: info: implicit aspect Always_Terminates on "get_mbx_mask" has been proved, subprogram will terminate
+moth.ads:245:23: info: initialization of "task_id" proved
+moth.ads:278:16: info: implicit aspect Always_Terminates on "mbx_are_well_formed" has been proved, subprogram will terminate
+moth.ads:286:16: info: implicit aspect Always_Terminates on "os_mbx_get_posted_mask" has been proved, subprogram will terminate
+moth.ads:295:26: info: initialization of "status" proved
+moth.ads:296:26: info: initialization of "mbx_entry" proved
+moth.ads:306:23: info: initialization of "status" proved
+moth.ads:326:20: info: initialization of "task_id" proved
+spark-containers-formal-ordered_sets.ads:64:06: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at moth.ads:127
+spark-containers-formal-ordered_sets.ads:198:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at moth.ads:127
+spark-containers-formal-ordered_sets.ads:211:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at moth.ads:127
+spark-containers-formal-ordered_sets.ads:1534:06: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at moth.ads:127
+spark-containers-formal-ordered_sets.ads:1534:06: error: "moth.config.read_only_conf" is referenced in Pre but missing from the Global, in instantiation at moth.ads:127
+spark-containers-formal-ordered_sets.ads:1549:06: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at moth.ads:127
+spark-containers-formal-ordered_sets.ads:1549:06: error: "moth.config.read_only_conf" is referenced in Pre but missing from the Global, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:184:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:186:26: high: "Config.State" must be listed in the Global aspect of "Lt_Irreflexive" (SPARK RM 6.1.4(15)), in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:189:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:189:09: error: "moth.config.read_only_conf" is referenced in Pre but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:190:21: high: "Config.State" must be listed in the Global aspect of "Lt_Asymmetric" (SPARK RM 6.1.4(15)), in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:194:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:194:09: error: "moth.config.read_only_conf" is referenced in Pre but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:195:21: high: "Config.State" must be listed in the Global aspect of "Lt_Transitive" (SPARK RM 6.1.4(15)), in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:199:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:199:09: error: "moth.config.read_only_conf" is referenced in Pre but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:200:21: high: "Config.State" must be listed in the Global aspect of "Lt_Order" (SPARK RM 6.1.4(15)), in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:210:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:211:19: high: "Config.State" must be listed in the Global aspect of "Eq_Reflexive" (SPARK RM 6.1.4(15)), in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:214:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:216:19: high: "Config.State" must be listed in the Global aspect of "Eq_Reflexive" (SPARK RM 6.1.4(15)), in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:220:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:220:09: error: "moth.config.read_only_conf" is referenced in Pre but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:221:19: high: "Config.State" must be listed in the Global aspect of "Eq_Symmetric" (SPARK RM 6.1.4(15)), in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:226:09: error: "moth.config.read_only_conf" is referenced in Post but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:226:09: error: "moth.config.read_only_conf" is referenced in Pre but missing from the Global, in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+spark-containers-parameter_checks.ads:227:19: high: "Config.State" must be listed in the Global aspect of "Eq_Transitive" (SPARK RM 6.1.4(15)), in instantiation at spark-containers-formal-ordered_sets.ads:136, in instantiation at moth.ads:127
+gnatprove: error during flow analysis and proof

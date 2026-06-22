@@ -1,0 +1,13 @@
+angles-hall.adb:14:15: warning: "Position" is set by "Update" but not used after the call
+angles-hall.ads:3:14: warning: "X" constituent of "State" is not modified, could be INPUT
+angles-hall.ads:3:22: high: "Position" is not initialized in "Update" [reason for check: OUT parameter should be initialized on return] [possible fix: initialize "Position" on all paths or make "Position" an IN OUT parameter]
+angles-hall.ads:3:22: warning: unused variable "Position"
+angles-hall.ads:4:06: info: data dependencies proved
+angles-hall.ads:4:35: low: unused global "Angles.State"
+angles-hall.ads:4:35: warning: "Angles.State" is not modified, could be INPUT
+angles-hall.ads:4:43: low: unused global "Hall.State"
+angles-hall.ads:5:35: medium: incorrect dependency "Angles.State => Hall.State"
+angles-hall.ads:6:35: medium: incorrect dependency "Position => Angles.State"
+angles-hall.ads:6:49: medium: incorrect dependency "Position => Hall.State"
+angles-hall.ads:11:06: info: data dependencies proved
+angles-hall.ads:12:06: info: flow dependencies proved

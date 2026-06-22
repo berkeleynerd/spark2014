@@ -1,0 +1,136 @@
+use_lists.adb:3:22: error: "First" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:3:22: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:6:30: error: "Cu" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:6:30: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:8:35: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:8:35: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:8:58: error: "Cu" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:8:58: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:11:32: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:11:32: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:12:32: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:12:32: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:13:26: error: "Cu" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:13:26: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:14:38: error: "Cu" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:14:38: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:16:38: error: "Cu" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:16:38: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:18:21: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:18:21: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:19:31: error: "Cu" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:19:31: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:21:47: error: "Cu" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:21:47: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:22:30: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:22:30: error: violation of aspect SPARK_Mode at line 1
+use_lists.adb:23:20: error: "Cu" is not allowed in SPARK (due to function with global outputs)
+use_lists.adb:23:20: error: violation of aspect SPARK_Mode at line 1
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Cursor_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:5:04: error: function "Copy" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Element" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "First" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Get_Cursor_Model" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Get_Element_Model" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Has_Element" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Set" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Set" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Snoc" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Snoc" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Sub" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: function "Sub" with output global "memory accessed through objects of access type" is not allowed in SPARK [E0005]
+use_lists.ads:5:04: error: instantiation error at conts-lists-indefinite_unbounded_spark.ads:30
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:10
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:23
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:23
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:23
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:26
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:26
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:26
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:32
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:41
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:50
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:51
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:53
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:54
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:56
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:59
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:61
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:64
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:66
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:67
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:68
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:69
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:71
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:73
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:80
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:81
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:83
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:84
+use_lists.ads:5:04: error: instantiation error at formal_doubly_linked_lists.ads:85
+use_lists.ads:5:04: error: instantiation error at functional_sequences.ads:19
+use_lists.ads:5:04: error: instantiation error at functional_sequences.ads:19
+use_lists.ads:5:04: error: instantiation error at functional_sequences.ads:28
+use_lists.ads:5:04: error: instantiation error at functional_sequences.ads:28
+use_lists.ads:5:04: error: instantiation error at functional_sequences.ads:37
+use_lists.ads:5:04: error: instantiation error at functional_sequences.ads:37
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: launch "gnatprove --explain=E0005" for more information
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at conts-lists-indefinite_unbounded_spark.ads:13, instance at formal_doubly_linked_lists.ads:10, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at formal_doubly_linked_lists.ads:7, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at functional_sequences.ads:7, instance at formal_doubly_linked_lists.ads:23, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at functional_sequences.ads:7, instance at formal_doubly_linked_lists.ads:23, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at functional_sequences.ads:7, instance at formal_doubly_linked_lists.ads:23, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at functional_sequences.ads:7, instance at formal_doubly_linked_lists.ads:26, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at functional_sequences.ads:7, instance at formal_doubly_linked_lists.ads:26, instance at line 5
+use_lists.ads:5:04: error: violation of aspect SPARK_Mode at functional_sequences.ads:7, instance at formal_doubly_linked_lists.ads:26, instance at line 5
+use_lists.ads:19:32: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:19:32: error: violation of aspect SPARK_Mode at line 4
+use_lists.ads:20:32: error: "Get_Element_Model" is not allowed in SPARK (due to function with global outputs)
+use_lists.ads:20:32: error: violation of aspect SPARK_Mode at line 4
+gnatprove: error during flow analysis and proof

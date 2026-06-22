@@ -1,0 +1,4 @@
+[submodule "why3"]
+	path = why3
+	url = ../why3.git
+	ignore = dirty

@@ -1,0 +1,17 @@
+device.adb:17:04: high: "Register" constituent of "State" is not written in "Device" [reason for check: encapsulating state is mentioned in the Initializes contract of the package declaration] [possible fix: initialize "Register" constituent of "State" at declaration or in the package body statements]
+device.adb:17:04: high: initialization of "Device.State" is specified at device.ads:5
+device.adb:23:11: info: data dependencies proved
+device.adb:23:33: info: initialization of "Register" constituent of "State" proved
+device.adb:24:11: info: flow dependencies proved
+device.adb:30:23: info: initialization of "OK" proved
+device.adb:31:11: info: data dependencies proved
+device.adb:32:11: info: flow dependencies proved
+device.adb:34:07: info: initialization of "RawValue" proved
+device.adb:42:41: medium: "Register" constituent of "State" might not be written
+device.adb:49:07: info: initialization of "OK" proved
+device.adb:55:13: warning: statement has no effect
+device.adb:55:22: warning: "OK" is set by "ReadAck" but not used after the call
+device.adb:56:13: warning: statement has no effect
+device.ads:5:08: info: flow dependencies proved
+device.ads:8:10: info: data dependencies proved
+device.ads:9:10: info: flow dependencies proved

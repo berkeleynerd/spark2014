@@ -1,0 +1,4 @@
+pragma SPARK_Mode (On);
+pragma Profile (Jorvik);
+pragma Restrictions (Max_Entry_Queue_Length => 3);
+pragma Partition_Elaboration_Policy (Sequential);

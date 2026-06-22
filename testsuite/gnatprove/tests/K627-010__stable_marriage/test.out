@@ -1,0 +1,171 @@
+stable_marriage.adb:9:13: info: loop invariant initialization proved (CVC5: 2 VC)
+stable_marriage.adb:9:13: info: loop invariant preservation proved (CVC5: 2 VC)
+stable_marriage.adb:11:26: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:12:26: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:15:22: info: assertion proved (CVC5: 2 VC; altergo: 1 VC)
+stable_marriage.adb:30:13: info: loop invariant initialization proved (CVC5: 2 VC)
+stable_marriage.adb:30:13: info: loop invariant preservation proved (CVC5: 2 VC)
+stable_marriage.adb:32:26: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:33:26: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:36:22: info: assertion proved (CVC5: 2 VC; altergo: 1 VC)
+stable_marriage.adb:51:07: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:54:13: info: loop invariant initialization proved (CVC5: 1 VC)
+stable_marriage.adb:54:13: info: loop invariant preservation proved (altergo: 1 VC)
+stable_marriage.adb:54:21: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:55:28: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:57:13: info: loop invariant initialization proved (CVC5: 1 VC; Trivial: 1 VC)
+stable_marriage.adb:57:13: info: loop invariant preservation proved (CVC5: 1 VC; Trivial: 1 VC)
+stable_marriage.adb:58:29: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:59:28: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:71:07: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:74:13: info: loop invariant initialization proved (CVC5: 1 VC)
+stable_marriage.adb:74:13: info: loop invariant preservation proved (altergo: 1 VC)
+stable_marriage.adb:74:21: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:75:28: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:77:13: info: loop invariant initialization proved (CVC5: 1 VC; Trivial: 1 VC)
+stable_marriage.adb:77:13: info: loop invariant preservation proved (CVC5: 1 VC; Trivial: 1 VC)
+stable_marriage.adb:78:29: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:79:28: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:87:07: info: initialization of "Inverted" proved
+stable_marriage.adb:89:19: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:95:07: info: initialization of "Inverted" proved
+stable_marriage.adb:97:19: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:107:07: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:110:13: info: loop invariant initialization proved (CVC5: 1 VC)
+stable_marriage.adb:110:13: info: loop invariant preservation proved (altergo: 1 VC)
+stable_marriage.adb:110:21: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:111:34: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:113:13: info: loop invariant initialization proved (CVC5: 1 VC; Trivial: 1 VC)
+stable_marriage.adb:113:13: info: loop invariant preservation proved (CVC5: 1 VC; Trivial: 1 VC)
+stable_marriage.adb:114:29: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:115:35: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:124:13: info: implicit aspect Always_Terminates on "Invert" has been proved, subprogram will terminate
+stable_marriage.adb:129:08: info: postcondition proved (altergo: 1 VC)
+stable_marriage.adb:130:33: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:132:07: info: initialization of "Result" proved
+stable_marriage.adb:140:13: info: loop invariant initialization proved (CVC5: 1 VC)
+stable_marriage.adb:140:13: info: loop invariant preservation proved (altergo: 1 VC)
+stable_marriage.adb:140:21: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:141:24: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:141:32: info: precondition proved (CVC5: 2 VC)
+stable_marriage.adb:141:46: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:142:25: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:167:07: info: initialization of "Ranking_2_Inverted" proved
+stable_marriage.adb:183:16: info: implicit aspect Always_Terminates on "All_Unmatched_G1_Set_Elements_Distinct" has been proved, subprogram will terminate
+stable_marriage.adb:184:18: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:186:23: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:189:50: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:190:56: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:192:16: info: implicit aspect Always_Terminates on "Invariant_Holds" has been proved, subprogram will terminate
+stable_marriage.adb:204:29: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:206:51: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:223:26: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:225:63: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:226:56: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:227:35: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:228:70: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:229:66: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:237:32: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:239:53: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:247:30: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:249:52: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:252:39: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:254:17: info: add a contract to analyze it separately from calling contexts
+stable_marriage.adb:254:17: info: local subprogram "Select_And_Remove_An_Unmatched_G1" only analyzed in the context of calls
+stable_marriage.adb:254:52: info: initialization of "Selected" proved
+stable_marriage.adb:262:55: info: index check proved (CVC5: 2 VC), in call inlined at stable_marriage.adb:297
+stable_marriage.adb:263:71: info: range check proved (CVC5: 2 VC), in call inlined at stable_marriage.adb:297
+stable_marriage.adb:266:17: info: add a contract to analyze it separately from calling contexts
+stable_marriage.adb:266:17: info: local subprogram "Add_An_Unmatched" only analyzed in the context of calls
+stable_marriage.adb:268:71: info: range check proved (CVC5: 2 VC), in call inlined at stable_marriage.adb:319
+stable_marriage.adb:268:71: info: range check proved (CVC5: 2 VC), in call inlined at stable_marriage.adb:324
+stable_marriage.adb:268:71: info: range check proved (CVC5: 2 VC), in call inlined at stable_marriage.adb:383
+stable_marriage.adb:269:53: info: index check proved (CVC5: 2 VC), in call inlined at stable_marriage.adb:319
+stable_marriage.adb:269:53: info: index check proved (CVC5: 2 VC), in call inlined at stable_marriage.adb:324
+stable_marriage.adb:269:53: info: index check proved (CVC5: 2 VC), in call inlined at stable_marriage.adb:383
+stable_marriage.adb:275:18: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:277:17: info: postcondition proved (CVC5: 7 VC; Trivial: 5 VC; Z3: 1 VC; altergo: 1 VC)
+stable_marriage.adb:290:10: info: initialization of "G1" proved
+stable_marriage.adb:291:10: info: initialization of "G2" proved
+stable_marriage.adb:292:10: info: initialization of "Accepted" proved
+stable_marriage.adb:294:10: info: initialization of "Already_Asked" proved
+stable_marriage.adb:297:10: info: analyzing call to "Select_And_Remove_An_Unmatched_G1" in context
+stable_marriage.adb:298:25: medium: assertion might fail
+stable_marriage.adb:302:30: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:302:45: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:304:16: info: assertion proved (altergo: 1 VC)
+stable_marriage.adb:304:21: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:304:70: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:305:48: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:309:53: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:319:13: info: analyzing call to "Add_An_Unmatched" in context
+stable_marriage.adb:320:28: info: assertion proved (altergo: 1 VC)
+stable_marriage.adb:320:28: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:324:13: info: analyzing call to "Add_An_Unmatched" in context
+stable_marriage.adb:331:25: info: assertion proved (altergo: 1 VC)
+stable_marriage.adb:334:13: info: assertion proved (CVC5: 1 VC; Trivial: 1 VC)
+stable_marriage.adb:342:13: info: assertion proved (Trivial: 1 VC; altergo: 1 VC)
+stable_marriage.adb:344:29: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:346:51: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:350:24: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:352:19: medium: assertion might fail, cannot prove (not Unmatched_G2_Set (Ranking_1 (G1_Id) (Rank)))
+stable_marriage.adb:352:61: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:353:54: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:354:33: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:355:61: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:356:59: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:358:25: info: assertion proved (CVC5: 1 VC; Trivial: 1 VC)
+stable_marriage.adb:360:40: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:362:61: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:366:28: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:368:46: info: index check proved (CVC5: 2 VC)
+stable_marriage.adb:370:20: medium: assertion might fail, cannot prove (Result (Ranking_1 (G1_Id) (Ranking (Proposals_Made (G1_Id)))) = G1_Id)
+stable_marriage.adb:371:31: info: range check proved (CVC5: 2 VC)
+stable_marriage.adb:375:29: info: precondition proved (CVC5: 1 VC)
+stable_marriage.adb:378:33: info: loop invariant initialization proved (CVC5: 1 VC)
+stable_marriage.adb:378:33: info: loop invariant preservation proved (CVC5: 1 VC)
+stable_marriage.adb:379:33: info: loop invariant initialization proved (CVC5: 1 VC)
+stable_marriage.adb:379:33: info: loop invariant preservation proved (CVC5: 1 VC)
+stable_marriage.adb:381:13: info: loop invariant initialization proved (CVC5: 1 VC)
+stable_marriage.adb:381:13: info: loop invariant preservation proved (CVC5: 1 VC)
+stable_marriage.adb:381:21: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:382:45: info: index check proved (CVC5: 4 VC)
+stable_marriage.adb:382:64: info: range check proved (CVC5: 4 VC)
+stable_marriage.adb:383:10: info: analyzing call to "Add_An_Unmatched" in context
+stable_marriage.adb:386:22: info: assertion proved (CVC5: 1 VC)
+stable_marriage.adb:388:22: info: assertion proved (CVC5: 2 VC)
+stable_marriage.adb:392:46: medium: implicit aspect Always_Terminates on "Matching" could be incorrect, loop might be nonterminating [possible fix: add loop variant in the loop body]
+stable_marriage.adb:393:33: info: loop invariant initialization proved (CVC5: 9 VC; Trivial: 5 VC)
+stable_marriage.adb:393:33: info: loop invariant preservation proved (CVC5: 7 VC; Trivial: 5 VC; altergo: 2 VC)
+stable_marriage.adb:394:10: info: precondition proved (CVC5: 10 VC; Trivial: 5 VC; altergo: 2 VC)
+stable_marriage.ads:20:13: info: implicit aspect Always_Terminates on "Is_Permutation_1" has been proved, subprogram will terminate
+stable_marriage.ads:21:14: info: postcondition proved (altergo: 2 VC)
+stable_marriage.ads:26:06: info: flow dependencies proved
+stable_marriage.ads:28:06: warning: postcondition does not check the outcome of calling "Invert_Permutation_1" [-gnatw.t]
+stable_marriage.ads:30:49: medium: postcondition might fail, cannot prove R1 (Rank1) /= R1 (Rank2)
+stable_marriage.ads:32:13: info: implicit aspect Always_Terminates on "Is_Permutation_2" has been proved, subprogram will terminate
+stable_marriage.ads:33:14: info: postcondition proved (altergo: 2 VC)
+stable_marriage.ads:38:06: info: flow dependencies proved
+stable_marriage.ads:40:06: warning: postcondition does not check the outcome of calling "Invert_Permutation_2" [-gnatw.t]
+stable_marriage.ads:42:49: medium: postcondition might fail, cannot prove R2 (Rank1) /= R2 (Rank2)
+stable_marriage.ads:47:13: info: implicit aspect Always_Terminates on "Invert_1" has been proved, subprogram will terminate
+stable_marriage.ads:50:14: info: postcondition proved (altergo: 2 VC)
+stable_marriage.ads:53:13: info: implicit aspect Always_Terminates on "Invert_2" has been proved, subprogram will terminate
+stable_marriage.ads:56:14: info: postcondition proved (altergo: 2 VC)
+stable_marriage.ads:60:06: info: flow dependencies proved
+stable_marriage.ads:63:06: warning: postcondition does not check the outcome of calling "Invert_Ranking_Of_Group_1" [-gnatw.t]
+stable_marriage.ads:65:45: medium: postcondition might fail, cannot prove G2_To_G1 (G21) /= G2_To_G1 (G22)
+stable_marriage.ads:67:13: info: implicit aspect Always_Terminates on "Invert_Map" has been proved, subprogram will terminate
+stable_marriage.ads:71:07: info: postcondition proved (altergo: 2 VC)
+stable_marriage.ads:74:13: info: implicit aspect Always_Terminates on "Is_Preferred_1" has been proved, subprogram will terminate
+stable_marriage.ads:77:14: info: postcondition proved (CVC5: 2 VC)
+stable_marriage.ads:78:09: info: precondition proved (CVC5: 1 VC)
+stable_marriage.ads:78:33: info: precondition proved (CVC5: 1 VC)
+stable_marriage.ads:80:13: info: implicit aspect Always_Terminates on "Is_Preferred_2" has been proved, subprogram will terminate
+stable_marriage.ads:83:14: info: postcondition proved (CVC5: 2 VC)
+stable_marriage.ads:84:09: info: precondition proved (CVC5: 1 VC)
+stable_marriage.ads:84:33: info: precondition proved (CVC5: 1 VC)
+stable_marriage.ads:96:11: medium: postcondition might fail, cannot prove (for some G2 in Group2_Id => (Matching'Result (G2) = G1))
+stable_marriage.ads:99:16: info: precondition proved (CVC5: 1 VC)
+stable_marriage.ads:100:17: info: precondition proved (CVC5: 1 VC)
+stable_marriage.ads:101:18: info: precondition proved (CVC5: 1 VC)

@@ -1,0 +1,2 @@
+test.adb:8:28: info: assertion proved (CVC5: 1 VC)
+test.ads:4:18: info: postcondition proved (CVC5: 1 VC)

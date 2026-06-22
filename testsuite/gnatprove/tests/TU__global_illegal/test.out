@@ -1,0 +1,44 @@
+global_illegal.ads:29:11: error: incorrect placement of aspect "Global"
+global_illegal.ads:40:26: error: global item must denote object, state or current instance of concurrent type
+global_illegal.ads:43:22: error: "Non_Existant" is undefined
+global_illegal.ads:57:22: error: duplicate global mode
+global_illegal.ads:58:22: error: duplicate global mode
+global_illegal.ads:59:22: error: duplicate global mode
+global_illegal.ads:60:22: error: duplicate global mode
+global_illegal.ads:61:22: error: duplicate global mode
+global_illegal.ads:61:34: error: global item cannot reference parameter of subprogram "P2"
+global_illegal.ads:69:32: error: duplicate global item
+global_illegal.ads:71:32: error: duplicate global item
+global_illegal.ads:86:26: error: cannot mix null and non-null global items
+global_illegal.ads:91:21: error: global item must denote object, state or current instance of concurrent type
+global_illegal.ads:97:22: error: global mode "Output" is not applicable to function [E0014]
+global_illegal.ads:97:22: error: launch "gnatprove --explain=E0014" for more information
+global_illegal.ads:98:22: error: global mode "In_Out" is not applicable to function [E0014]
+global_illegal.ads:98:22: error: launch "gnatprove --explain=E0014" for more information
+global_illegal_2.adb:13:11: error: aspect specification must appear on initial declaration
+global_illegal_2.adb:26:31: error: cannot mention state "A" in global refinement
+global_illegal_2.adb:26:31: error: use its constituents instead
+global_illegal_2.adb:44:35: error: global item "X" cannot have mode In_Out or Output
+global_illegal_2.adb:44:35: error: item already appears as input of subprogram "P3"
+global_illegal_2.adb:45:35: error: global item "Y" cannot have mode In_Out or Output
+global_illegal_2.adb:45:35: error: item already appears as input of subprogram "P3"
+global_illegal_3.adb:32:17: medium: overflow check might fail, cannot prove lower bound for X + Y (e.g. when X = 0) [reason for check: result of addition must fit in a 32-bits machine integer] [possible fix: subprogram at line 22 should mention X in a precondition]
+global_illegal_3.adb:32:19: high: "Y" must be listed in the Global aspect of "P1" (SPARK RM 6.1.4(15))
+global_illegal_3.adb:43:09: high: "X" must be a global output of "P2" (SPARK RM 6.1.4(18))
+global_illegal_3.adb:53:07: high: "X" must be listed in the Global aspect of "P3" (SPARK RM 6.1.4(15))
+global_illegal_3.adb:62:11: info: data dependencies proved
+global_illegal_3.adb:62:21: low: unused global "X"
+global_illegal_3.adb:80:11: info: data dependencies proved
+global_illegal_3.adb:80:32: low: unused global "X"
+global_illegal_3.adb:81:32: high: "Y" is not initialized
+global_illegal_3.adb:81:32: low: unused global "Y"
+global_illegal_3.adb:82:32: low: unused global "Z"
+global_illegal_3.adb:82:32: warning: "Z" is not modified, could be INPUT
+global_illegal_3.adb:105:09: high: "X" must be a global output of "P6" (SPARK RM 6.1.4(18))
+global_illegal_3.adb:115:34: info: initialization of "Y" proved
+global_illegal_3.adb:119:22: high: assertion might fail (e.g. when X = 0) [possible fix: subprogram at line 110 should mention X in a precondition]
+global_illegal_3.adb:120:12: medium: Proof_In global "X" can only be used in assertions (SPARK RM 6.1.4(19))
+global_illegal_3.adb:125:11: info: data dependencies proved
+global_illegal_3.adb:125:34: low: unused global "X"
+global_illegal_3.adb:133:11: info: data dependencies proved
+global_illegal_3.adb:133:32: medium: "Arr2" might not be initialized

@@ -1,0 +1,17 @@
+p.adb:5:07: info: precondition proved (CVC5: 2 VC)
+p.adb:6:07: info: precondition proved (CVC5: 1 VC)
+p.adb:10:27: info: precondition proved (CVC5: 1 VC)
+p.adb:12:07: info: precondition proved (CVC5: 1 VC)
+p.adb:13:07: info: precondition proved (CVC5: 2 VC)
+p.adb:19:10: info: precondition proved (CVC5: 1 VC)
+p.adb:21:10: info: precondition proved (CVC5: 2 VC)
+p.ads:8:13: info: implicit aspect Always_Terminates on "My_Eq" has been proved, subprogram will terminate
+p.ads:11:13: info: implicit aspect Always_Terminates on "Hash" has been proved, subprogram will terminate
+p.ads:19:14: info: postcondition proved (CVC5: 2 VC)
+p.ads:19:34: info: precondition proved (CVC5: 1 VC)
+p.ads:23:14: info: postcondition proved (CVC5: 4 VC)
+p.ads:26:12: info: precondition proved (CVC5: 1 VC)
+p.ads:26:30: info: precondition proved (CVC5: 1 VC)
+p.ads:30:14: info: postcondition proved (CVC5: 4 VC; Trivial: 1 VC)
+p.ads:35:22: info: precondition proved (CVC5: 1 VC)
+p.ads:35:40: info: precondition proved (CVC5: 1 VC)

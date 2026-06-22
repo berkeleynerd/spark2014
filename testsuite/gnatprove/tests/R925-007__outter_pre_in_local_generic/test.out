@@ -1,0 +1,26 @@
+foo.ads:7:13: info: implicit aspect Always_Terminates on "Get" has been proved, subprogram will terminate, in instantiation at usefoo.adb:9
+foo.ads:13:08: info: division check proved (CVC5: 1 VC), in instantiation at usefoo.adb:9
+foo.ads:13:08: info: overflow check proved (CVC5: 2 VC), in instantiation at usefoo.adb:9
+foo.ads:13:08: info: range check proved (CVC5: 2 VC), in instantiation at usefoo.adb:9
+foo.ads:13:08: info: range check proved (CVC5: 4 VC), in instantiation at usefoo.adb:9
+foo.ads:13:17: high: array index check might fail, in instantiation at usefoo.adb:9 (e.g. when B = (1 => 1) and Pos = 1) [reason for check: value must be a valid index into the array] [possible fix: add precondition ((if Pos in Buffer'Range then Pos else Buffer'First) in B'First .. B'First + B'Length / 2 - 1) to subprogram at line 7]
+foo.ads:13:27: info: division check proved (CVC5: 1 VC), in instantiation at usefoo.adb:9
+foo.ads:13:27: info: overflow check proved (CVC5: 2 VC), in instantiation at usefoo.adb:9
+foo.ads:13:27: info: range check proved (CVC5: 2 VC), in instantiation at usefoo.adb:9
+foo.ads:13:27: info: range check proved (CVC5: 4 VC), in instantiation at usefoo.adb:9
+foo.ads:13:54: info: division check proved (CVC5: 1 VC), in instantiation at usefoo.adb:9
+foo.ads:13:54: info: overflow check proved (CVC5: 2 VC), in instantiation at usefoo.adb:9
+foo.ads:13:54: info: range check proved (CVC5: 2 VC), in instantiation at usefoo.adb:9
+foo.ads:13:54: info: range check proved (CVC5: 4 VC), in instantiation at usefoo.adb:9
+usefoo.adb:9:29: info: range check proved (CVC5: 4 VC)
+usefoo.adb:9:51: info: overflow check proved (CVC5: 2 VC)
+usefoo.adb:9:54: medium: range check might fail, cannot prove upper bound for B'Length
+usefoo.adb:9:62: info: division check proved (CVC5: 1 VC)
+usefoo.adb:9:66: info: overflow check proved (CVC5: 2 VC)
+usefoo.adb:11:27: info: overflow check proved (CVC5: 2 VC)
+usefoo.adb:11:30: info: range check proved (CVC5: 2 VC)
+usefoo.adb:11:38: info: division check proved (CVC5: 1 VC)
+usefoo.adb:11:42: info: overflow check proved (CVC5: 2 VC)
+usefoo.adb:11:42: info: range check proved (CVC5: 2 VC)
+usefoo.adb:12:11: info: index check proved (CVC5: 2 VC)
+usefoo.ads:7:28: info: initialization of "R" proved

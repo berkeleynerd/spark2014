@@ -1,0 +1,2 @@
+parent-pub_child.ads:4:37: info: initialization of "E" proved
+parent.ads:4:26: info: initialization of "R" proved

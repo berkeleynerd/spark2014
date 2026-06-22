@@ -1,0 +1,13 @@
+fxp_div.adb:19:13: info: implicit aspect Always_Terminates on "multiply" has been proved, subprogram will terminate
+fxp_div.adb:22:30: info: division check proved (CVC5: 1 VC)
+fxp_div.adb:22:30: info: overflow check proved (CVC5: 2 VC)
+fxp_div.adb:22:30: info: range check proved (CVC5: 2 VC)
+fxp_div.adb:23:60: info: division check proved (CVC5: 1 VC)
+fxp_div.adb:31:19: info: overflow check proved (CVC5: 2 VC)
+fxp_div.adb:34:29: info: precondition proved (CVC5: 3 VC)
+fxp_div2.adb:8:49: info: division check proved (CVC5: 1 VC)
+fxp_div2.adb:8:49: info: overflow check proved (CVC5: 2 VC)
+fxp_div2.adb:8:49: info: range check proved (CVC5: 2 VC)
+fxp_div2.adb:9:49: info: division check proved (CVC5: 1 VC)
+fxp_div2.adb:9:49: info: overflow check proved (CVC5: 2 VC)
+fxp_div2.adb:9:49: info: range check proved (CVC5: 2 VC)

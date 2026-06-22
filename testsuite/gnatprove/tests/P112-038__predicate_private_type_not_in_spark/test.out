@@ -1,0 +1,3 @@
+dyn_pred2.ads:7:11: predicate on private type outside SPARK_Mode is not yet supported
+dyn_pred2.ads:7:11: predicate on private type outside SPARK_Mode is not yet supported
+gnatprove: error during flow analysis and proof

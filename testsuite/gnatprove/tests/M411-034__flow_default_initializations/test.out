@@ -1,0 +1,31 @@
+test.adb:36:23: info: initialization of "X" proved
+test.adb:37:09: info: data dependencies proved
+test.adb:38:09: info: flow dependencies proved
+test.adb:40:07: info: initialization of "Tmp" proved
+test.adb:45:25: info: initialization of "X" proved
+test.adb:46:09: info: data dependencies proved
+test.adb:47:09: info: flow dependencies proved
+test.adb:49:07: info: initialization of "Tmp" proved
+test.adb:55:23: info: initialization of "X" proved
+test.adb:56:09: info: data dependencies proved
+test.adb:57:09: info: flow dependencies proved
+test.adb:59:07: info: initialization of "Tmp" proved
+test.adb:65:23: info: initialization of "X" proved
+test.adb:66:09: info: data dependencies proved
+test.adb:67:09: info: flow dependencies proved
+test.adb:69:07: info: initialization of "Tmp" proved
+test.adb:75:09: info: data dependencies proved
+test.adb:75:30: info: initialization of "G" proved
+test.adb:76:09: info: flow dependencies proved
+test.adb:78:07: info: initialization of "Tmp" proved
+test.adb:84:09: info: data dependencies proved
+test.adb:85:09: info: flow dependencies proved
+test.adb:93:09: info: data dependencies proved
+test.adb:94:06: info: flow dependencies proved
+test.adb:100:25: error: default initialization cannot depend on variable input "Tmp" [E0007]
+test.adb:100:25: error: launch "gnatprove --explain=E0007" for more information
+test.adb:100:25: error: use instead a constant initialized to the expression with variable input
+test.adb:103:23: info: initialization of "X" proved
+test.adb:104:14: info: data dependencies proved
+test.adb:106:10: info: initialization of "Wibble" proved
+gnatprove: error during flow analysis and proof

@@ -1,0 +1,28 @@
+dic_of_cont.adb:3:07: info: initialization of "Dlli" proved
+dic_of_cont.adb:3:28: info: range check proved (CVC5: 2 VC)
+dic_of_cont.adb:4:07: info: initialization of "Dhama" proved
+dic_of_cont.adb:4:28: info: range check proved (CVC5: 2 VC)
+dic_of_cont.adb:4:45: info: range check proved (CVC5: 2 VC)
+dic_of_cont.adb:5:07: info: initialization of "Dhase" proved
+dic_of_cont.adb:5:28: info: range check proved (CVC5: 2 VC)
+dic_of_cont.adb:5:45: info: range check proved (CVC5: 2 VC)
+dic_of_cont.adb:6:07: info: initialization of "Dorma" proved
+dic_of_cont.adb:6:28: info: range check proved (CVC5: 2 VC)
+dic_of_cont.adb:7:07: info: initialization of "Dorse" proved
+dic_of_cont.adb:7:28: info: range check proved (CVC5: 2 VC)
+dic_of_cont.adb:8:07: info: initialization of "Dfove" proved
+dic_of_cont.adb:8:31: info: range check proved (CVC5: 2 VC)
+dic_of_cont.adb:10:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:11:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:12:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:13:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:14:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:15:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:16:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:17:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:18:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:19:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:20:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.adb:21:22: info: assertion proved (CVC5: 1 VC)
+dic_of_cont.ads:10:13: info: implicit aspect Always_Terminates on "Hash" has been proved, subprogram will terminate
+dic_of_cont.ads:31:14: warning: subprogram "Main" has no effect
