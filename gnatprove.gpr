@@ -31,7 +31,7 @@ project GNATprove is
                  "spark_memcached_wrapper.adb",
                  "spark_semaphore_wrapper.adb");
 
-   Common_Switches := ("-gnatyg", "-g", "-gnat2022", "-gnatX");
+   Common_Switches := ("-g", "-gnat2022", "-gnatX", "-gnatwJ");
 
    package Builder is
       for Executable ("gnatprove.adb") use "gnatprove";
@@ -64,7 +64,7 @@ project GNATprove is
       case Build is
          when "Debug" =>
             for Default_Switches ("Ada") use
-               Common_Switches & ("-O0", "-gnata", "-gnatwae", "-gnatVa");
+               Common_Switches & ("-O0", "-gnata", "-gnatwa", "-gnatVa");
          when "Production" =>
             for Default_Switches ("Ada") use
                Common_Switches & ("-O2", "-gnatn");
@@ -76,7 +76,7 @@ project GNATprove is
 
    package Linker is
       case Target is
-         when "x86-linux" | "x86_64-linux" =>
+         when "x86-linux" | "x86_64-linux" | "x86_64-unknown-openbsd" =>
             for Default_Switches ("Ada") use ("-pthread");
          when others =>
             null;
