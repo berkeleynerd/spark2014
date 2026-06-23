@@ -22,18 +22,15 @@ doas pkg_add ocaml opam z3 autoconf-2.72 gmake gtar
 doas pkg_add ocaml-graph ocaml-menhir ocaml-zarith ocaml-num ocamlbuild ocaml-yojson
 ```
 
-Also needed:
-- `pyyaml` for Python: `python3 -m pip install --user --break-system-packages pyyaml`
-- An `unzip` shim if not installed (alr needs it)
-- Symlinks: `ln -sf /usr/local/bin/gtar ~/.local/bin/tar` and `ln -sf /usr/local/bin/gmake ~/.local/bin/make`
+Also needed (user-space, no root):
+- PyYAML: `python3 -m pip install --user --break-system-packages pyyaml`
+- `unzip` shim: Python `zipfile`-backed wrapper at `~/.local/bin/unzip`
+- Symlinks: `gtar → tar`, `gmake → make`, `pkg-config → pkgconf`
 
 ## Build Overview
 
 ```
 opam (Phase 0) → Why3 (Phase 1) → Alt-Ergo (Phase 2) → GNATprove (Phase 3)
-                                                              ↓
-                                                    gnat2why + gnatprove
-                                                    + gnatwhy3 (why3 fork)
 ```
 
 ### Phase 0: opam bootstrap
@@ -42,140 +39,133 @@ opam (Phase 0) → Why3 (Phase 1) → Alt-Ergo (Phase 2) → GNATprove (Phase 3)
 opam init --bare --disable-sandboxing --no-setup -y
 opam switch create default 4.14.2 --no-install
 eval $(opam env --switch=default)
+export AUTOCONF_VERSION=2.72  # required for entire session
 ```
 
-Set `AUTOCONF_VERSION=2.72` for the entire session (OpenBSD's autoconf wrapper
-requires it).
-
-### Phase 1: Why3 (opam)
+### Phase 1: Why3 (opam) — 1.8.2
 
 ```sh
-opam install why3 -y           # 1.8.2 — used for solver detection/config
+opam install why3 -y
+why3 config detect  # Z3 4.16 detected with version warning (harmless)
 ```
 
-Note: Why3 1.8.2 detects Z3 4.16.0 with a "version not recognized" warning.
-This is harmless — Why3 still uses it. Verify:
+### Phase 2: Alt-Ergo (opam) — 2.4.3
 
 ```sh
-why3 config detect
-why3 prove -P z3 /tmp/test.mlw  # should return "Valid"
-```
-
-### Phase 2: Alt-Ergo (opam)
-
-```sh
-opam install alt-ergo -y --assume-depexts  # 2.4.3
+opam install alt-ergo -y --assume-depexts
 ```
 
 ### Phase 3: SPARK2014 / GNATprove
 
 #### 3a. Get the matching SPARK branch
 
-The `fsf-15` branch of SPARK2014 tracks the GCC 15.x release series. Fetch it
-as a tarball (the branch was removed from the GitHub repo after release):
+The `fsf-15` branch tracks the GCC 15.x release series. Download as
+tarball (branch was removed from GitHub after release):
 
 ```sh
-wget https://github.com/AdaCore/spark2014/tarball/fsf-15 -O spark2014-fsf15.tar.gz
-tar xzf spark2014-fsf15.tar.gz --strip-components=1 -C spark2014-fsf15
+curl -L https://github.com/AdaCore/spark2014/tarball/fsf-15 -O
+tar xzf fsf-15 -C spark2014-fsf15 --strip-components=1
 ```
 
-#### 3b. Get matching GCC Ada frontend sources
+#### 3b. Get GCC Ada frontend sources
 
-gnat2why needs the GCC Ada compiler frontend sources:
+gnat2why needs the GCC Ada compiler frontend sources. We use GCC 15.2.0
+(the `fsf-15` SPARK branch was released against 15.1.0, but 15.2.0 works
+correctly — the initial "string expected" crash we saw was due to missing
+installation files, NOT a version mismatch):
 
 ```sh
-wget https://ftp.gnu.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz
+curl -L https://ftp.gnu.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz -O
 tar xf gcc-15.2.0.tar.xz gcc-15.2.0/gcc/ada
 ln -sf /path/to/gcc-15.2.0/gcc/ada spark2014-fsf15/gnat2why/gnat_src
+ln -sf /path/to/gcc-15.2.0/gcc/ada spark2014-fsf15/gnat2why/gnat-src
 ```
 
-**Known issue:** SPARK `fsf-15` was released against GCC 15.1.0, but we have
-15.2.0. Flow analysis (`--mode=flow`) works correctly. Proof mode
-(`--mode=prove`) crashes in gnat2why with `"string expected"` due to internal
-AST node layout changes between 15.1 and 15.2. To fix: use GCC 15.1.0 sources
-instead (not yet tested).
-
-#### 3c. GCC inline.ads patch
-
-gnat2why references `Inline.GNATprove_Inline_Success_Msg` and
-`Inline.GNATprove_Inline_Failure_Msg` which don't exist in FSF GNAT's
-`inline.ads`. Add them:
+**Patch `gcc-15.2.0/gcc/ada/inline.ads`** — add after `package Inline is:`
 
 ```ada
--- In gcc-15.2.0/gcc/ada/inline.ads, after "package Inline is":
    GNATprove_Inline_Success_Msg : Boolean := False;
    GNATprove_Inline_Failure_Msg : Boolean := False;
 ```
 
-#### 3d. Why3 submodule (fsf-15 branch)
+#### 3c. Why3 submodule (fsf-15 branch)
 
 ```sh
 git clone --branch fsf-15 https://github.com/AdaCore/why3.git why3-fsf15
 ln -sf /path/to/why3-fsf15 spark2014-fsf15/why3
 ```
 
-Apply the patches from `berkeleynerd/why3` `openbsd-port` branch:
-- `mysexplib-dummy.ml`: populate empty Std/Std_big_int module stubs
-- `gnat_ast_to_ptree.ml`: stub direct Sexplib reference
+Apply patches from `berkeleynerd/why3` `openbsd-port` branch.
 
-#### 3e. Ada library dependencies
+#### 3d. Ada library dependencies (via Alire)
 
-Build via Alire with libgpr2 25.0.0:
+Build libgpr2 25.0.0, gnatcoll 25.0.0, xmlada 25.0.0 via Alire. Also
+clone and build `sarif-ada`.
 
-```sh
-mkdir gpr2_build && cd gpr2_build
-cat > alire.toml << 'EOF'
-name = "gpr2_build"
-version = "0.1.0-dev"
-description = ""
-authors = ["build"]
-licenses = "MIT"
-[[depends-on]]
-libgpr2 = "25.0.0"
-EOF
-CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib" alr build
-```
-
-Also clone and build sarif-ada:
-```sh
-git clone --depth=1 https://github.com/AdaCore/sarif-ada.git
-cd sarif-ada && gprbuild -p -Psarif_ada.gpr
-```
-
-#### 3f. Apply patches and build
-
-See the `openbsd-port` branch of this repo for the gnatprove.gpr patches.
-Key changes:
-- Relax `-gnatyg`/`-gnatwae` to `-gnatwa -gnatwJ`
-- Add `x86_64-unknown-openbsd` to platform and pthread cases
-- Add `src/common/x86_64-unknown-openbsd` symlink to `x86_64-freebsd`
-
-Apply gnatcoll patches (see `berkeleynerd/gnatcoll-core` `openbsd-port`):
+Apply gnatcoll patches (see `berkeleynerd/gnatcoll-core`):
 - `libc-wrappers.c`: posix_fadvise no-op on OpenBSD
-- `gnatcoll_core.gpr`: document -ldl issue
+- `gnatcoll_core.gpr`: remove `-ldl` (OpenBSD has dl in libc)
 
-Apply libgpr2 patches (see `berkeleynerd/gpr` `openbsd-port`):
-- `gpr2_shared.gpr`: remove -gnatwe, document warning issues
+Apply libgpr2 patches (see `berkeleynerd/gpr`):
+- `gpr2_shared.gpr`: remove `-gnatwe`, relax strict switches
 
-Then build:
+#### 3e. Apply gnatprove patches (this repo's `openbsd-port` branch)
+
+1. Relax `-gnatyg`/`-gnatwae` to `-gnatwa -gnatwJ`
+2. Add `x86_64-unknown-openbsd` to platform + pthread cases
+3. Create `src/common/x86_64-unknown-openbsd` → `x86_64-freebsd` symlink
+
+#### 3f. Build
+
 ```sh
 make setup
 make -j4
 ```
 
-#### 3g. Install
+#### 3g. Install (manual — OpenBSD's install(1) lacks GNU -c -m syntax)
+
+`make install-all` fails because OpenBSD's `/usr/bin/install` doesn't
+support GNU install syntax. Manually copy files instead:
 
 ```sh
-# Copy data files
-cp -r share/spark/* install/share/spark/
-# Copy why3 binaries
+# Why3 binaries
 cp why3/bin/gnatwhy3.opt install/libexec/spark/bin/gnatwhy3
 cp why3/lib/why3server install/libexec/spark/bin/why3server
-# Copy why3 drivers
-mkdir -p install/share/spark/drivers
-cp why3/drivers/*.drv install/share/spark/drivers/
-# Filter gnatprove.conf to only z3+altergo
-python3 -c "import json; ..."
+cp why3/bin/why3session.opt install/libexec/spark/bin/gnatwhy3session
+
+# Why3 plugins (CRITICAL — without gnat_json.cmxs, gnatwhy3 can't parse VCs)
+mkdir -p install/libexec/spark/lib/why3/plugins
+cp why3/lib/plugins/*.cmxs install/libexec/spark/lib/why3/plugins/
+
+# Why3 standard library (CRITICAL — without these, drivers fail to load)
+mkdir -p install/libexec/spark/share/why3/theories
+cp -r why3/stdlib/* install/libexec/spark/share/why3/theories/
+cp -r why3/stdlib/* install/libexec/spark/lib/why3/
+
+# Why3 drivers + gen files
+mkdir -p install/libexec/spark/share/why3/drivers
+cp why3/drivers/*.drv why3/drivers/*.gen install/libexec/spark/share/why3/drivers/
+
+# SPARK data files
+cp -r share/spark/* install/share/spark/
+```
+
+**Key discovery:** The "string expected" / "GCC error" crashes during
+`--mode=prove` were caused by missing installation files (plugins,
+stdlib, drivers), NOT by a GCC version mismatch. Once these files are
+in the correct relocatable paths, `--mode=prove` works perfectly with
+GCC 15.2.0.
+
+#### 3h. Filter gnatprove.conf
+
+Remove provers you don't have installed:
+
+```python
+import json
+conf = "install/share/spark/config/gnatprove.conf"
+with open(conf) as f: d = json.load(f)
+d["provers"] = [p for p in d["provers"] if p["name"] in ("Z3", "altergo")]
+with open(conf, "w") as f: json.dump(d, f, indent=2)
 ```
 
 ## Current Status
@@ -183,11 +173,12 @@ python3 -c "import json; ..."
 | Component | Status |
 |-----------|--------|
 | safec compiler | ✅ Full build/test/samples |
-| gnat2why | ✅ Built |
-| gnatprove | ✅ Built |
-| gnatwhy3 | ✅ Built |
-| --mode=flow | ✅ Works |
-| --mode=prove | ❌ Crashes (15.1 vs 15.2 mismatch) |
+| gnatprove --version | ✅ FSF 15.0 |
+| gnatprove --mode=flow | ✅ Works |
+| gnatprove --mode=prove --level=1 | ✅ Works (Z3 + Alt-Ergo) |
+| gnatprove --mode=prove --level=2 | ✅ Works (3/460 fail — FP needing CVC5) |
+| Full Safe-lang proof suite | ✅ 457 proved, 3 failed |
+| CVC5 | ❌ Not yet built (Phase 5) |
 
 ## Forked Repos
 
