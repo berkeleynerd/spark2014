@@ -175,10 +175,19 @@ with open(conf, "w") as f: json.dump(d, f, indent=2)
 | safec compiler | ✅ Full build/test/samples |
 | gnatprove --version | ✅ FSF 15.0 |
 | gnatprove --mode=flow | ✅ Works |
-| gnatprove --mode=prove --level=1 | ✅ Works (Z3 + Alt-Ergo) |
-| gnatprove --mode=prove --level=2 | ✅ Works (3/460 fail — FP needing CVC5) |
-| Full Safe-lang proof suite | ✅ 457 proved, 3 failed |
-| CVC5 | ❌ Not yet built (Phase 5) |
+| gnatprove --mode=prove --level=1 | ✅ Works (Z3 + Alt-Ergo + CVC5) |
+| gnatprove --mode=prove --level=2 | ✅ Works (1/460 fails — hard float VC) |
+| Full Safe-lang proof suite | ✅ 459 proved, 1 failed |
+| CVC5 1.3.4 | ✅ Built from upstream source |
+
+### CVC5 build
+
+CVC5 1.3.4 built from `cvc5/cvc5` repo with system GMP (requires
+`gmpxx` package for the C++ bindings). Static build with auto-download
+for other deps (CaDiCaL, LibPoly, SymFPU). Note: AdaCore's patched CVC
+fork (branch `spark-15.0` at `github.com/AdaCore/cvc5`) has SPARK-specific
+solver heuristics for hard floating-point VCs, but builds with
+autoconf/ANTLR3 which requires additional porting effort.
 
 ## Forked Repos
 
